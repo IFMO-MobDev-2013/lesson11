@@ -18,6 +18,15 @@ public class CardActivity extends Activity {
         Drawable image = getResources().getDrawable(getResources().getIdentifier("i" + Integer.toString(category) + Integer.toString(number), "drawable", getPackageName()));
         imageView.setImageDrawable(image);
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(getResources().getStringArray(R.array.ru)[10 * category + number]);
+        //textView.setText(getResources().getStringArray(R.array.ru)[10 * category + number]);
+        DatabaseHandler databaseHandler = new DatabaseHandler(this);
+        databaseHandler.updateWordStats(1, new WordStats(7, 4));
+        try {
+            //textView.setText(Integer.toString(databaseHandler.getWordStats(2).getRight()) + "/" + Integer.toString(databaseHandler.getWordStats(2).getTotal()));
+            textView.setText(Integer.toString(databaseHandler.getAllStats().size()));
+        } catch (Exception e) {
+            textView.setText(e.getMessage());
+        }
+        //databaseHandler.updateWordStats(0, new WordStats(1, 1));
     }
 }
