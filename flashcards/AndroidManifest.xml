@@ -15,5 +15,8 @@
         <activity android:name="CardActivity"
                   android:label="@string/app_name">
         </activity>
+        <activity android:name="BackSideActivity"
+                  android:label="@string/app_name">
+        </activity>
     </application>
 </manifest>
