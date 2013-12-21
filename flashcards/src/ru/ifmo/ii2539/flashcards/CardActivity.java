@@ -8,6 +8,10 @@ import android.view.MotionEvent;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 public class CardActivity extends Activity {
 
     private int cardNumber;
@@ -20,7 +24,7 @@ public class CardActivity extends Activity {
     }
 
     void showCard(int category) {
-        int number = 0;
+        int number = getNumber(category);
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         Drawable image = getResources().getDrawable(getResources().getIdentifier("i" + Integer.toString(category) + Integer.toString(number), "drawable", getPackageName()));
         imageView.setImageDrawable(image);
@@ -29,12 +33,33 @@ public class CardActivity extends Activity {
         textView.setText(getResources().getStringArray(R.array.ru)[cardNumber]);
     }
 
+    private int getNumber(int category) {
+        DatabaseHandler databaseHandler = new DatabaseHandler(this);
+        List<WordStats> stats = databaseHandler.getAllStats();
+        double min = 100;
+        for (int i = 0; i < 10; i++) {
+            if (stats.get(10 * category + i).getTotal() == 0) {
+                min = 0;
+            } else {
+                min = Math.min(min, stats.get(10 * category + i).getRight() / stats.get(10 * category + i).getTotal());
+            }
+        }
+        List<Integer> candidates = new ArrayList<Integer>();
+        for (int i = 0; i < 10; i++) {
+            if (stats.get(10 * category + i).getTotal() == 0 || stats.get(10 * category + i).getRight() / stats.get(10 * category + i).getTotal() == min) {
+                candidates.add(10 * category + i);
+            }
+        }
+        return candidates.get(new Random().nextInt(candidates.size()));
+    }
+
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_UP) {
             Intent intent = new Intent(getApplicationContext(), BackSideActivity.class);
             intent.putExtra("number", cardNumber);
             startActivity(intent);
         }
+        showCard(cardNumber / 10);
         return super.onTouchEvent(event);
     }
 }

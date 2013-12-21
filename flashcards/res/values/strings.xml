@@ -6,8 +6,26 @@
     </string-array>
     <string-array name="ru">
         <item>Дерево</item>
+        <item>Река</item>
+        <item>Облако</item>
+        <item>Солнце</item>
+        <item>Озеро</item>
+        <item>Дождь</item>
+        <item>Снег</item>
+        <item>Гора</item>
+        <item>Лес</item>
+        <item>Луна</item>
     </string-array>
     <string-array name="en">
         <item>Tree</item>
+        <item>River</item>
+        <item>Cloud</item>
+        <item>Sun</item>
+        <item>Lake</item>
+        <item>Rain</item>
+        <item>Snow</item>
+        <item>Mountain</item>
+        <item>Forest</item>
+        <item>Moon</item>
     </string-array>
 </resources>
