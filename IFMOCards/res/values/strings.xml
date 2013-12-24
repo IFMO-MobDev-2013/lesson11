@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IFMOCards</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="result">Ваш результат</string>
+    <string name="again">Попробуйте ещё раз?</string>
+    <string name="categories">Категории</string>
+    <string name="help">Помощь</string>
+    <string name="stats">Сбросить статистику выученных слов</string>
+    <string name="help_msg">Выбирайте категорию, кликайте по картинкам и нажимайте Да или Нет, в зависимости от того,
+        знаете ли вы это слово. Всё просто!
+    </string>
+    <string name="ok">OK</string>
+    <string name="done">Выполнено</string>
+</resources>

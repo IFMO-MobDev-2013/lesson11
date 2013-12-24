@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IFMOCards</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="result">Your result</string>
+    <string name="again">Try again?</string>
+    <string name="categories">Categories</string>
+    <string name="help">Help</string>
+    <string name="stats">Reset statistics</string>
+    <string name="help_msg">Select a category, click on pictures and press Yes if you know this word, and No
+        otherwise. Easy!
+    </string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+</resources>
