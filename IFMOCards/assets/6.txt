@@ -1,0 +1,31 @@
+10
+vogue
+Мода
+Vogue, fashion
+bathrobe
+Халат
+Bathrobe
+slacks
+Широкие брюки
+Slacks
+tuxedo
+Смокинг
+Tuxedo
+turtleneck
+Свитер с высоким воротом
+Turtleneck sweater
+jumpsuit
+Комбинезон
+Jumpsuit
+nightgown
+Ночная рубашка
+Nightgown
+lowcutdress
+Платье с глубоким вырезом
+Low-cut dress
+windbreaker
+Ветровка
+Windbreaker
+slicker
+Дождевик
+Slicker

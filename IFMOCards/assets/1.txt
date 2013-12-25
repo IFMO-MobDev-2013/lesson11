@@ -1,0 +1,31 @@
+10
+balcony
+Балкон
+Balcony
+bath
+Ванная
+Bath, tub
+bedroom
+Спальня
+Bedroom
+bookcase
+Книжный шкаф
+Bookcase
+fireplace
+Камин
+Fireplace
+lounge
+Гостиная
+Living room
+roof
+Крыша
+Roof
+shower
+Душ
+Shower
+study
+Кабинет
+Study
+wardrobe
+Гардероб
+Wardrobe

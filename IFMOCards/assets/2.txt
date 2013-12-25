@@ -1,0 +1,31 @@
+10
+skiing
+Катание на лыжах
+Skiing
+sailing
+Парусный спорт
+Sailing
+wrestling
+Борьба
+Wrestling
+fencing
+Фехтование
+Fencing
+cheerleaders
+Группа поддержки
+Cheerleaders
+athlete
+Атлет
+Athlete
+cup
+Кубок
+Cup
+referee
+Судья
+Referee, judge
+stadion
+Стадион
+Stadion, arena
+coach
+Тренер
+Coach
