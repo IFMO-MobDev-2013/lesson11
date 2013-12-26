@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/darkitem"
             android:textColor="@android:color/white"
-            android:id="@+id/button" android:layout_weight="1" android:onClick="taptaptap"/>
+            android:id="@+id/button" android:layout_weight="3" android:onClick="taptaptap"/>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -30,7 +30,7 @@
         <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/imageView" android:layout_gravity="center" android:layout_weight="2"
+                android:id="@+id/imageView" android:layout_gravity="left|center_vertical" android:layout_weight="2"
                 android:onClick="imone" android:scaleType="centerCrop"/>
         <ImageView
                 android:layout_width="fill_parent"
