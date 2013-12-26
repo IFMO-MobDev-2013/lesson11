@@ -14,8 +14,10 @@ public class BackSideActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.backside);
         number = getIntent().getExtras().getInt("number");
+        int r = getIntent().getExtras().getInt("r");
+        int t = getIntent().getExtras().getInt("t");
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Answer:\n" + getResources().getStringArray(R.array.en)[number++] + "\nWere you right?");
+        textView.setText("Answer:\n" + getResources().getStringArray(R.array.en)[number++] + "\nWere you right?\n(Current stats: " + r + "/" + t + ")");
     }
 
     public void onYesClick(View view) {

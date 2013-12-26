@@ -15,6 +15,7 @@ import java.util.Random;
 public class CardActivity extends Activity {
 
     private int cardNumber;
+    private int r, t;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,16 +48,21 @@ public class CardActivity extends Activity {
         List<Integer> candidates = new ArrayList<Integer>();
         for (int i = 0; i < 10; i++) {
             if (stats.get(10 * category + i).getTotal() == 0 || stats.get(10 * category + i).getRight() / stats.get(10 * category + i).getTotal() == min) {
-                candidates.add(10 * category + i);
+                candidates.add(i);
             }
         }
-        return candidates.get(new Random().nextInt(candidates.size()));
+        int num = candidates.get(new Random().nextInt(candidates.size()));
+        r = stats.get(10 * category + num).getRight();
+        t = stats.get(10 * category + num).getRight();
+        return num;
     }
 
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_UP) {
             Intent intent = new Intent(getApplicationContext(), BackSideActivity.class);
             intent.putExtra("number", cardNumber);
+            intent.putExtra("r", r);
+            intent.putExtra("t", t);
             startActivity(intent);
         }
         showCard(cardNumber / 10);
