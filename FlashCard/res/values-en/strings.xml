@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "Trainer">Learn</string>
+    <string name = "Check"> Testing</string>
+    <string name = "First"> 4 words + picture</string>
+    <string name = "Second">4 pictures + word</string>
+    <string name = "answer"> Do You know this word</string>
+    <string-array name = "topic">
+        <item>Family</item>
+        <item>Man</item>
+        <item>Nature</item>
+        <item>Food and drink</item>
+        <item>Clothes and shoes</item>
+        <item>Animals</item>
+        <item>Home</item>
+        <item>City</item>
+        <item>Sport</item>
+        <item>Technologic</item>
+    </string-array>
+    
+    <string-array name="our_word">
+        <item> dad </item>
+		<item> mom </item>
+		<item> son </item>
+		<item> daughter </item>
+		<item> grandmother </item>
+		<item> grandfather </item>
+		<item> wedding </item>
+		<item> ring </item>
+		<item> birthday </item>
+		<item> family </item>
+		
+		<item> feet </item>
+		<item> hand </item>
+		<item> head </item>
+		<item> eyes </item>
+		<item> ears </item>
+		<item> mouth </item>
+		<item> nose </item>
+		<item> teeth </item>
+		<item> back </item>
+		<item> stomach </item>
+		
+		<item> river </item>
+		<item> mountains </item>
+		<item> forest </item>
+		<item> ocean </item>
+		<item> desert </item>
+		<item> steppe </item>
+		<item> lake </item>
+		<item> tundra </item>
+		<item> taiga </item>
+		<item> star </item>
+		
+		<item> pizza </item>
+		<item> soup </item>
+		<item> salad </item>
+		<item> tea </item>
+		<item> coffee </item>
+		<item> juice </item>
+		<item> lemonade </item>
+		<item> chocolate </item>
+		<item> cookies </item>
+		<item> cutlet </item>
+		
+		<item> jeans </item>
+		<item> T-shirt </item>
+		<item> shorts </item>
+		<item> dress </item>
+		<item> shirt </item>
+		<item> blouse </item>
+		<item> jacket </item>
+		<item> shoes </item>
+		<item> sneakers </item>
+		<item> boots </item>
+		
+		<item> cat </item>
+		<item> dog </item>
+		<item> parrot </item>
+		<item> lion </item>
+		<item> tiger </item>
+		<item> bear </item>
+		<item> fish </item>
+		<item> bird </item>
+		<item> penguin </item>
+		<item> neddy </item>
+		
+		<item> window </item>
+		<item> roof </item>
+		<item> door </item>
+		<item> kettle </item>
+		<item> stove </item>
+		<item> table </item>
+		<item> carpet </item>
+		<item> sofa </item>
+		<item> bed </item>
+		<item> TV </item>
+		
+		<item> bus </item>
+		<item> tram </item>
+		<item> trolleybus </item>
+		<item> skyscraper </item>
+		<item> traffic light </item>
+		<item> shop </item>
+		<item> school </item>
+		<item> hospital </item>
+		<item> house </item>
+		<item> museum </item>
+		
+		<item> football </item>
+		<item> hockey </item>
+		<item> swimming </item>
+		<item> equestrian sport </item>
+		<item> ball </item>
+		<item> racket </item>
+		<item> horizontal bar </item>
+		<item> net </item>
+		<item> brassy </item>
+		<item> chess </item>
+		
+		<item> phone </item>
+		<item> machine </item>
+		<item> ship </item>
+		<item> computer </item>
+		<item> motorcycle </item>
+		<item> airplane </item>
+		<item> train </item>
+		<item> watch </item>
+		<item> snowmobile </item>
+		<item> spaceship </item>
+    </string-array>
+    <string name="Topics">Topics</string>
+    
+</resources>
