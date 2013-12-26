@@ -27,45 +27,47 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/tapon"
-            android:textSize="25dp"
-            android:id="@+id/textView" android:layout_gravity="center" android:layout_weight="1"
+            android:textSize="22dp"
+            android:id="@+id/textView" android:layout_gravity="center" android:layout_weight="0.8"
             android:gravity="center_vertical|center_horizontal"/>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="3">
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:minHeight="70dp" android:longClickable="true">
         <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="@drawable/darkitem"
                 android:textColor="@android:color/white"
-                android:id="@+id/button" android:layout_gravity="center" android:layout_weight="1"
-                android:onClick="one"/>
+                android:id="@+id/button" android:layout_gravity="center"
+                android:onClick="one" android:minHeight="50dp" android:layout_weight="1"/>
         <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="@drawable/darkitem"
                 android:textColor="@android:color/white"
                 android:id="@+id/button1" android:layout_gravity="center" android:layout_weight="1"
-                android:onClick="two"/>
+                android:onClick="two" android:minHeight="50dp"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="3">
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:minHeight="70dp" android:measureWithLargestChild="false">
         <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="@drawable/darkitem"
                 android:textColor="@android:color/white"
                 android:id="@+id/button3" android:layout_gravity="center_horizontal|bottom" android:layout_weight="1"
-                android:onClick="three"/>
+                android:onClick="three" android:minHeight="50dp"/>
         <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="@drawable/darkitem"
                 android:textColor="@android:color/white"
                 android:id="@+id/button4" android:layout_gravity="center" android:layout_weight="1"
-                android:onClick="four"/>
+                android:onClick="four" android:minHeight="50dp"/>
     </LinearLayout>
 </LinearLayout>
