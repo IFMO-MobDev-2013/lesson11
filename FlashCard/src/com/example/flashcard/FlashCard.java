@@ -154,7 +154,7 @@ public class FlashCard extends Activity {
 		pos = getMin();
 		showPicture();
 		context = FlashCard.this;
-		next = (Button) findViewById(R.id.button3);
+		//next = (Button) findViewById(R.id.button3);
 		
 	}
 
@@ -213,9 +213,8 @@ public class FlashCard extends Activity {
 		targetImage.setAdjustViewBounds(true);
 		int width = size.x;
 		int height = size.y;
-		width = Math.min((int) (width / 1.5), b.getWidth());
-		Bitmap c = Bitmap.createScaledBitmap(b, width, (int) (height / 1.5),
-				true);
+		width = Math.min((int) width , b.getWidth());
+		Bitmap c = Bitmap.createScaledBitmap(b, width, (int) (height / 1.8),true);
 		targetImage.setImageBitmap(c);
 		word.setText(global_our_word[pos]);
 	}
