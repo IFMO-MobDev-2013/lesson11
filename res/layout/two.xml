@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/fone2">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:background="@drawable/textviewgrad"
+            android:layout_height="50dp" android:layout_gravity="center">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/back1"
+                android:id="@+id/button2" android:layout_gravity="center" android:layout_marginLeft="4dp"
+                android:onClick="back"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_gravity="center" android:layout_weight="8"
+            android:onClick="taptap" android:scaleType="centerCrop"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tapon"
+            android:textSize="25dp"
+            android:id="@+id/textView" android:layout_gravity="center" android:layout_weight="0.2"
+            android:gravity="center_vertical|center_horizontal"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="1.5">
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/darkitem"
+                android:textColor="@android:color/white"
+                android:id="@+id/button" android:layout_gravity="center" android:layout_weight="1"
+                android:onClick="one"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/darkitem"
+                android:textColor="@android:color/white"
+                android:id="@+id/button1" android:layout_gravity="center" android:layout_weight="1"
+                android:onClick="two"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="1.5">
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/darkitem"
+                android:textColor="@android:color/white"
+                android:id="@+id/button3" android:layout_gravity="center_horizontal|bottom" android:layout_weight="1"
+                android:onClick="three"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/darkitem"
+                android:textColor="@android:color/white"
+                android:id="@+id/button4" android:layout_gravity="center" android:layout_weight="1"
+                android:onClick="four"/>
+    </LinearLayout>
+</LinearLayout>

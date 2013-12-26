@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/fone2">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:background="@drawable/textviewgrad"
+            android:layout_height="50dp" android:layout_gravity="center">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/back1"
+                android:id="@+id/button2" android:layout_gravity="center" android:layout_marginLeft="4dp"
+                android:onClick="back"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/choosetype"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView" android:layout_gravity="center" android:gravity="center_vertical|center_horizontal"
+                android:textSize="25dp"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/typeone"
+            android:textColor="@android:color/white"
+            android:background="@drawable/darkitem"
+            android:id="@+id/button" android:layout_gravity="center" android:layout_weight="2"
+            android:onClick="gameOne" android:textSize="24dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/typetwo"
+            android:textColor="@android:color/white"
+            android:background="@drawable/darkitem"
+            android:id="@+id/button1" android:layout_gravity="center" android:layout_weight="2"
+            android:onClick="gameTwo" android:textSize="24dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/typethree"
+            android:background="@drawable/darkitem"
+            android:textColor="@android:color/white"
+            android:id="@+id/button3" android:layout_gravity="center" android:layout_weight="2"
+            android:onClick="gameThree" android:textSize="24dp"/>
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="6">
+    </FrameLayout>
+
+</LinearLayout>

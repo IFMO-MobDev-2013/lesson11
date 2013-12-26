@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EsperantoCards</string>
+    <string name="name">Tutorial Esperanto</string>
+    <string name="button1">gioco Veloce</string>
+    <string name="button2">Gioco</string>
+    <string name="slogan">la Lingua del futuro</string>
+    <string name="click">Clicca sull`immagine per scoprire come è la parola che si scrive in esperanto</string>
+    <string name="know">sapevo!:)</string>
+    <string name="dontknow">non sapevo</string>
+    <string name="choose">Selezionare la categoria</string>
+    <string name="information">Informazioni</string>
+    <string name="choosetype">Selezionare il tipo di gioco</string>
+    <string name="typeone">Formazione</string>
+    <string name="typetwo">Indovina la parola per le foto</string>
+    <string name="typethree">Indovina l`immagine secondo la parola</string>
+    <string name="tapki">Clicca per continuare</string>
+    <string name="tapon">Clicca sull`immagine per continuare</string>
+    <string name="allcat">Tutte le categorie</string>
+    <string-array name="categoryNames">
+        <item>Animali</item>
+        <item>Alimentare</item>
+        <item>Mobili</item>
+        <item>Piante</item>
+        <item>Meteo</item>
+        <item>Ingegneria</item>
+        <item>Abbigliamento</item>
+        <item>Professione</item>
+        <item>è Spesso usata la parola</item>
+    </string-array>
+    <string-array name="animals">
+        <item>Animali</item>
+        <item>Canguro</item>
+        <item>Gatto</item>
+        <item>Cane</item>
+        <item>Pappagallo</item>
+        <item>Tigre</item>
+        <item>Mucca</item>
+        <item>Cavallo</item>
+        <item>Mouse</item>
+        <item>Cervo</item>
+        <item>la Lepre</item>
+        <item>Maiale</item>
+    </string-array>
+    <string-array name="eanimals">
+        <item>bestoj</item>
+        <item>kanguruo</item>
+        <item>kato</item>
+        <item>hundo</item>
+        <item>papago</item>
+        <item>tigro</item>
+        <item>bovino</item>
+        <item>ĉevalo</item>
+        <item>muso</item>
+        <item>cervo</item>
+        <item>leporo</item>
+        <item>porko</item>
+    </string-array>
+    <string-array name="furniture">
+        <item>Mobili</item>
+        <item>Sedia</item>
+        <item>Scrivania</item>
+        <item>Comodino</item>
+        <item>Letto</item>
+        <item>Closet</item>
+        <item>Mobile</item>
+        <item>Poltrona</item>
+        <item>la scrivania del Computer</item>
+        <item>Tavolino</item>
+    </string-array>
+    <string-array name="efurniture">
+        <item>mebloj</item>
+        <item>seĝo</item>
+        <item>tablo</item>
+        <item>nightstand</item>
+        <item>lito</item>
+        <item>cloakroom</item>
+        <item>sxranko</item>
+        <item>seĝo</item>
+        <item>komputilo skribtablo</item>
+        <item>kafo tablo</item>
+    </string-array>
+    <string-array name="products">
+        <item>Alimentare</item>
+        <item>Mela</item>
+        <item>Carne</item>
+        <item>Latte</item>
+        <item>Formaggio</item>
+        <item>Salsiccia</item>
+        <item>Cioccolato</item>
+        <item>Succo di</item>
+        <item>Arancio</item>
+        <item>l`Ananas</item>
+        <item>Pane</item>
+        <item>Acqua</item>
+    </string-array>
+    <string-array name="eproducts">
+        <item>manĝaĵo</item>
+        <item>pomon</item>
+        <item>viando</item>
+        <item>lakto</item>
+        <item>fromage estonian</item>
+        <item>kolbaso</item>
+        <item>ĉokolado</item>
+        <item>suko</item>
+        <item>oranĝo</item>
+        <item>ananaso</item>
+        <item>pano</item>
+        <item>akvo</item>
+    </string-array>
+    <string-array name="plant">
+        <item>Piante</item>
+        <item>Albero</item>
+        <item>Fiore</item>
+        <item>Bamboo</item>
+        <item>Cactus</item>
+        <item>Erba</item>
+        <item>un Arbusto</item>
+        <item>il Fieno</item>
+        <item>Grano</item>
+        <item>Liana</item>
+        <item>Alghe</item>
+    </string-array>
+    <string-array name="eplant">
+        <item>plantoj</item>
+        <item>Ligno</item>
+        <item>Floro</item>
+        <item>bambuo</item>
+        <item>Kakto</item>
+        <item>Herbo</item>
+        <item>Arbusto</item>
+        <item>fojno</item>
+        <item>tritiko</item>
+        <item>Liano</item>
+        <item>Algoj</item>
+    </string-array>
+    <string-array name="weather">
+        <item>Meteo</item>
+        <item>Pioggia</item>
+        <item>la Neve</item>
+        <item>Gradi</item>
+        <item>Vento</item>
+        <item>la Siccità</item>
+        <item>la Tempesta</item>
+        <item>Estate</item>
+        <item>Inverno</item>
+        <item>la Primavera</item>
+        <item>Autunno</item>
+    </string-array>
+    <string-array name="eweather">
+        <item> Veter </item>
+        <item> pluvo </item>
+        <item> neĝo </item>
+        <item> Kastelo </item>
+        <item> Vento </item>
+        <item> sekeco </item>
+        <item> Niko </item>
+        <item> Storm </item>
+        <item> Somero </item>
+        <item> Vintro </item>
+        <item> Printempo </item>
+        <item> Aŭtuno </item>
+    </string-array>
+    <string-array name="tech">
+        <item>Ingegneria</item>
+        <item> Computer </item>
+        <item> Telefono </item>
+        <item> Tv </item>
+        <item> Elettrico </item>
+        <item> Frigorifero </item>
+        <item> Forno </item>
+        <item> Aria condizionata </item>
+        <item> Ferro </item>
+        <item> Forno </item>
+        <item> Luce </item>
+        <item> Lavatrice </item>
+    </string-array>
+    <string-array name="etech">
+        <item> Teknologio </item>
+        <item> Komputado </item>
+        <item> Telefono </item>
+        <item> TV </item>
+        <item> Maker </item>
+        <item> Fridujo </item>
+        <item> Microwave </item>
+        <item> Aero </item>
+        <item> fero </item>
+        <item> Forno </item>
+        <item> Lampo </item>
+        <item> Lavadora </item>
+    </string-array>
+    <string-array name="clothes">
+        <item> Abbigliamento </item>
+        <item> Giacca </item>
+        <item> Jeans </item>
+        <item> Sneakers </item>
+        <item> Giacca </item>
+        <item> Costume </item>
+        <item> Scarpe </item>
+        <item> Cappello </item>
+        <item> Cap </item>
+        <item> Camicia </item>
+        <item> t-Shirt </item>
+        <item> Pantaloni </item>
+        <item> Gonna </item>
+        <item> Camicia </item>
+        <item> Cappotti </item>
+        <item> Sposa </item>
+        <item> Mutande </item>
+        <item> Cappotti </item>
+    </string-array>
+    <string-array name="eclothes">
+        <item> Vesto </item>
+        <item> Come </item>
+        <item> Jeans </item>
+        <item> Sneakers </item>
+        <item> Come </item>
+        <item> Costume </item>
+        <item> Botoj </item>
+        <item> Hat </item>
+        <item> Cap </item>
+        <item> Shirt </item>
+        <item> ĉemizo </item>
+        <item> Pantalonoj </item>
+        <item> Jupo </item>
+        <item> Bluzo </item>
+        <item> Ŝildo </item>
+        <item> Donna </item>
+        <item> kalsoneto </item>
+        <item> Coats </item>
+    </string-array>
+    <string-array name="always">
+        <item> è Spesso usata la parola </item>
+        <item> Città </item>
+        <item> Villaggio </item>
+        <item> Via </item>
+        <item> Macchina </item>
+        <item> Train </item>
+        <item> Casa </item>
+        <item> un Bacio </item>
+        <item> Continente </item>
+        <item> Vacanza </item>
+        <item> Libro </item>
+        <item> Mappa </item>
+        <item> Lanterna </item>
+        <item> Pistola </item>
+        <item> Occhiali da sole </item>
+        <item> Orologio </item>
+        <item> Strada </item>
+        <item> Aereo </item>
+    </string-array>
+    <string-array name="ealways">
+    <item> Ofte uzataj vortoj </item>
+    <item> Urbo </item>
+    <item> Village </item>
+    <item> Strato </item>
+    <item> Maŝino </item>
+    <item> Trajno </item>
+    <item> Domo </item>
+    <item> Kiso </item>
+    <item> kontinenta </item>
+    <item> Holiday </item>
+    <item> libro </item>
+    <item> Mapo </item>
+    <item> Lanterna </item>
+    <item> Gun </item>
+    <item> Punktoj </item>
+    <item> christian louboutin Shoes </item>
+    <item> Vojo </item>
+    <item> aviadilo </item>
+</string-array>
+<string-array name="professions">
+<item> Professione </item>
+<item> Insegnante </item>
+<item> Fuoco </item>
+<item> Polizia </item>
+<item> Commercialista </item>
+<item> Ufficiale </item>
+<item> Programmatore </item>
+<item> Venditore </item>
+<item> Portiere </item>
+<item> Shakhtar donetsk </item>
+<item> Ingegnere </item>
+<item> Driver </item>
+<item> Studioso </item>
+</string-array>
+<string-array name="eprofessions">
+<item> Profesioj </item>
+<item> Majstro </item>
+<item> fajrestingisto </item>
+<item> Polico </item>
+<item> Contador </item>
+<item> oficiala </item>
+<item> Programmer </item>
+<item> Vendisto </item>
+<item> pordisto </item>
+<item> Miner </item>
+<item> Inĝeniero </item>
+<item> ŝoforo </item>
+<item> Scientist </item>
+</string-array>
+        </resources>
