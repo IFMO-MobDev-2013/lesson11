@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="en_to_ru">EU to RU</string>
+    <string name="ru_to_en">RU to EN</string>
+    <string name="drop_stat">clear all statistics</string>
+    <string name="sure">are you sure?</string>
+
+
+    <string-array name="categories">
+        <item>FRUIT - ФРУКТЫ</item>
+        <item>VEGETABLES - ОВОЩИ</item>
+        <item>ALCOHOL - АЛКОГОЛЬ</item>
+        <item>HOUSE - ДОМ</item>
+        <item>BATHROOM - ВАННА</item>
+        <item>KITCHEN - КУХНЯ</item>
+        <item>COLOURS - ЦВЕТА</item>
+        <item>SPORT - СПОРТ</item>
+        <item>MUSIC - МУЗЫКА</item>
+        <item>CITY - ГОРОД</item>
+    </string-array>
+
+
+
+
+    <string-array name="FRUIT">
+        <item>apple</item>
+        <item>apricot</item>
+        <item>avocado</item>
+        <item>banana</item>
+        <item>bilberry</item>
+        <item>blackberry</item>
+        <item>blackcurrant</item>
+        <item>blueberry</item>
+        <item>currant</item>
+        <item>cherry</item>
+        <item>clementine</item>
+        <item>cucumber</item>
+        <item>damson</item>
+        <item>eggplant</item>
+        <item>elderberry</item>
+        <item>grape</item>
+        <item>grapefruit</item>
+    </string-array>
+
+    <string-array name="_FRUIT">
+        <item>яблоко</item>
+        <item>абрикос</item>
+        <item>авокадо</item>
+        <item>банан</item>
+        <item>черника</item>
+        <item>ежевика</item>
+        <item>чёрная смородина</item>
+        <item>черника</item>
+        <item>смородина</item>
+        <item>вишня</item>
+        <item>клементин</item>
+        <item>огурец</item>
+        <item>чернослив</item>
+        <item>баклажан</item>
+        <item>бузина</item>
+        <item>виноградина</item>
+        <item>грейпфрут</item>
+    </string-array>
+
+
+    <string-array name="VEGETABLES">
+        <item>artichoke</item>
+        <item>basil</item>
+        <item>aubergine</item>
+        <item>bean</item>
+        <item>broccoli</item>
+        <item>swede</item>
+        <item>peas</item>
+        <item>vegetable marrow</item>
+        <item>cabbage</item>
+        <item>potatoes</item>
+
+    </string-array>
+
+    <string-array name="_VEGETABLES">
+        <item>Артишок</item>
+        <item>Базилик</item>
+        <item>Баклажаны</item>
+        <item>Бобы</item>
+        <item>Брокколи</item>
+        <item>Брюква</item>
+        <item>Горох</item>
+        <item>Кабачок</item>
+        <item>Капуста</item>
+        <item>Картофель</item>
+
+    </string-array>
+
+
+    <string-array name="ALCOHOL">
+        <item>beer</item>
+        <item>bourbon whiskey</item>
+        <item>champagne</item>
+        <item>cocktail</item>
+        <item>eggnog</item>
+        <item>mulled wine</item>
+        <item>wine</item>
+        <item>scotch whiskey</item>
+        <item>wine cooler</item>
+        <item>vodka</item>
+        <item>sake</item>
+        <item>schnapps</item>
+        <item>absinth</item>
+    </string-array>
+    <string-array name="_ALCOHOL">
+        <item>пиво</item>
+        <item>виски бурбон</item>
+        <item>шампанское</item>
+        <item>коктейль</item>
+        <item>яичный ликер</item>
+        <item>глинтвейн</item>
+        <item>вино</item>
+        <item>шотландское виски</item>
+        <item>игристое вино с соком</item>
+        <item>водка</item>
+        <item>сакэ</item>
+        <item>шнапс</item>
+        <item>абсент</item>
+    </string-array>
+
+
+    <string-array name="HOUSE">
+
+        <item>house</item>
+        <item>semi-detached house</item>
+        <item>front door</item>
+        <item>staircase</item>
+        <item>roof</item>
+        <item>garden</item>
+        <item>garage</item>
+        <item>chimney</item>
+        <item>aerial</item>
+        <item>nursery</item>
+        <item>bedroom</item>
+
+    </string-array>
+
+    <string-array name="_HOUSE">
+
+        <item>дом</item>
+        <item>два дома, соединённые общей стеной</item>
+        <item>входная дверь</item>
+        <item>лестница</item>
+        <item>крыша</item>
+        <item>сад</item>
+        <item>гараж</item>
+        <item>труба</item>
+        <item>антенна</item>
+        <item>детская</item>
+        <item>спальня</item>
+
+    </string-array>
+
+
+    <string-array name="BATHROOM">
+        <item>mirror</item>
+        <item>comb</item>
+        <item>bast</item>
+        <item>bath</item>
+        <item>towel</item>
+        <item>soup</item>
+        <item>toothpaste</item>
+        <item>shower</item>
+        <item>shampoo</item>
+        <item>foam bath</item>
+    </string-array>
+
+    <string-array name="_BATHROOM">
+        <item>зеркало</item>
+        <item>расчёска</item>
+        <item>мочалка</item>
+        <item>ванна</item>
+        <item>полотенце</item>
+        <item>мыло</item>
+        <item>зубная паста</item>
+        <item>душ</item>
+        <item>шампунь</item>
+        <item>ванна с пенной</item>
+    </string-array>
+
+    <string-array name="KITCHEN">
+        <item>sink</item>
+        <item>oven</item>
+        <item>knife</item>
+        <item>spoons</item>
+        <item>teaspoons</item>
+        <item>forks</item>
+        <item>napkins</item>
+        <item>cups</item>
+        <item>kettle</item>
+        <item>fridge</item>
+        <item>to dice</item>
+
+    </string-array>
+    <string-array name="_KITCHEN">
+        <item>раковина</item>
+        <item>духовка</item>
+        <item>нож</item>
+        <item>столовые ложки</item>
+        <item>чайные ложки</item>
+        <item>вилки</item>
+        <item>салфетки</item>
+        <item>чашки</item>
+        <item>чайник</item>
+        <item>холодильник</item>
+        <item>резать кубиками</item>
+    </string-array>
+
+    <string-array name="COLOURS">
+        <item>amber</item>
+        <item>aqua</item>
+        <item>aquamarine</item>
+        <item>azure</item>
+        <item>bronze</item>
+        <item>chocolate</item>
+        <item>emerald</item>
+        <item>gold</item>
+        <item>khaki</item>
+        <item>light green</item>
+        <item>olive</item>
+        <item>orange</item>
+
+    </string-array>
+    <string-array name="_COLOURS">
+        <item>Янтарный</item>
+        <item>Морская волна</item>
+        <item>Аквамарин</item>
+        <item>Лазурный</item>
+        <item>Бронзовый</item>
+        <item>Шоколадный</item>
+        <item>Изумрудный</item>
+        <item>Золотой</item>
+        <item>Хаки</item>
+        <item>Салатовый</item>
+        <item>Оливковый</item>
+        <item>Оранжевый</item>
+    </string-array>
+
+    <string-array name="SPORT">
+        <item>aerobics</item>
+        <item>an athlete</item>
+        <item>archery</item>
+        <item>arrow</item>
+        <item>badminton</item>
+        <item>barbell</item>
+        <item>baseball</item>
+        <item>basketball</item>
+        <item>volleyball</item>
+        <item>biathlon</item>
+        <item>billiards</item>
+    </string-array>
+    <string-array name="_SPORT">
+        <item>аэробика</item>
+        <item>спортсмен</item>
+        <item>стрельба из лука</item>
+        <item>стрела</item>
+        <item>бадминтон</item>
+        <item>штанга</item>
+        <item>бейзбол</item>
+        <item>баскетбол</item>
+        <item>волейбол</item>
+        <item>биатлон</item>
+        <item>бильярд</item>
+    </string-array>
+
+    <string-array name="MUSIC">
+        <item>accordion</item>
+        <item>bagpipe</item>
+        <item>balalaika</item>
+        <item>ballet</item>
+        <item>bass</item>
+        <item>basson</item>
+        <item>baton</item>
+        <item>bow</item>
+        <item>cello</item>
+        <item>clarinet</item>
+
+    </string-array>
+    <string-array name="_MUSIC">
+        <item>аккордеон</item>
+        <item>волынка</item>
+        <item>балалайка</item>
+        <item>балет</item>
+        <item>контрабас</item>
+        <item>фагот</item>
+        <item>дирижерская палочка</item>
+        <item>смычок</item>
+        <item>виолончель</item>
+        <item>кларнет</item>
+    </string-array>
+
+    <string-array name="CITY">
+        <item>arch</item>
+        <item>auto dealer</item>
+        <item>car dealer</item>
+        <item>bakery</item>
+        <item>bank</item>
+        <item>bar</item>
+        <item>barber shop</item>
+        <item>bench</item>
+        <item>seat</item>
+        <item>bridge</item>
+        <item>buildings</item>
+        <item>circus</item>
+    </string-array>
+    <string-array name="_CITY">
+        <item>арка</item>
+        <item>автосалон</item>
+        <item>автосалон</item>
+        <item>булочная</item>
+        <item>банк</item>
+        <item>бар</item>
+        <item>парикмахерская</item>
+        <item>скамья</item>
+        <item>скамья</item>
+        <item>мост</item>
+        <item>здания</item>
+        <item>цирк</item>
+    </string-array>
+
+</resources>
