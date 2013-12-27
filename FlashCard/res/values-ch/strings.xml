@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name = "Trainer">訓練</string>
+    <string name = "Check">測試</string>
+     <string name = "First"> 4字+圖片</string>
+    <string name = "Second">4圖片+文字</string>
+    <string name = "Yes">正確地</string>
+    <string name = "No">錯</string>
+    <string name = "answer">你知道這個詞？</string>
+    <string-array name = "topic">
+        <item>가족</item>
+        <item>사람</item>
+        <item>자연</item>
+        <item>음식과 음료</item>
+    	<item>의류 및 신발</item>
+    	<item>동물</item>
+        <item>집</item>
+        <item>도시</item>
+        <item>스포츠</item>
+    	<item>장비</item>
+    </string-array>
+     <string-array name="word">
+	    <item>爸</item>
+		<item>媽媽</item>
+		<item>兒子</item>
+		<item>女兒</item>
+		<item>奶奶</item>
+		<item>爺爺</item>
+		<item>婚禮</item>
+		<item>環</item>
+		<item>生日</item>
+		<item>家庭</item>
+		 
+		<item>腳</item>
+		<item>手</item>
+		<item>頭</item>
+		<item>眼睛</item>
+		<item>耳朵</item>
+		<item>口</item>
+		<item>鼻子</item>
+		<item>牙齒</item>
+		<item>後面</item>
+		<item>胃</item>
+		 
+		<item>河</item>
+		<item>山</item>
+		<item>森林</item>
+		<item>海洋</item>
+		<item>沙漠</item>
+		<item>草原</item>
+		<item>湖</item>
+		<item>苔原</item>
+		<item>泰加林</item>
+		<item>明星</item>
+		 
+		<item>比薩</item>
+		<item>湯</item>
+		<item>沙拉</item>
+		<item>茶</item>
+		<item>咖啡</item>
+		<item>果汁</item>
+		<item>檸檬水</item>
+		<item>巧克力</item>
+		<item>曲奇餅</item>
+		<item>炸肉排</item>
+		 
+		<item>牛仔褲</item>
+		<item> T恤衫</item>
+		<item>短褲</item>
+		<item>連衣裙</item>
+		<item>襯衫</item>
+		<item>襯衫</item>
+		<item>夾克</item>
+		<item>鞋</item>
+		<item>運動鞋</item>
+		<item>靴子</item>
+		 
+		<item>貓</item>
+		<item>狗</item>
+		<item>鸚鵡</item>
+		<item>獅子</item>
+		<item>虎</item>
+		<item>承擔</item>
+		<item>魚</item>
+		<item>鳥</item>
+		<item>企鵝</item>
+		<item>屁股</item>
+		 
+		<item>窗口</item>
+		<item>屋頂</item>
+		<item>門</item>
+		<item>水壺</item>
+		<item>爐灶</item>
+		<item>表</item>
+		<item>地毯</item>
+		<item>沙發</item>
+		<item>床</item>
+		<item>電視</item>
+		 
+		<item>總線</item>
+		<item>電車</item>
+		<item>電車</item>
+		<item>摩天大樓</item>
+		<item>燈火</item>
+		<item>店</item>
+		<item>學校</item>
+		<item>醫院</item>
+		<item>房子</item>
+		<item>博物館</item>
+		 
+		<item>足球</item>
+		<item>曲棍球</item>
+		<item>泳</item>
+		<item>馬術運動</item>
+		<item>球</item>
+		<item>球拍</item>
+		<item>單槓</item>
+		<item>網</item>
+		<item>俱樂部</item>
+		<item>棋</item>
+		 
+		<item>電話</item>
+		<item>機</item>
+		<item>船</item>
+		<item>電腦</item>
+		<item>摩托車</item>
+		<item>機</item>
+		<item>火車</item>
+		<item>看</item>
+		<item>雪地車</item>
+		<item>飛船</item>
+        
+    </string-array>
+    <string name="Topics">主題</string>
+	
+
+</resources>
