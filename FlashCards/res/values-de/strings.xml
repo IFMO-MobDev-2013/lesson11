@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlaschCarten</string>
+    <string name="en_to_ru">EU zu RU</string>
+    <string name="ru_to_en">RU zu EN</string>
+    <string name="drop_stat">die Statistik abreisen</string>
+    <string name="sure">sind Sie sicher?</string>
+
+
+</resources>

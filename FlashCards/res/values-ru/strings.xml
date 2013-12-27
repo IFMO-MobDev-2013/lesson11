@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Английские карточки</string>
+<string name="en_to_ru">EN на RU</string>
+<string name="ru_to_en">RU на EN</string>
+<string name="drop_stat">удалить всю статистику</string>
+<string name="sure">Вы уверены?</string>
+</resources>
