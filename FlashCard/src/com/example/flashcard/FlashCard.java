@@ -259,10 +259,6 @@ public class FlashCard extends Activity {
 
 	}
 
-	@Override
-	public void onDestroy() {
-		Counter.sharedInstance().reportEvent(String.valueOf(sum));
-		Counter.sharedInstance().sendEventsBuffer();
-	}
+	
 
 }
