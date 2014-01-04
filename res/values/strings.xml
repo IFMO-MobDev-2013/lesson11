@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_know">
+        <item>Русский</item>
+        <item>English</item>
+        <item>中國的</item>
+    </string-array>
+    <string-array name="languages_study">
+        <item>English</item>
+        <item>Русский</item>
+        <item>中國的</item>
+    </string-array>
+    <string name="app_name">Flash Cards</string>
+    <string name="classic_ru">Классический режим</string>
+    <string name="classic_en">Classic mode</string>
+    <string name="classic_cn">經典模式</string>
+    <string name="fourpics_ru">Выбери картинку</string>
+    <string name="fourpics_en">Select a picture</string>
+    <string name="fourpics_cn">選擇圖片</string>
+    <string name="fourwords_ru">Выбери слово</string>
+    <string name="fourwords_en">Select a word</string>
+    <string name="fourwords_cn">選擇一個單詞</string>
+
+    <string-array name="categories_en">
+        <item>Numbers</item>
+        <item>Colors</item>
+        <item>Nature</item>
+        <item>Animals</item>
+    </string-array>
+    <string-array name="categories_ru">
+        <item>Числа</item>
+        <item>Цвета</item>
+        <item>Природа</item>
+        <item>Животные</item>
+    </string-array>
+    <string-array name="categories_cn">
+        <item>數</item>
+        <item>顏色</item>
+        <item>性質</item>
+        <item>動物</item>
+    </string-array>
+
+    <string-array name="Numbers">
+        <item>one</item><item>two</item><item>three</item><item>four</item><item>five</item>
+        <item>six</item><item>seven</item><item>eight</item><item>nine</item><item>ten</item>
+    </string-array>
+    <string-array name="Числа">
+        <item>один</item><item>два</item><item>три</item><item>четыре</item><item>пять</item>
+        <item>шесть</item><item>семь</item><item>восемь</item><item>девять</item><item>десять</item>
+    </string-array>
+    <string-array name="數">
+        <item>一</item><item>二</item><item>三</item><item>四</item><item>五</item>
+        <item>六</item><item>七</item><item>八</item><item>九</item><item>十</item>
+    </string-array>
+
+    <string-array name="Colors">
+        <item>white</item><item>yellow</item><item>red</item><item>purple</item><item>pink</item>
+        <item>grey</item><item>green</item><item>brown</item><item>blue</item><item>black</item>
+    </string-array>
+    <string-array name="Цвета">
+        <item>белый</item><item>желтый</item><item>красный</item><item>фиолетовый</item><item>розовый</item>
+        <item>серый</item><item>зеленый</item><item>коричневый</item><item>синий</item><item>черный</item>
+    </string-array>
+    <string-array name="顏色">
+        <item>白</item><item>黃色</item><item>紅</item><item>紫色</item><item>粉紅色</item>
+        <item>灰色</item><item>綠色</item><item>棕色</item><item>藍色</item><item>黑色</item>
+    </string-array>
+
+    <string-array name="Nature">
+        <item>sun</item><item>moon</item><item>ice</item><item>rain</item><item>plants</item>
+        <item>stars</item><item>stone</item><item>wind</item><item>snow</item><item>rainbow</item>
+    </string-array>
+    <string-array name="Природа">
+        <item>солнце</item><item>луна</item><item>лед</item><item>дождь</item><item>растения</item>
+        <item>звезды</item><item>камень</item><item>ветер</item><item>снег</item><item>радуга</item>
+    </string-array>
+    <string-array name="性質">
+        <item>太陽</item><item>月亮</item><item>冰</item><item>污垢</item><item>廠</item>
+        <item>明星</item><item>石</item><item>風</item><item>雪</item><item>彩虹</item>
+    </string-array>
+
+    <string-array name="Animals">
+        <item>cat</item><item>chicken</item><item>dog</item><item>frog</item><item>lion</item>
+        <item>mouse</item><item>pig</item><item>rabbit</item><item>sheep</item><item>snake</item>
+    </string-array>
+    <string-array name="Животные">
+        <item>кошка</item><item>курица</item><item>собака</item><item>лягушка</item><item>лев</item>
+        <item>мышь</item><item>свинья</item><item>кролик</item><item>овца</item><item>змея</item>
+    </string-array>
+    <string-array name="動物">
+        <item>貓</item><item>雞</item><item>狗</item><item>青蛙</item><item>獅子</item>
+        <item>鼠標</item><item>豬</item><item>兔子</item><item>羊</item><item>蛇</item>
+    </string-array>
+
+</resources>
