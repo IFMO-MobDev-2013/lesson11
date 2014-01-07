@@ -1,4 +1,4 @@
-package com.example.FlashCards.orm;
+package ru.ifmo.ctddev.isaev.orm;
 
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;

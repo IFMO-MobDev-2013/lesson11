@@ -1,33 +1,37 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.example.FlashCards.orm.Category;
-import com.example.FlashCards.orm.Word;
+import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.orm.Category;
+import ru.ifmo.ctddev.isaev.orm.Word;
 
 import java.sql.SQLException;
 import java.util.*;
 
-import static com.example.FlashCards.General.*;
+import static ru.ifmo.ctddev.isaev.General.*;
 
 /**
  * User: Xottab
  * Date: 06.01.14
  */
-public class PictureToWordsModeActivity extends MyActivity {
-    TextView leftTop;
-    TextView leftBottom;
-    TextView rightTop;
-    TextView rightBottom;
+public class WordToPicturesModeActivity extends MyActivity {
+    ImageView leftTop;
+    ImageView leftBottom;
+    ImageView rightTop;
+    ImageView rightBottom;
     ImageView result;
-    ImageView picture;
     TextView description;
+    RelativeLayout rel;
     private Category category;
     private List<Word> words;
     private String[] translates;
@@ -39,6 +43,20 @@ public class PictureToWordsModeActivity extends MyActivity {
     Timer timer = new Timer();
     final Handler handler = new Handler();
 
+    public void addOnTouchEvent(final ImageView target) {
+        target.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    target.setColorFilter(Color.argb(150, 155, 155, 155));
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    target.setColorFilter(null);
+                }
+                return false;
+            }
+
+        });
+    }
 
     private void processAnswer(int i) {
         if (ready) {
@@ -76,16 +94,19 @@ public class PictureToWordsModeActivity extends MyActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.picture_to_words);
-        leftTop = (TextView) findViewById(R.id.textView);
-        leftBottom = (TextView) findViewById(R.id.textView3);
-        rightTop = (TextView) findViewById(R.id.textView2);
-        rightBottom = (TextView) findViewById(R.id.textView4);
-        result = (ImageView) findViewById(R.id.imageView2);
-        picture = (ImageView) findViewById(R.id.imageView);
-        description = (TextView) findViewById(R.id.textView5);
+        setContentView(R.layout.word_to_pictures);
+        leftTop = (ImageView) findViewById(R.id.imageView);
+        leftBottom = (ImageView) findViewById(R.id.imageView3);
+        rightTop = (ImageView) findViewById(R.id.imageView2);
+        rightBottom = (ImageView) findViewById(R.id.imageView5);
+        result = (ImageView) findViewById(R.id.result);
+        addOnTouchEvent(leftTop);
+        addOnTouchEvent(leftBottom);
+        addOnTouchEvent(rightTop);
+        addOnTouchEvent(rightBottom);
+        description = (TextView) findViewById(R.id.wordtopicsText);
         category = (Category) getIntent().getSerializableExtra("cat");
-        words = category.getWords();
+        words = (List<Word>) category.getWords();
         Collections.sort(words);
         Resources resources = getLocalizedResources(this, toLocale);
         Log.i("category number is ", String.valueOf(category));
@@ -135,13 +156,12 @@ public class PictureToWordsModeActivity extends MyActivity {
             }
         }
         Collections.shuffle(shuff);
-        leftTop.setText(translates[words.get(shuff.get(0)).getArrayNumber()]);
-        leftBottom.setText(translates[words.get(shuff.get(1)).getArrayNumber()]);
-        rightTop.setText(translates[words.get(shuff.get(2)).getArrayNumber()]);
-        rightBottom.setText(translates[words.get(shuff.get(3)).getArrayNumber()]);
+        leftTop.setImageDrawable(getImageByCategory(category.getResID(), words.get(shuff.get(0)).getArrayNumber() + 1));
+        leftBottom.setImageDrawable(getImageByCategory(category.getResID(), words.get(shuff.get(1)).getArrayNumber() + 1));
+        rightTop.setImageDrawable(getImageByCategory(category.getResID(), words.get(shuff.get(2)).getArrayNumber() + 1));
+        rightBottom.setImageDrawable(getImageByCategory(category.getResID(), words.get(shuff.get(3)).getArrayNumber() + 1));
         Log.i("word`s current status is ", String.valueOf(words.get(current).getStatus()));
         description.setText(origins[words.get(current).getArrayNumber()]);
-        picture.setImageDrawable(getImageByCategory(category.getResID(), words.get(current).getArrayNumber() + 1));
         ready = true;
     }
 
@@ -155,6 +175,5 @@ public class PictureToWordsModeActivity extends MyActivity {
         Intent intent = new Intent(getApplicationContext(), CategoriesActivity.class);
         startActivity(intent);
     }
-
 
 }

@@ -1,4 +1,4 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;

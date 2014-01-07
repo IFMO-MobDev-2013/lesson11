@@ -1,11 +1,12 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
-import com.example.FlashCards.orm.Category;
-import com.example.FlashCards.orm.Word;
+import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.orm.Category;
+import ru.ifmo.ctddev.isaev.orm.Word;
 import com.yandex.metrica.Counter;
 
 import java.sql.SQLException;
@@ -14,8 +15,8 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.example.FlashCards.General.getLocalizedResources;
-import static com.example.FlashCards.General.wordDao;
+import static ru.ifmo.ctddev.isaev.General.getLocalizedResources;
+import static ru.ifmo.ctddev.isaev.General.wordDao;
 
 public class MyApplication extends Application {
     private static final String PREFERENCES = "mySettings";

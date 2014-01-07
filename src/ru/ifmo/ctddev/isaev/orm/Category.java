@@ -1,9 +1,10 @@
-package com.example.FlashCards.orm;
+package ru.ifmo.ctddev.isaev.orm;
 
 import android.util.Log;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
+import ru.ifmo.ctddev.isaev.orm.Word;
 
 import java.io.Serializable;
 import java.util.ArrayList;

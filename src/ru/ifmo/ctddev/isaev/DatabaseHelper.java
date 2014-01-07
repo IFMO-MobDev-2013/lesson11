@@ -1,4 +1,4 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 /**
  * User: Xottab
  * Date: 06.12.13
@@ -7,8 +7,8 @@ package com.example.FlashCards;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
-import com.example.FlashCards.orm.Category;
-import com.example.FlashCards.orm.Word;
+import ru.ifmo.ctddev.isaev.orm.Category;
+import ru.ifmo.ctddev.isaev.orm.Word;
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.support.ConnectionSource;

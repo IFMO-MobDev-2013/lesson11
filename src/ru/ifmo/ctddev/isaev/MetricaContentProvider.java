@@ -1,4 +1,4 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

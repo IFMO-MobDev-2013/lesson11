@@ -1,4 +1,4 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -10,8 +10,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.example.FlashCards.orm.Category;
-import com.example.FlashCards.orm.Word;
+import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.orm.Category;
+import ru.ifmo.ctddev.isaev.orm.Word;
 
 import java.sql.SQLException;
 import java.util.Collections;
@@ -19,7 +20,7 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.example.FlashCards.General.*;
+import static ru.ifmo.ctddev.isaev.General.*;
 
 /**
  * User: Xottab

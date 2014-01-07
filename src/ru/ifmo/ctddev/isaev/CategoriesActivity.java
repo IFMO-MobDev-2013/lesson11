@@ -1,4 +1,4 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,13 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
-import com.example.FlashCards.orm.Category;
+import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.orm.Category;
 
 import java.sql.SQLException;
 import java.util.List;
-
-import static com.example.FlashCards.General.fromLocale;
-import static com.example.FlashCards.General.getLocalizedResources;
 
 public class CategoriesActivity extends MyActivity {
     ListView categories;
@@ -64,7 +62,7 @@ public class CategoriesActivity extends MyActivity {
         } catch (SQLException e) {
             Log.e("oh my god dat ril exception", "", e);
         }
-        localizedCategories = getLocalizedResources(this, fromLocale).getStringArray(R.array.category);
+        localizedCategories = General.getLocalizedResources(this, General.fromLocale).getStringArray(R.array.category);
         final CategoryListAdapter adapter = new CategoryListAdapter(this, android.R.layout.simple_list_item_1, values);
         categories.setAdapter(adapter);
         categories.setOnItemClickListener(new AdapterView.OnItemClickListener() {

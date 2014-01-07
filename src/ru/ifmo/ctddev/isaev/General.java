@@ -1,11 +1,11 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.util.Log;
-import com.example.FlashCards.orm.Category;
-import com.example.FlashCards.orm.Word;
+import ru.ifmo.ctddev.isaev.orm.Category;
+import ru.ifmo.ctddev.isaev.orm.Word;
 import com.j256.ormlite.dao.Dao;
 
 import java.sql.SQLException;

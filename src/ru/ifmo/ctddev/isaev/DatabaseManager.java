@@ -1,4 +1,4 @@
-package com.example.FlashCards;
+package ru.ifmo.ctddev.isaev;
 
 import android.content.Context;
 import com.j256.ormlite.android.apptools.OpenHelperManager;
