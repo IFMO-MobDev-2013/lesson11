@@ -20,6 +20,11 @@ public class LanguageChoosingActivity extends MyActivity {
     Button okGo;
 
     @Override
+    public void onBackPressed() {
+        super.finish();
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lang_choose);

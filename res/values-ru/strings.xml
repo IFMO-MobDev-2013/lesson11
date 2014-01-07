@@ -4,7 +4,7 @@
     <string name="text_sample">Some Text</string>
     <string name="check">Проверить</string>
     <string name="welcome_message">Добро пожаловать в приложение FlashCards. Пожалуйста, выберите свой родной язык и язык, который вы будете изучать</string>
-    <string name="goButton">Погнали!</string>
+    <string name="goButton">Поехали!</string>
     <string name="iKnow">Родной язык</string>
     <string name="iWantToKnow">Я хочу выучить</string>
     <string name="cantBeEqual">Выберите разные языки</string>
