@@ -64,7 +64,7 @@ public class MyApplication extends Application {
             }
 
         } catch (SQLException e) {
-            Log.e("ololoerror", "ololoerror", e);
+            Log.e("error", "error", e);
         }
 
     }

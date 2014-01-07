@@ -2,7 +2,6 @@ package com.example.FlashCards;
 
 import android.content.Intent;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -13,10 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import com.example.FlashCards.orm.Category;
 import com.example.FlashCards.orm.Word;
-import com.yandex.metrica.Counter;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.sql.SQLException;
 import java.util.Collections;
 import java.util.List;
@@ -44,7 +40,6 @@ public class SingleTrainingActivity extends MyActivity {
     String[] translates;
     boolean ready = true;
     Timer timer = new Timer();
-
 
 
     public void updateScreen() {

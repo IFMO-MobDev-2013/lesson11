@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
-import com.yandex.metrica.Counter;
 
 import java.util.Locale;
 

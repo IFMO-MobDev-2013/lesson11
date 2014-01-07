@@ -59,7 +59,7 @@ public class WordToPicturesModeActivity extends MyActivity {
 
     private void processAnswer(int i) {
         if (ready) {
-            ready=false;
+            ready = false;
             description.setText(translates[words.get(current).getArrayNumber()]);
             if (shuff.get(i) == current) {
                 result.setImageDrawable(getResources().getDrawable(R.drawable.correct));
