@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
-import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.FlashCards.R;
 import ru.ifmo.ctddev.isaev.orm.Category;
 import ru.ifmo.ctddev.isaev.orm.Word;
 import com.yandex.metrica.Counter;

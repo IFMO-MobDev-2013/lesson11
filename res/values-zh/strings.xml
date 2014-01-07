@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FlashCards</string>
+    <string name="app_name">IfmoFlashCards</string>
     <string name="text_sample">一些文字</string>
     <string name="check">确认</string>
     <string name="welcome_message">欢迎光临抽认卡应用程序。请选择你要学习自己的母语和一个</string>

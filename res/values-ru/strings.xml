@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FlashCards</string>
+    <string name="app_name">IfmoFlashCards</string>
     <string name="text_sample">Some Text</string>
     <string name="check">Проверить</string>
     <string name="welcome_message">Добро пожаловать в приложение FlashCards. Пожалуйста, выберите свой родной язык и язык, который вы будете изучать</string>
