@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
-import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.FlashCards.R;
 
 import java.util.Locale;
 

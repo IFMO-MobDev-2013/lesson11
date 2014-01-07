@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.FlashCards.R;
 import ru.ifmo.ctddev.isaev.orm.Category;
 import ru.ifmo.ctddev.isaev.orm.Word;
 
@@ -98,11 +98,11 @@ public class SingleTrainingActivity extends MyActivity {
             public void onClick(View view) {
                 if (ready) {
                     ready = false;
+                    processRightAnswer(category, words.get(current));
                     current++;
                     if (current == words.size()) {
                         backToCategories();
                     } else {
-                        processRightAnswer(category, words.get(current));
                         updateScreen();
                     }
                 }
@@ -114,6 +114,7 @@ public class SingleTrainingActivity extends MyActivity {
                 if (ready) {
                     description.setText(translates[words.get(current).getArrayNumber()]);
                     current++;
+                    processWrongAnswer(category, words.get(current));
                     if (current == words.size()) {
                         backToCategories();
                     } else {
@@ -131,7 +132,6 @@ public class SingleTrainingActivity extends MyActivity {
                                 });
                             }
                         }, 2000L);
-                        processWrongAnswer(category, words.get(current));
                     }
                 }
             }

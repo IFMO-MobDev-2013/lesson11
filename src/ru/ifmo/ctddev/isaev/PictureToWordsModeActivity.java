@@ -8,7 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.example.FlashCards.R;
+
+import ru.ifmo.ctddev.isaev.FlashCards.R;
 import ru.ifmo.ctddev.isaev.orm.Category;
 import ru.ifmo.ctddev.isaev.orm.Word;
 

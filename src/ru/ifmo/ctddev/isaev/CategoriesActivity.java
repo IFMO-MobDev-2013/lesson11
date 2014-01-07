@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
-import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.FlashCards.R;
 import ru.ifmo.ctddev.isaev.orm.Category;
 
 import java.sql.SQLException;
@@ -19,34 +19,6 @@ public class CategoriesActivity extends MyActivity {
     ListView categories;
     LayoutInflater inflater;
     String[] localizedCategories;
-
-    public class CategoryListAdapter extends ArrayAdapter<Category> {
-
-        public CategoryListAdapter(Context context, int resource, List<Category> objects) {
-            super(context, resource, objects);
-        }
-
-        @Override
-        public long getItemId(int arg0) {
-            return arg0;
-        }
-
-        public int getMark(Category cat) {
-            return cat.getStatus() / cat.getWords().size() + 1;
-        }
-
-        @Override
-        public View getView(int pos, View convertView, ViewGroup parent) {
-
-            LinearLayout category = (LinearLayout) inflater.inflate(R.layout.category, null);
-            TextView descr = (TextView) category.findViewById(R.id.categoryDescription);
-            descr.setText(localizedCategories[pos]);
-            ImageView image = (ImageView) category.findViewById(R.id.categoryMark);
-            image.setImageResource(getResources().getIdentifier(getResources().getString(R.id.star) + getMark(getItem(pos)), "drawable", getPackageName()));
-            return category;
-        }
-    }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -102,5 +74,33 @@ public class CategoriesActivity extends MyActivity {
                 });
             }
         });
+    }
+
+    public class CategoryListAdapter extends ArrayAdapter<Category> {
+
+        public CategoryListAdapter(Context context, int resource, List<Category> objects) {
+            super(context, resource, objects);
+        }
+
+        @Override
+        public long getItemId(int arg0) {
+            return arg0;
+        }
+
+        public int getMark(Category cat) {
+            Log.i("cat status:  ", String.valueOf(cat.getStatus()));
+            return cat.getStatus() / cat.getWords().size() + 1;
+        }
+
+        @Override
+        public View getView(int pos, View convertView, ViewGroup parent) {
+
+            LinearLayout category = (LinearLayout) inflater.inflate(R.layout.category, null);
+            TextView descr = (TextView) category.findViewById(R.id.categoryDescription);
+            descr.setText(localizedCategories[pos]);
+            ImageView image = (ImageView) category.findViewById(R.id.categoryMark);
+            image.setImageResource(getResources().getIdentifier(getResources().getString(R.id.star) + getMark(getItem(pos)), "drawable", getPackageName()));
+            return category;
+        }
     }
 }

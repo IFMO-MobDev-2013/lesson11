@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.example.FlashCards.R;
+import ru.ifmo.ctddev.isaev.FlashCards.R;
 import ru.ifmo.ctddev.isaev.orm.Category;
 import ru.ifmo.ctddev.isaev.orm.Word;
 
@@ -25,6 +25,7 @@ import static ru.ifmo.ctddev.isaev.General.*;
  * Date: 06.01.14
  */
 public class WordToPicturesModeActivity extends MyActivity {
+    final Handler handler = new Handler();
     ImageView leftTop;
     ImageView leftBottom;
     ImageView rightTop;
@@ -32,16 +33,15 @@ public class WordToPicturesModeActivity extends MyActivity {
     ImageView result;
     TextView description;
     RelativeLayout rel;
+    Random rand = new Random();
+    List<Integer> shuff = new ArrayList<Integer>(4);
+    Timer timer = new Timer();
     private Category category;
     private List<Word> words;
     private String[] translates;
     private String[] origins;
     private int current = 0;
     private boolean ready;
-    Random rand = new Random();
-    List<Integer> shuff = new ArrayList<Integer>(4);
-    Timer timer = new Timer();
-    final Handler handler = new Handler();
 
     public void addOnTouchEvent(final ImageView target) {
         target.setOnTouchListener(new View.OnTouchListener() {
@@ -164,7 +164,6 @@ public class WordToPicturesModeActivity extends MyActivity {
         description.setText(origins[words.get(current).getArrayNumber()]);
         ready = true;
     }
-
 
     public void backToCategories() {
         try {
