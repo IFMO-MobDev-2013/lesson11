@@ -76,6 +76,11 @@ public class CategoriesActivity extends MyActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this,LanguageChoosingActivity.class));
+    }
+
     public class CategoryListAdapter extends ArrayAdapter<Category> {
 
         public CategoryListAdapter(Context context, int resource, List<Category> objects) {
