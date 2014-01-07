@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="text_sample">Some Text</string>
+    <string name="check">确认</string>
+    <string name="welcome_message">欢迎光临抽认卡应用程序。请选择你要学习自己的母语和一个</string>
+    <string name="goButton">去！</string>
+    <string name="iKnow">我的语言</string>
+    <string name="iWantToKnow">我想知道</string>
+    <string name="cantBeEqual">选择不同的语言</string>
+    <string name="categories">分类</string>
+    <string name="training">训练</string>
+    <string name="right_answer">你的答案</string>
+    <string name="your_answer">正确答案</string>
+    <string name="i_know">我知道</string>
+    <string name="i_dont_know">我不知道</string>
+    <string name="category">类别</string>
+    <string name="i_was_right">我知道</string>
+    <string name="i_was_wrong">我错了</string>
+    <string name="choose_mode">选择模式</string>
+    <string name="all_in_row">连续</string>
+    <string name="word_to_picture">选择图像</string>
+    <string name="picture_to_word">选择翻译</string>
+    <string-array name="category">
+        <item>动物</item>
+        <item>车身零件</item>
+        <item>服装和鞋类</item>
+        <item>疾病</item>
+        <item>情怀</item>
+        <item>饮食</item>
+        <item>房子</item>
+        <item>爱好</item>
+        <item>树木和鲜花</item>
+        <item>天气</item>
+    </string-array>
+    <string-array name="category1">
+        <item>海狸</item>
+        <item>猫</item>
+        <item>牛</item>
+        <item>乌鸦</item>
+        <item>狗</item>
+        <item>海豚</item>
+        <item>狐狸</item>
+        <item>仓鼠</item>
+        <item>马</item>
+        <item>企鹅</item>
+    </string-array>
+    <string-array name="category2">
+        <item>胡须</item>
+        <item>乳房</item>
+        <item>耳朵</item>
+        <item>眼</item>
+        <item>睫毛</item>
+        <item>手</item>
+        <item>脚跟</item>
+        <item>腿</item>
+        <item>鼻子</item>
+        <item>手指</item>
+    </string-array>
+    <string-array name="category3">
+        <item>腰带</item>
+        <item>靴子</item>
+        <item>帽</item>
+        <item>连衣裙</item>
+        <item>帽子</item>
+        <item>鞋</item>
+        <item>衬衫</item>
+        <item>培训师</item>
+        <item>裤子</item>
+        <item>短袖汗衫</item>
+    </string-array>
+    <string-array name="category4">
+        <item>哮喘</item>
+        <item>咳嗽</item>
+        <item>医药</item>
+        <item>流感</item>
+        <item>头痛</item>
+        <item>失眠</item>
+        <item>胃痛</item>
+        <item>牙疼</item>
+        <item>治疗</item>
+        <item>伤口</item>
+    </string-array>
+    <string-array name="category5">
+        <item>愤怒</item>
+        <item>哭</item>
+        <item>厌恶</item>
+        <item>幸福</item>
+        <item>饥饿</item>
+        <item>妒忌</item>
+        <item>怠惰</item>
+        <item>悲</item>
+        <item>口渴</item>
+        <item>信任</item>
+    </string-array>
+    <string-array name="category6">
+        <item>苹果</item>
+        <item>啤酒</item>
+        <item>鸡</item>
+        <item>饺子</item>
+        <item>千层面</item>
+        <item>面食</item>
+        <item>奥利维尔</item>
+        <item>菠萝</item>
+        <item>烧烤</item>
+        <item>茶</item>
+    </string-array>
+    <string-array name="category7">
+        <item>浴</item>
+        <item>床</item>
+        <item>椅子</item>
+        <item>沙发</item>
+        <item>房子</item>
+        <item>衣柜</item>
+        <item>架</item>
+        <item>水槽</item>
+        <item>表</item>
+        <item>窗口</item>
+    </string-array>
+    <string-array name="category8">
+        <item>自行车</item>
+        <item>滑雪</item>
+        <item>滑翔机</item>
+        <item>吉他</item>
+        <item>摩托车</item>
+        <item>钢琴</item>
+        <item>竿</item>
+        <item>冰鞋</item>
+        <item>滑雪</item>
+        <item>喇叭</item>
+    </string-array>
+    <string-array name="category9">
+        <item>猴面包树</item>
+        <item>桦木</item>
+        <item>雏菊</item>
+        <item>樱桃</item>
+        <item>仙人掌</item>
+        <item>滚草</item>
+        <item>云杉</item>
+        <item>玫瑰</item>
+        <item>草莓</item>
+        <item>郁金香</item>
+    </string-array>
+    <string-array name="category10">
+        <item>夜</item>
+        <item>风</item>
+        <item>云</item>
+        <item>干旱</item>
+        <item>雾</item>
+        <item>飓风</item>
+        <item>雨</item>
+        <item>雪</item>
+        <item>太阳</item>
+        <item>海啸</item>
+    </string-array>
+</resources>
