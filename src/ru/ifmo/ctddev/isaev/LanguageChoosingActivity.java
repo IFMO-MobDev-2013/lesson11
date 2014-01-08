@@ -21,12 +21,18 @@ public class LanguageChoosingActivity extends MyActivity {
 
     @Override
     public void onBackPressed() {
-        super.finish();
+        Intent intent = new Intent(LanguageChoosingActivity.this, LanguageChoosingActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.putExtra("EXIT", true);
+        startActivity(intent);
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (getIntent().getBooleanExtra("EXIT", false)) {
+            this.finish();
+        }
         setContentView(R.layout.lang_choose);
         left = (Spinner) findViewById(R.id.spinner);
         right = (Spinner) findViewById(R.id.spinner2);
