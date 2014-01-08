@@ -20,24 +20,119 @@
     <string name="fourwords_ru">Выбери слово</string>
     <string name="fourwords_en">Select a word</string>
     <string name="fourwords_cn">選擇一個單詞</string>
+    <string name="result_ru">Ваш результат:</string>
+    <string name="result_en">Your result is:</string>
+    <string name="result_cn">你的結果是:</string>
+    <string name="continue_en">Continue</string>
+    <string name="continue_ru">Продолжить</string>
+    <string name="continue_cn">繼續</string>
+    <string name="congrats_en">Congratulations!</string>
+    <string name="congrats_ru">Поздравляем!</string>
+    <string name="congrats_cn">祝賀您!</string>
+    <string name="reset_en">Reset your progress</string>
+    <string name="reset_ru">Сбросить результаты</string>
+    <string name="reset_cn">清理你的進步</string>
 
     <string-array name="categories_en">
         <item>Numbers</item>
-        <item>Colors</item>
         <item>Nature</item>
         <item>Animals</item>
+        <item>Fruits</item>
+        <item>Instruments</item>
+        <item>Colors</item>
+        <item>Clothes</item>
+        <item>Shapes</item>
+        <item>Vegetables</item>
+        <item>Professions</item>
     </string-array>
     <string-array name="categories_ru">
         <item>Числа</item>
-        <item>Цвета</item>
         <item>Природа</item>
         <item>Животные</item>
+        <item>Фрукты</item>
+        <item>Инструменты</item>
+        <item>Цвета</item>
+        <item>Одежда</item>
+        <item>Фигуры</item>
+        <item>Овощи</item>
+        <item>Профессии</item>
     </string-array>
     <string-array name="categories_cn">
         <item>數</item>
-        <item>顏色</item>
         <item>性質</item>
         <item>動物</item>
+        <item>水果</item>
+        <item>樂器</item>
+        <item>顏色</item>
+        <item>服裝</item>
+        <item>數字</item>
+        <item>蔬菜</item>
+        <item>職業</item>
+    </string-array>
+
+    <string-array name="Professions">
+        <item>chef</item><item>director</item><item>doctor</item><item>firefighter</item><item>nurse</item>
+        <item>painter</item><item>policeman</item><item>singer</item><item>soldier</item><item>teacher</item>
+    </string-array>
+    <string-array name="Профессии">
+        <item>повар</item><item>режиссер</item><item>доктор</item><item>пожарник</item><item>медсестра</item>
+        <item>маляр</item><item>полицейский</item><item>певец</item><item>военный</item><item>учитель</item>
+    </string-array>
+    <string-array name="職業">
+        <item>廚師</item><item>導演</item><item>醫生</item><item>消防隊員</item><item>護士</item>
+        <item>畫家</item><item>警察</item><item>歌手</item><item>軍事</item><item>老師</item>
+    </string-array>
+
+    <string-array name="Vegetables">
+        <item>carrot</item><item>corn</item><item>cucumber</item><item>eggplant</item><item>onion</item>
+        <item>peas</item><item>pepper</item><item>potato</item><item>radish</item><item>tomato</item>
+    </string-array>
+    <string-array name="Овощи">
+        <item>морковь</item><item>кукуруза</item><item>огурец</item><item>баклажан</item><item>лук</item>
+        <item>горох</item><item>перец</item><item>картофель</item><item>редис</item><item>помидор</item>
+    </string-array>
+    <string-array name="蔬菜">
+        <item>紅蘿蔔</item><item>玉米</item><item>黃瓜</item><item>茄子</item><item>洋蔥</item>
+        <item>豌豆</item><item>胡椒</item><item>土豆</item><item>蘿蔔</item><item>西紅柿</item>
+    </string-array>
+
+    <string-array name="Shapes">
+        <item>cone</item><item>cube</item><item>cylinder</item><item>dodecahedron</item><item>ellipsoid</item>
+        <item>icosahedron</item><item>octahedron</item><item>prism</item><item>pyramid</item><item>sphere</item>
+    </string-array>
+    <string-array name="Фигуры">
+        <item>конус</item><item>куб</item><item>цилиндр</item><item>додекаэдр</item><item>эллипсоид</item>
+        <item>икосаэдр</item><item>октаэдр</item><item>призма</item><item>пирамида</item><item>сфера</item>
+    </string-array>
+    <string-array name="數字">
+        <item>錐體</item><item>立方體</item><item>氣缸</item><item>十二面體</item><item>橢球</item>
+        <item>二十面體</item><item>八面體</item><item>角柱</item><item>金字塔</item><item>球</item>
+    </string-array>
+
+    <string-array name="Clothes">
+        <item>belt</item><item>bra</item><item>dress</item><item>hat</item><item>jeans</item>
+        <item>pants</item><item>scarf</item><item>shirt</item><item>tie</item><item>sneakers</item>
+    </string-array>
+    <string-array name="Одежда">
+        <item>ремень</item><item>бюстгальтер</item><item>платье</item><item>шляпа</item><item>джинсы</item>
+        <item>трусы</item><item>шарф</item><item>рубашка</item><item>галстук</item><item>кроссовки</item>
+    </string-array>
+    <string-array name="服裝">
+        <item>腰帶</item><item>胸罩</item><item>連衣裙</item><item>帽子</item><item>牛仔褲</item>
+        <item>內褲</item><item>圍巾</item><item>襯衫</item><item>領帶</item><item>T恤衫</item>
+    </string-array>
+
+    <string-array name="Instruments">
+        <item>banjo</item><item>drums</item><item>flute</item><item>guitar</item><item>percussion</item>
+        <item>saxophone</item><item>synthesizer</item><item>trumpet</item><item>violin</item><item>xylophone</item>
+    </string-array>
+    <string-array name="Инструменты">
+        <item>банджо</item><item>барабаны</item><item>флейта</item><item>гитара</item><item>перкуссия</item>
+        <item>саксофон</item><item>синтезатор</item><item>труба</item><item>скрипка</item><item>ксилофон</item>
+    </string-array>
+    <string-array name="樂器">
+        <item>班卓琴</item><item>鼓</item><item>長笛</item><item>吉他</item><item>打擊樂器</item>
+        <item>薩克管</item><item>合成器</item><item>管</item><item>小提琴</item><item>木琴</item>
     </string-array>
 
     <string-array name="Numbers">
@@ -90,6 +185,19 @@
     <string-array name="動物">
         <item>貓</item><item>雞</item><item>狗</item><item>青蛙</item><item>獅子</item>
         <item>鼠標</item><item>豬</item><item>兔子</item><item>羊</item><item>蛇</item>
+    </string-array>
+
+    <string-array name="Fruits">
+        <item>banana</item><item>cherry</item><item>grapefruit</item><item>lemon</item><item>lime</item>
+        <item>peach</item><item>persimmon</item><item>pineapple</item><item>plum</item><item>tangerine</item>
+    </string-array>
+    <string-array name="Фрукты">
+        <item>банан</item><item>вишня</item><item>грейпфрут</item><item>лимон</item><item>лайм</item>
+        <item>персик</item><item>хурма</item><item>ананас</item><item>слива</item><item>мандарин</item>
+    </string-array>
+    <string-array name="水果">
+        <item>香蕉</item><item>櫻桃</item><item>柚子</item><item>檸檬</item><item>石灰</item>
+        <item>桃</item><item>柿子</item><item>菠蘿</item><item>梅</item><item>普通話</item>
     </string-array>
 
 </resources>
