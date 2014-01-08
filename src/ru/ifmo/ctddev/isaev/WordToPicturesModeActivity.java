@@ -61,7 +61,7 @@ public class WordToPicturesModeActivity extends MyActivity {
     private void processAnswer(int i) {
         if (ready) {
             ready = false;
-            description.setText(translates[words.get(current).getArrayNumber()]);
+            description.setText(origins[words.get(current).getArrayNumber()]);
             if (shuff.get(i) == current) {
                 result.setImageDrawable(getResources().getDrawable(R.drawable.correct));
                 result.setVisibility(View.VISIBLE);
@@ -161,7 +161,7 @@ public class WordToPicturesModeActivity extends MyActivity {
         rightTop.setImageDrawable(getImageByCategory(category.getResID(), words.get(shuff.get(2)).getArrayNumber() + 1));
         rightBottom.setImageDrawable(getImageByCategory(category.getResID(), words.get(shuff.get(3)).getArrayNumber() + 1));
         Log.i("word`s current status is ", String.valueOf(words.get(current).getStatus()));
-        description.setText(origins[words.get(current).getArrayNumber()]);
+        description.setText(translates[words.get(current).getArrayNumber()]);
         ready = true;
     }
 
