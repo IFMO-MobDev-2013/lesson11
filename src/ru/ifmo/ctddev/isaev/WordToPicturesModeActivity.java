@@ -41,7 +41,7 @@ public class WordToPicturesModeActivity extends MyActivity {
     private String[] translates;
     private String[] origins;
     private int current = 0;
-    private boolean ready;
+    private boolean ready=true;
 
     public void addOnTouchEvent(final ImageView target) {
         target.setOnTouchListener(new View.OnTouchListener() {
@@ -51,8 +51,9 @@ public class WordToPicturesModeActivity extends MyActivity {
                     target.setColorFilter(Color.argb(150, 155, 155, 155));
                 } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     target.setColorFilter(null);
+                    target.performClick();
                 }
-                return false;
+                return true;
             }
 
         });
