@@ -113,8 +113,8 @@ public class SingleTrainingActivity extends MyActivity {
             public void onClick(View view) {
                 if (ready) {
                     description.setText(translates[words.get(current).getArrayNumber()]);
-                    current++;
                     processWrongAnswer(category, words.get(current));
+                    current++;
                     if (current == words.size()) {
                         backToCategories();
                     } else {

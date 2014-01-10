@@ -10,18 +10,12 @@ import ru.ifmo.ctddev.isaev.orm.Word;
 import com.yandex.metrica.Counter;
 
 import java.sql.SQLException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
-import static ru.ifmo.ctddev.isaev.General.getLocalizedResources;
 import static ru.ifmo.ctddev.isaev.General.wordDao;
+import static ru.ifmo.ctddev.isaev.MyActivity.getLocalizedResources;
 
 public class MyApplication extends Application {
-    private static final String PREFERENCES = "mySettings";
-    private static final String FIRST_LAUNCH = "isFirstLaunch";
-
     @Override
     public void onCreate() {
         try {
@@ -40,10 +34,11 @@ public class MyApplication extends Application {
             General.categoryDao = DatabaseManager.getInstance().getHelper().getCategoryDao();
             General.wordDao = DatabaseManager.getInstance().getHelper().getWordDao();
 
-            SharedPreferences preferences = getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
-            if (preferences.getBoolean(FIRST_LAUNCH, true)) {
+            SharedPreferences preferences = getSharedPreferences(General.PREFERENCES, Context.MODE_PRIVATE);
+            if (preferences.getBoolean(General.FIRST_LAUNCH, true)) {
                 Log.i("", "first launch of application");
-                String[] categories = getLocalizedResources(this, General.fromLocale).getStringArray(R.array.category);
+                General.isFirstLaunch=true;
+                String[] categories = getResources().getStringArray(R.array.category);
                 for (int i = 0; i < categories.length; i++) {
                     int resID = getResources().getIdentifier("category" + (i + 1), "array", this.getPackageName());
                     String[] words = getResources().getStringArray(resID);
@@ -57,7 +52,7 @@ public class MyApplication extends Application {
                         wordList.add(word);
                     }
                     SharedPreferences.Editor editor = preferences.edit();
-                    editor.putBoolean(FIRST_LAUNCH, false);
+                    editor.putBoolean(General.FIRST_LAUNCH, false);
                     editor.commit();
                 }
             } else {

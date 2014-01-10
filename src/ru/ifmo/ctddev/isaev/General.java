@@ -3,6 +3,7 @@ package ru.ifmo.ctddev.isaev;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import ru.ifmo.ctddev.isaev.orm.Category;
 import ru.ifmo.ctddev.isaev.orm.Word;
@@ -16,14 +17,16 @@ import java.util.Locale;
  * Date: 03.01.14
  */
 public class General {
-    public static Resources getLocalizedResources(Context context, Locale locale) {
-        Configuration conf = new Configuration();
-        conf.locale = locale;
-        return new Resources(context.getAssets(), null, conf);
-    }
+
 
     public static final int MAX_CATEGORY_STATUS = 50;
     public static final int MAX_WORD_STATUS = 5;
+    public static final String PREFERENCES = "mySettings";
+    public static final String FIRST_LAUNCH = "isFirstLaunch";
+    public static boolean isFirstLaunch = false;
+    public static String LOCALE_FROM = "localeFrom";
+    public static String LOCALE_TO = "localeTo";
+
 
     public static void processWrongAnswer(Category c, Word w) {
         if (c.getStatus() > 0) {

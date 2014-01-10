@@ -2,9 +2,12 @@ package ru.ifmo.ctddev.isaev;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -40,6 +43,19 @@ public class PictureToWordsModeActivity extends MyActivity {
     List<Integer> shuff = new ArrayList<Integer>(4);
     Timer timer = new Timer();
     final Handler handler = new Handler();
+
+    public void addOnTouchEvent(final TextView target, final int n) {
+        target.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    processAnswer(n);
+                }
+                return false;
+            }
+
+        });
+    }
 
 
     private void processAnswer(int i) {
@@ -97,30 +113,10 @@ public class PictureToWordsModeActivity extends MyActivity {
         origins = resources.getStringArray(resID);
         updateScreen();
 
-        leftTop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                processAnswer(0);
-            }
-        });
-        leftBottom.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                processAnswer(1);
-            }
-        });
-        rightTop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                processAnswer(2);
-            }
-        });
-        rightBottom.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                processAnswer(3);
-            }
-        });
+        addOnTouchEvent(leftTop, 0);
+        addOnTouchEvent(leftBottom, 1);
+        addOnTouchEvent(rightTop, 2);
+        addOnTouchEvent(rightBottom, 3);
     }
 
     public void updateScreen() {

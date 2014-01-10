@@ -34,7 +34,7 @@ public class CategoriesActivity extends MyActivity {
         } catch (SQLException e) {
             Log.e("oh my god dat ril exception", "", e);
         }
-        localizedCategories = General.getLocalizedResources(this, General.fromLocale).getStringArray(R.array.category);
+        localizedCategories = getLocalizedResources(this, General.fromLocale).getStringArray(R.array.category);
         final CategoryListAdapter adapter = new CategoryListAdapter(this, android.R.layout.simple_list_item_1, values);
         categories.setAdapter(adapter);
         categories.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -78,7 +78,7 @@ public class CategoriesActivity extends MyActivity {
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(this,LanguageChoosingActivity.class));
+        moveTaskToBack(true);
     }
 
     public class CategoryListAdapter extends ArrayAdapter<Category> {
