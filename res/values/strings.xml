@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IfmoFlashCards</string>
+    <string name="text_sample">Some Text</string>
+    <string name="check">Check</string>
+    <string name="welcome_message">Welcome to FlashCards app. Please, choose your native language and one you want to learn</string>
+    <string name="goButton">Go!</string>
+    <string name="iKnow">My language</string>
+    <string name="iWantToKnow">I want to know</string>
+    <string name="cantBeEqual">Choose different languages</string>
+    <string name="categories">Categories</string>
+    <string name="training">Training</string>
+    <string name="right_answer">Right answer</string>
+    <string name="your_answer">Your answer</string>
+    <string name="i_know">I know</string>
+    <string name="i_dont_know">I don`t know</string>
+    <string name="category">Category</string>
+    <string name="i_was_right">I was right</string>
+    <string name="i_was_wrong">I was wrong</string>
+    <string name="choose_mode">Choose mode</string>
+    <string name="all_in_row">In a row</string>
+    <string name="word_to_picture">Choose picture</string>
+    <string name="picture_to_word">Choose translate</string>
+    <string-array name="category">
+        <item>Animals</item>
+        <item>Bodyparts</item>
+        <item>Clothes&amp;Shoes</item>
+        <item>Diseases</item>
+        <item>Feelings</item>
+        <item>Food&amp;Drink</item>
+        <item>House</item>
+        <item>Hobbies</item>
+        <item>Trees&amp;Plants</item>
+        <item>Weather</item>
+    </string-array>
+    <string-array name="category1">
+        <item>Beaver</item>
+        <item>Cat</item>
+        <item>Cow</item>
+        <item>Raven</item>
+        <item>Dog</item>
+        <item>Dolphin</item>
+        <item>Fox</item>
+        <item>Hamster</item>
+        <item>Horse</item>
+        <item>Penguin</item>
+    </string-array>
+    <string-array name="category2">
+        <item>Beard</item>
+        <item>Breast</item>
+        <item>Ears</item>
+        <item>Eye</item>
+        <item>Eyelashes</item>
+        <item>Hand</item>
+        <item>Heel</item>
+        <item>Leg</item>
+        <item>Nose</item>
+        <item>Finger</item>
+    </string-array>
+    <string-array name="category3">
+        <item>Belt</item>
+        <item>Boots</item>
+        <item>Cap</item>
+        <item>Dress</item>
+        <item>Hat</item>
+        <item>Shoes</item>
+        <item>Shirt</item>
+        <item>Trainers</item>
+        <item>Trousers</item>
+        <item>T-Shirt</item>
+    </string-array>
+    <string-array name="category4">
+        <item>Asthma</item>
+        <item>Cough</item>
+        <item>Medicine</item>
+        <item>Flu</item>
+        <item>Headache</item>
+        <item>Insomnia</item>
+        <item>Indigestion</item>
+        <item>Toothache</item>
+        <item>Treatment</item>
+        <item>Wound</item>
+    </string-array>
+    <string-array name="category5">
+        <item>Rage</item>
+        <item>Crying</item>
+        <item>Disgust</item>
+        <item>Happiness</item>
+        <item>Hunger</item>
+        <item>Jealousy</item>
+        <item>Laziness</item>
+        <item>Sadness</item>
+        <item>Thirst</item>
+        <item>Trust</item>
+    </string-array>
+    <string-array name="category6">
+        <item>Apple</item>
+        <item>Beer</item>
+        <item>Chicken</item>
+        <item>Dumplings</item>
+        <item>Lasagna</item>
+        <item>Pasta</item>
+        <item>Olivier</item>
+        <item>Pineapple</item>
+        <item>Barbecue</item>
+        <item>Tea</item>
+    </string-array>
+    <string-array name="category7">
+        <item>Bath</item>
+        <item>Bed</item>
+        <item>Chair</item>
+        <item>Sofa</item>
+        <item>House</item>
+        <item>Wardrobe</item>
+        <item>Shelf</item>
+        <item>Sink</item>
+        <item>Table</item>
+        <item>Window</item>
+    </string-array>
+    <string-array name="category8">
+        <item>Bicycle</item>
+        <item>Snowboard</item>
+        <item>Glider</item>
+        <item>Guitar</item>
+        <item>Motorcycle</item>
+        <item>Piano</item>
+        <item>Rod</item>
+        <item>Skates</item>
+        <item>Skiing</item>
+        <item>Trumpet</item>
+    </string-array>
+    <string-array name="category9">
+        <item>Baobab</item>
+        <item>Birch</item>
+        <item>Daisy</item>
+        <item>Cherry</item>
+        <item>Cactus</item>
+        <item>Tumbleweed</item>
+        <item>Spruce</item>
+        <item>Rose</item>
+        <item>Strawberries</item>
+        <item>Tulip</item>
+    </string-array>
+    <string-array name="category10">
+        <item>Night</item>
+        <item>Wind</item>
+        <item>Clouds</item>
+        <item>Drought</item>
+        <item>Fog</item>
+        <item>Hurricane</item>
+        <item>Rain</item>
+        <item>Snow</item>
+        <item>Sun</item>
+        <item>Tsunami</item>
+    </string-array>
+</resources>

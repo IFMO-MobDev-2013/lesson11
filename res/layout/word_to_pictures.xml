@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_sample"
+                android:id="@+id/wordtopicsText"
+                android:textSize="50dp"
+                android:layout_gravity="center" android:gravity="center_horizontal"/>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/rel">
+            <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:id="@+id/tableLayout">
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp" android:paddingBottom="2dp" android:layout_weight="1">
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView" android:layout_column="0" android:src="@drawable/unavailable"
+                            android:layout_weight="1" android:layout_marginRight="5dp" android:layout_marginLeft="5dp"
+                            android:clickable="true" android:focusable="true" android:focusableInTouchMode="true"
+                            />
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView2" android:layout_column="1" android:src="@drawable/unavailable"
+                            android:layout_weight="1" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+                            android:clickable="true" android:focusable="true" android:focusableInTouchMode="true"
+                            />
+                </TableRow>
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp" android:layout_weight="1">
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView3" android:layout_column="0" android:src="@drawable/unavailable"
+                            android:layout_marginRight="5dp" android:layout_marginLeft="5dp"
+                            android:focusableInTouchMode="true" android:focusable="true" android:clickable="true"
+                            android:layout_weight="1"/>
+                    <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView5" android:src="@drawable/unavailable"
+                            android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+                            android:focusableInTouchMode="true" android:focusable="true" android:clickable="true"
+                            android:layout_gravity="center" android:layout_weight="1"/>
+                </TableRow>
+            </TableLayout>
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/result" android:layout_centerInParent="true" android:visibility="invisible"
+                    android:src="@drawable/correct"/>
+        </RelativeLayout>
+
+    </LinearLayout><!--
+</ScrollView>-->

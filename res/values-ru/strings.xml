@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IfmoFlashCards</string>
+    <string name="text_sample">Some Text</string>
+    <string name="check">Проверить</string>
+    <string name="welcome_message">Добро пожаловать в приложение FlashCards. Пожалуйста, выберите свой родной язык и язык, который вы будете изучать</string>
+    <string name="goButton">Поехали!</string>
+    <string name="iKnow">Родной язык</string>
+    <string name="iWantToKnow">Я хочу выучить</string>
+    <string name="cantBeEqual">Выберите разные языки</string>
+    <string name="categories">Категории</string>
+    <string name="training">Тренировка</string>
+    <string name="right_answer">Правильный ответ</string>
+    <string name="your_answer">Ваш ответ</string>
+    <string name="i_know">Я знаю</string>
+    <string name="i_dont_know">Я не знаю</string>
+    <string name="category">Категория</string>
+    <string name="i_was_right">Я знал</string>
+    <string name="i_was_wrong">Я был неправ</string>
+    <string name="choose_mode">Выберите режим</string>
+    <string name="all_in_row">Подряд</string>
+    <string name="word_to_picture">Выбери картинку</string>
+    <string name="picture_to_word">Выбери перевод</string>
+    <string-array name="category">
+        <item>Животные</item>
+        <item>Части тела</item>
+        <item>Одежда и обувь</item>
+        <item>Болезни</item>
+        <item>Чувства</item>
+        <item>Еда и напитки</item>
+        <item>Дом</item>
+        <item>Увлечения</item>
+        <item>Растения</item>
+        <item>Погода</item>
+    </string-array>
+    <string-array name="category1">
+        <item>Бобр</item>
+        <item>Кошка</item>
+        <item>Корова</item>
+        <item>Ворон</item>
+        <item>Собака</item>
+        <item>Дельфин</item>
+        <item>Лиса</item>
+        <item>Хомяк</item>
+        <item>Лошадь</item>
+        <item>Пингвин</item>
+    </string-array>
+    <string-array name="category2">
+        <item>Борода</item>
+        <item>Грудь</item>
+        <item>Уши</item>
+        <item>Глаз</item>
+        <item>Ресницы</item>
+        <item>Рука</item>
+        <item>Пятка</item>
+        <item>Нога</item>
+        <item>Нос</item>
+        <item>Палец</item>
+    </string-array>
+    <string-array name="category3">
+        <item>Ремень</item>
+        <item>Сапог</item>
+        <item>Кепка</item>
+        <item>Платье</item>
+        <item>Шляпа</item>
+        <item>Туфли</item>
+        <item>Рубашка</item>
+        <item>Кроссовки</item>
+        <item>Брюки</item>
+        <item>Футболка</item>
+    </string-array>
+    <string-array name="category4">
+        <item>Астма</item>
+        <item>Кашель</item>
+        <item>Лекарство</item>
+        <item>Грипп</item>
+        <item>Головная боль</item>
+        <item>Бессоница</item>
+        <item>Несварение</item>
+        <item>Зубная боль</item>
+        <item>Лечение</item>
+        <item>Рана</item>
+    </string-array>
+    <string-array name="category5">
+        <item>Злость</item>
+        <item>Плач</item>
+        <item>Отвращение</item>
+        <item>Радость</item>
+        <item>Голод</item>
+        <item>Зависть</item>
+        <item>Лень</item>
+        <item>Грусть</item>
+        <item>Жажда</item>
+        <item>Доверие</item>
+    </string-array>
+    <string-array name="category6">
+        <item>Яблоко</item>
+        <item>Пиво</item>
+        <item>Курица</item>
+        <item>Пельмени</item>
+        <item>Лазанья</item>
+        <item>Макароны</item>
+        <item>Оливье</item>
+        <item>Ананас</item>
+        <item>Шашлык</item>
+        <item>Чай</item>
+    </string-array>
+    <string-array name="category7">
+        <item>Ванна</item>
+        <item>Кровать</item>
+        <item>Стул</item>
+        <item>Диван</item>
+        <item>Дом</item>
+        <item>Шкаф</item>
+        <item>Полка</item>
+        <item>Раковина</item>
+        <item>Стол</item>
+        <item>Окно</item>
+    </string-array>
+    <string-array name="category8">
+        <item>Велосипед</item>
+        <item>Сноуборд</item>
+        <item>Дельтаплан</item>
+        <item>Гитара</item>
+        <item>Мотоцикл</item>
+        <item>Рояль</item>
+        <item>Удочка</item>
+        <item>Коньки</item>
+        <item>Лыжи</item>
+        <item>Труба</item>
+    </string-array>
+    <string-array name="category9">
+        <item>Баобаб</item>
+        <item>Берёза</item>
+        <item>Ромашка</item>
+        <item>Вишня</item>
+        <item>Кактус</item>
+        <item>Перекати-поле</item>
+        <item>Ель</item>
+        <item>Роза</item>
+        <item>Земляника</item>
+        <item>Тюльпан</item>
+    </string-array>
+    <string-array name="category10">
+        <item>Ночь</item>
+        <item>Ветер</item>
+        <item>Облака</item>
+        <item>Засуха</item>
+        <item>Туман</item>
+        <item>Ураган</item>
+        <item>Дождь</item>
+        <item>Снег</item>
+        <item>Солнце</item>
+        <item>Цунами</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ru.ifmo.ctddev.isaev.FlashCards"
+          android:versionCode="8"
+          android:versionName="1.4">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10">
+
+    </uses-sdk>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <application android:name="ru.ifmo.ctddev.isaev.MyApplication" android:label="@string/app_name"
+                 android:icon="@drawable/icon"
+            >
+
+        <activity android:name="ru.ifmo.ctddev.isaev.LanguageChoosingActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.ifmo.ctddev.isaev.CategoriesActivity"
+                  android:label="@string/categories">
+        </activity>
+        <activity android:name="ru.ifmo.ctddev.isaev.SingleTrainingActivity"
+                  android:label="@string/training">
+        </activity>
+        <activity android:name="ru.ifmo.ctddev.isaev.PictureToWordsModeActivity"
+                  android:label="@string/picture_to_word">
+        </activity>
+        <activity android:name="ru.ifmo.ctddev.isaev.WordToPicturesModeActivity"
+                  android:label="@string/word_to_picture">
+        </activity>
+
+
+        <!-- НАЧАЛО -->
+
+        <!-- Optional field. Can be set programmatically. -->
+        <meta-data android:name="metrica:api:key" android:value="16045"/>
+
+        <service android:name="com.yandex.metrica.MetricaService" android:process=":Metrica">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.yandex.metrica.IMetricaService"/>
+                <data android:scheme="metrica"/>
+            </intent-filter>
+            <meta-data android:name="metrica:api:level" android:value="1"/>
+        </service>
+
+        <receiver android:name="com.yandex.metrica.MetricaEventHandler">
+            <intent-filter>
+                <action android:name="com.yandex.metrica.intent.action.SYNC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.yandex.metrica.CampaignReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+
+        <provider
+                android:name="ru.ifmo.ctddev.isaev.MetricaContentProvider"
+                android:authorities="ROOT_PACKAGE_PATH.MetricaContentProvider"
+                android:exported="true"/>
+
+        <!-- КОНЕЦ -->
+
+
+    </application>
+</manifest>
