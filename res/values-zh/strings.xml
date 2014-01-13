@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">闪存卡</string>
+    <string name="learn_button">一句话，一张图片</string>
+    <string name="test_word">一个字，四象</string>
+    <string name="test_image">一个图像，四个字</string>
+    <string name="learning">学习</string>
+    <string name="testing">测试</string>
+    <string-array name="words">
+        <item>山</item>
+        <item>湖</item>
+        <item>河</item>
+        <item>天空</item>
+        <item>森林</item>
+        <item>日落</item>
+        <item>露</item>
+        <item>雨</item>
+        <item>海</item>
+        <item>沙漠</item>
+
+        <item>火车</item>
+        <item>机</item>
+        <item>旅馆</item>
+        <item>机</item>
+        <item>票</item>
+        <item>行李</item>
+        <item>使馆</item>
+        <item>机场</item>
+        <item>餐厅</item>
+        <item>博物馆</item>
+
+        <item>连衣裙</item>
+        <item>鞋</item>
+        <item>腰带</item>
+        <item>领带</item>
+        <item>衬衫</item>
+        <item>裙子</item>
+        <item>帽子</item>
+        <item>裘</item>
+        <item>外套</item>
+        <item>夹克</item>
+
+        <item>手</item>
+        <item>头</item>
+        <item>后面</item>
+        <item>胃</item>
+        <item>腿</item>
+        <item>眼</item>
+        <item>弯头</item>
+        <item>膝盖</item>
+        <item>前额</item>
+        <item>手指</item>
+
+        <item>椅子</item>
+        <item>沙发</item>
+        <item>表</item>
+        <item>灯</item>
+        <item>床</item>
+        <item>水槽</item>
+        <item>床头柜</item>
+        <item>椅子</item>
+        <item>壁炉</item>
+        <item>橱柜</item>
+
+        <item>明星</item>
+        <item>太阳</item>
+        <item>星系</item>
+        <item>彗星</item>
+        <item>小行星</item>
+        <item>星云</item>
+        <item>宇宙</item>
+        <item>日食</item>
+        <item>星座</item>
+        <item>卫星</item>
+
+        <item>狗</item>
+        <item>猫</item>
+        <item>牛</item>
+        <item>马</item>
+        <item>猪</item>
+        <item>狮子</item>
+        <item>象</item>
+        <item>袋鼠</item>
+        <item>承担</item>
+        <item>长颈鹿</item>
+
+        <item>牛奶</item>
+        <item>鸡蛋</item>
+        <item>面粉</item>
+        <item>水</item>
+        <item>面包</item>
+        <item>肉</item>
+        <item>鱼</item>
+        <item>盐</item>
+        <item>茶</item>
+        <item>咖啡</item>
+
+        <item>甲虫</item>
+        <item>蟑螂</item>
+        <item>蜜蜂</item>
+        <item>黄蜂</item>
+        <item>蚊子</item>
+        <item>毛虫</item>
+        <item>蝴蝶</item>
+        <item>飞</item>
+        <item>蜘蛛</item>
+        <item>蚱蜢</item>
+
+        <item>俄国</item>
+        <item>美国</item>
+        <item>法国</item>
+        <item>德国</item>
+        <item>日本</item>
+        <item>中国</item>
+        <item>巴西</item>
+        <item>加拿大</item>
+        <item>挪威</item>
+        <item>印度</item>
+    </string-array>
+</resources>

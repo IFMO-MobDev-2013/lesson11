@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="3"
+            android:id="@+id/image" android:layout_gravity="center_horizontal|top"
+            android:contentDescription="@string/picture"/>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_weight="1"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/but1"
+                    android:onClick="checkAnswer"
+                    android:width="100dp">
+            </Button>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/but2"
+                    android:onClick="checkAnswer"
+                    android:width="100dp">
+            </Button>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/but3"
+                    android:onClick="checkAnswer"
+                    android:width="100dp">
+            </Button>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/but4"
+                    android:onClick="checkAnswer"
+                    android:width="100dp">
+            </Button>
+        </TableRow>
+
+    </TableLayout>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:id="@+id/imageV"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:contentDescription="@string/picture"/>
+</LinearLayout>

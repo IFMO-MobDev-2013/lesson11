@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>性质</item>
+        <item>旅游</item>
+        <item>服装</item>
+        <item>男人</item>
+        <item>家具</item>
+        <item>空间</item>
+        <item>动物</item>
+        <item>食品和饮料</item>
+        <item>昆虫</item>
+        <item>国家</item>
+    </string-array>
+</resources>
