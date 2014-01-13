@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Японские карточки</string>
+    <string name="school">Школа</string>
+    <string name="hospital">Больница</string>
+    <string name="cafe">Кафе</string>
+    <string name="shopping">Шоппинг</string>
+    <string name="house">Дом</string>
+    <string name="work">Работа</string>
+    <string name="weather">Погода</string>
+    <string name="food">Еда</string>
+    <string name="sports">Спорт</string>
+    <string name="street">Улица</string>
+
+    <string name="w_0_0_tr">Учебник</string>
+    <string name="w_0_1_tr">Карандаш</string>
+    <string name="w_0_2_tr">Класс</string>
+    <string name="w_0_3_tr">Доска</string>
+    <string name="w_0_4_tr">Домашнее задание</string>
+    <string name="w_0_5_tr">Учитель</string>
+    <string name="w_0_6_tr">Мел</string>
+    <string name="w_0_7_tr">Портфель</string>
+    <string name="w_0_8_tr">Форма</string>
+    <string name="w_0_9_tr">Библиотека</string>
+
+    <string name="w_1_0_tr">Медсестра</string>
+    <string name="w_1_1_tr">Врач</string>
+    <string name="w_1_2_tr">Болезнь</string>
+    <string name="w_1_3_tr">Простуда</string>
+    <string name="w_1_4_tr">Лекарство</string>
+    <string name="w_1_5_tr">Шприц</string>
+    <string name="w_1_6_tr">Клиника</string>
+    <string name="w_1_7_tr">Скорая помощь</string>
+    <string name="w_1_8_tr">Рецепт</string>
+    <string name="w_1_9_tr">Магнитно-Резонансная томография</string>
+
+    <string name="w_2_0_tr">Кафе</string>
+    <string name="w_2_1_tr">Ужин</string>
+    <string name="w_2_2_tr">Официант</string>
+    <string name="w_2_3_tr">Мясо</string>
+    <string name="w_2_4_tr">Овощи</string>
+    <string name="w_2_5_tr">Чай</string>
+    <string name="w_2_6_tr">Суп</string>
+    <string name="w_2_7_tr">Соль</string>
+    <string name="w_2_8_tr">Перец</string>
+    <string name="w_2_9_tr">Ложка</string>
+
+    <string name="w_3_0_tr">Универмаг</string>
+    <string name="w_3_1_tr">Наличные</string>
+    <string name="w_3_2_tr">Серьги</string>
+    <string name="w_3_3_tr">Куртка</string>
+    <string name="w_3_4_tr">Джинсы</string>
+    <string name="w_3_5_tr">Витрина</string>
+    <string name="w_3_6_tr">Охрана</string>
+    <string name="w_3_7_tr">Манекен</string>
+    <string name="w_3_8_tr">Подарок</string>
+    <string name="w_3_9_tr">Мобильный телефон</string>
+
+    <string name="w_4_0_tr">Стена</string>
+    <string name="w_4_1_tr">Окно</string>
+    <string name="w_4_2_tr">Кровать</string>
+    <string name="w_4_3_tr">Картина</string>
+    <string name="w_4_4_tr">Потолок</string>
+    <string name="w_4_5_tr">Дверь</string>
+    <string name="w_4_6_tr">Комната</string>
+    <string name="w_4_7_tr">Пол</string>
+    <string name="w_4_8_tr">Телевизор</string>
+    <string name="w_4_9_tr">Диван</string>
+
+    <string name="w_5_0_tr">Офис</string>
+    <string name="w_5_1_tr">Бумага</string>
+    <string name="w_5_2_tr">Письмо</string>
+    <string name="w_5_3_tr">Компьютер</string>
+    <string name="w_5_4_tr">Принтер</string>
+    <string name="w_5_5_tr">Менеджер</string>
+    <string name="w_5_6_tr">Ноутбук</string>
+    <string name="w_5_7_tr">Cтэплер</string>
+    <string name="w_5_8_tr">Собрание</string>
+    <string name="w_5_9_tr">План</string>
+
+    <string name="w_6_0_tr">Погода</string>
+    <string name="w_6_1_tr">Дождь</string>
+    <string name="w_6_2_tr">Снег</string>
+    <string name="w_6_3_tr">Ураган</string>
+    <string name="w_6_4_tr">Солнце</string>
+    <string name="w_6_5_tr">Луна</string>
+    <string name="w_6_6_tr">Облако</string>
+    <string name="w_6_7_tr">Град</string>
+    <string name="w_6_8_tr">Шторм</string>
+    <string name="w_6_9_tr">Лед</string>
+
+    <string name="w_7_0_tr">Говядина</string>
+    <string name="w_7_1_tr">Свинина</string>
+    <string name="w_7_2_tr">Морковь</string>
+    <string name="w_7_3_tr">Картофель</string>
+    <string name="w_7_4_tr">Рис</string>
+    <string name="w_7_5_tr">Паста</string>
+    <string name="w_7_6_tr">Пицца</string>
+    <string name="w_7_7_tr">Помидор</string>
+    <string name="w_7_8_tr">Огурец</string>
+    <string name="w_7_9_tr">Рыба</string>
+
+    <string name="w_8_0_tr">Футбол</string>
+    <string name="w_8_1_tr">Баскетбол</string>
+    <string name="w_8_2_tr">Теннис</string>
+    <string name="w_8_3_tr">Волейбол</string>
+    <string name="w_8_4_tr">Лыжи</string>
+    <string name="w_8_5_tr">Бейсбол</string>
+    <string name="w_8_6_tr">Хоккей</string>
+    <string name="w_8_7_tr">Легкая атлетика</string>
+    <string name="w_8_8_tr">Биатлон</string>
+    <string name="w_8_9_tr">Автоспорт</string>
+
+    <string name="w_9_0_tr">Город</string>
+    <string name="w_9_1_tr">Улица</string>
+    <string name="w_9_2_tr">Мостовая</string>
+    <string name="w_9_3_tr">Здание</string>
+    <string name="w_9_4_tr">Небоскреб</string>
+    <string name="w_9_5_tr">Дерево</string>
+    <string name="w_9_6_tr">Парк</string>
+    <string name="w_9_7_tr">Стадион</string>
+    <string name="w_9_8_tr">Набережная</string>
+    <string name="w_9_9_tr">Автомобиль</string>
+
+    <string name="statistics">Статистика</string>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="school">学校</string>
+    <string name="hospital">医院</string>
+    <string name="cafe">咖啡馆</string>
+    <string name="shopping">购物</string>
+    <string name="house">住宅</string>
+    <string name="work">工作</string>
+    <string name="weather">天气</string>
+    <string name="food">食物</string>
+    <string name="sports">体育</string>
+    <string name="street">街头</string>
+    <string name="app_name">日本卡</string>
+
+
+    <string name="w_0_0_tr">教科书</string>
+    <string name="w_0_1_tr">铅笔</string>
+    <string name="w_0_2_tr">课堂</string>
+    <string name="w_0_3_tr">板</string>
+    <string name="w_0_4_tr">家庭作业</string>
+    <string name="w_0_5_tr">老师</string>
+    <string name="w_0_6_tr">粉笔</string>
+    <string name="w_0_7_tr">投资组合</string>
+    <string name="w_0_8_tr">校服</string>
+    <string name="w_0_9_tr">文库</string>
+
+    <string name="w_1_0_tr">护士</string>
+    <string name="w_1_1_tr">医生</string>
+    <string name="w_1_2_tr">病</string>
+    <string name="w_1_3_tr">冷</string>
+    <string name="w_1_4_tr">医药</string>
+    <string name="w_1_5_tr">注射器</string>
+    <string name="w_1_6_tr">诊所</string>
+    <string name="w_1_7_tr">救护车</string>
+    <string name="w_1_8_tr">食谱</string>
+    <string name="w_1_9_tr">磁共振成像</string>
+
+    <string name="w_2_0_tr">咖啡馆</string>
+    <string name="w_2_1_tr">晚餐</string>
+    <string name="w_2_2_tr">服务员</string>
+    <string name="w_2_3_tr">肉</string>
+    <string name="w_2_4_tr">蔬菜</string>
+    <string name="w_2_5_tr">茶</string>
+    <string name="w_2_6_tr">汤</string>
+    <string name="w_2_7_tr">盐</string>
+    <string name="w_2_8_tr">胡椒</string>
+    <string name="w_2_9_tr">勺</string>
+
+    <string name="w_3_0_tr">店</string>
+    <string name="w_3_1_tr">现金</string>
+    <string name="w_3_2_tr">耳环</string>
+    <string name="w_3_3_tr">夹克</string>
+    <string name="w_3_4_tr">牛仔裤</string>
+    <string name="w_3_5_tr">橱窗</string>
+    <string name="w_3_6_tr">保护</string>
+    <string name="w_3_7_tr">模特</string>
+    <string name="w_3_8_tr">礼物</string>
+    <string name="w_3_9_tr">手机</string>
+
+    <string name="w_4_0_tr">墙</string>
+    <string name="w_4_1_tr">窗口</string>
+    <string name="w_4_2_tr">床</string>
+    <string name="w_4_3_tr">图片</string>
+    <string name="w_4_4_tr">天花板</string>
+    <string name="w_4_5_tr">门</string>
+    <string name="w_4_6_tr">房间</string>
+    <string name="w_4_7_tr">地板</string>
+    <string name="w_4_8_tr">电视</string>
+    <string name="w_4_9_tr">沙发</string>
+
+    <string name="w_5_0_tr">办公室</string>
+    <string name="w_5_1_tr">纸</string>
+    <string name="w_5_2_tr">信</string>
+    <string name="w_5_3_tr">电脑</string>
+    <string name="w_5_4_tr">打印机</string>
+    <string name="w_5_5_tr">经理</string>
+    <string name="w_5_6_tr">笔记本</string>
+    <string name="w_5_7_tr">订书机</string>
+    <string name="w_5_8_tr">会议</string>
+    <string name="w_5_9_tr">计划</string>
+
+    <string name="w_6_0_tr">天气</string>
+    <string name="w_6_1_tr">雨</string>
+    <string name="w_6_2_tr">雪</string>
+    <string name="w_6_3_tr">飓风</string>
+    <string name="w_6_4_tr">太阳</string>
+    <string name="w_6_5_tr">月亮</string>
+    <string name="w_6_6_tr">云</string>
+    <string name="w_6_7_tr">冰雹</string>
+    <string name="w_6_8_tr">风暴</string>
+    <string name="w_6_9_tr">冰</string>
+
+    <string name="w_7_0_tr">牛肉</string>
+    <string name="w_7_1_tr">猪肉</string>
+    <string name="w_7_2_tr">红萝卜</string>
+    <string name="w_7_3_tr">土豆</string>
+    <string name="w_7_4_tr">饭</string>
+    <string name="w_7_5_tr">面食</string>
+    <string name="w_7_6_tr">比萨</string>
+    <string name="w_7_7_tr">西红柿</string>
+    <string name="w_7_8_tr">黄瓜</string>
+    <string name="w_7_9_tr">鱼</string>
+
+    <string name="w_8_0_tr">足球</string>
+    <string name="w_8_1_tr">篮球</string>
+    <string name="w_8_2_tr">网球</string>
+    <string name="w_8_3_tr">排球</string>
+    <string name="w_8_4_tr">滑雪</string>
+    <string name="w_8_5_tr">棒球</string>
+    <string name="w_8_6_tr">曲棍球</string>
+    <string name="w_8_7_tr">田径</string>
+    <string name="w_8_8_tr">冬季两项</string>
+    <string name="w_8_9_tr">赛车</string>
+
+    <string name="w_9_0_tr">城市</string>
+    <string name="w_9_1_tr">街头</string>
+    <string name="w_9_2_tr">巷道</string>
+    <string name="w_9_3_tr">建筑</string>
+    <string name="w_9_4_tr">摩天大楼</string>
+    <string name="w_9_5_tr">树</string>
+    <string name="w_9_6_tr">公园</string>
+    <string name="w_9_7_tr">体育场</string>
+    <string name="w_9_8_tr">堤</string>
+    <string name="w_9_9_tr">汽车</string>
+</resources>
