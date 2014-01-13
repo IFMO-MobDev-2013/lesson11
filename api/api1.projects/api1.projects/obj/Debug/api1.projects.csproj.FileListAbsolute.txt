@@ -1,0 +1,4 @@
+C:\Users\Mikhail\Desktop\api1.projects\api1.projects\bin\api1.projects.dll
+C:\Users\Mikhail\Desktop\api1.projects\api1.projects\bin\api1.projects.pdb
+C:\Users\Mikhail\Desktop\api1.projects\api1.projects\obj\Debug\api1.projects.dll
+C:\Users\Mikhail\Desktop\api1.projects\api1.projects\obj\Debug\api1.projects.pdb
