@@ -31,18 +31,12 @@ Avant-bras
 Foot
 Стопа
 Arrêt
-Neck
-Шея
-Cou
 Teeth
 Зубы
 Les dents
 Eye
 Глаз
 Yeux
-Lips
-Губы
-Lèvres
 Finger
 Палец
 Doigt

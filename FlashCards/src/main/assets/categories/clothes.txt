@@ -16,12 +16,9 @@ Bottes
 Cap
 Кепка
 Casquette
-Dress
-Платье
-Robe
 Costume
 Костюм
-Costume
+Suit
 Coat
 Пиджак
 Veste
@@ -31,15 +28,9 @@ Chaussette
 Hat
 Шляпа
 Chapeau
-Gloves
-Перчатки
-Gants
 Scarf
 Шарф
 Écharpe
-Tie
-Галстук
-Cravate
 Swimsuit
 Купальник
 Maillot de bain

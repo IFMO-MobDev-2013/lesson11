@@ -1,9 +1,6 @@
 In the city
 В городе
 Dans la ville
-Park
-Парк
-Le parc
 Embassy
 Посольство
 L'ambassade de
@@ -28,9 +25,6 @@ Square
 Theatre
 Театр
 Théâtre
-Univercity
-Университет
-Université
 Temple
 Храм
 Le temple
