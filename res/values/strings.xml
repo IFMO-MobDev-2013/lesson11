@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JapFlashcards</string>
+    <string name="school">School</string>
+    <string name="hospital">Hospital</string>
+    <string name="cafe">Cafe</string>
+    <string name="shopping">Shopping</string>
+    <string name="house">House</string>
+    <string name="work">Work</string>
+    <string name="weather">Weather</string>
+    <string name="food">Food</string>
+    <string name="sports">Sports</string>
+    <string name="street">Street</string>
+
+    <string name="w_0_0_jp">教科書</string>
+    <string name="w_0_1_jp">鉛筆</string>
+    <string name="w_0_2_jp">教室</string>
+    <string name="w_0_3_jp">黒板</string>
+    <string name="w_0_4_jp">宿題</string>
+    <string name="w_0_5_jp">先生</string>
+    <string name="w_0_6_jp">チョーク</string>
+    <string name="w_0_7_jp">鞄</string>
+    <string name="w_0_8_jp">制服</string>
+    <string name="w_0_9_jp">図書館</string>
+
+    <string name="w_0_0_tr">Studying book</string>
+    <string name="w_0_1_tr">Pencil</string>
+    <string name="w_0_2_tr">Classroom</string>
+    <string name="w_0_3_tr">Blackboard</string>
+    <string name="w_0_4_tr">Homework</string>
+    <string name="w_0_5_tr">Teacher</string>
+    <string name="w_0_6_tr">Chalk</string>
+    <string name="w_0_7_tr">Bag</string>
+    <string name="w_0_8_tr">Uniform</string>
+    <string name="w_0_9_tr">Library</string>
+
+    <string name="w_1_0_jp">看護師</string>
+    <string name="w_1_1_jp">医師</string>
+    <string name="w_1_2_jp">病気</string>
+    <string name="w_1_3_jp">風邪</string>
+    <string name="w_1_4_jp">薬</string>
+    <string name="w_1_5_jp">注射器</string>
+    <string name="w_1_6_jp">医院</string>
+    <string name="w_1_7_jp">救急車</string>
+    <string name="w_1_8_jp">処方箋</string>
+    <string name="w_1_9_jp">磁気共鳴画像</string>
+
+    <string name="w_1_0_tr">Nurse</string>
+    <string name="w_1_1_tr">Doctor</string>
+    <string name="w_1_2_tr">Illness</string>
+    <string name="w_1_3_tr">Cold</string>
+    <string name="w_1_4_tr">Medicine</string>
+    <string name="w_1_5_tr">Syringe</string>
+    <string name="w_1_6_tr">Clinic</string>
+    <string name="w_1_7_tr">Ambulance</string>
+    <string name="w_1_8_tr">Prescription</string>
+    <string name="w_1_9_tr">Magnetic Resonance Imaging</string>
+
+    <string name="w_2_0_jp">茶店</string>
+    <string name="w_2_1_jp">夕食</string>
+    <string name="w_2_2_jp">ウェイター</string>
+    <string name="w_2_3_jp">肉</string>
+    <string name="w_2_4_jp">野菜</string>
+    <string name="w_2_5_jp">茶</string>
+    <string name="w_2_6_jp">吸物</string>
+    <string name="w_2_7_jp">塩</string>
+    <string name="w_2_8_jp">胡椒</string>
+    <string name="w_2_9_jp">スプーン</string>
+
+    <string name="w_2_0_tr">Cafe</string>
+    <string name="w_2_1_tr">Dinner</string>
+    <string name="w_2_2_tr">Waiter</string>
+    <string name="w_2_3_tr">Meat</string>
+    <string name="w_2_4_tr">Vegetables</string>
+    <string name="w_2_5_tr">Tea</string>
+    <string name="w_2_6_tr">Soup</string>
+    <string name="w_2_7_tr">Salt</string>
+    <string name="w_2_8_tr">Pepper</string>
+    <string name="w_2_9_tr">Spoon</string>
+
+    <string name="w_3_0_jp">デパート</string>
+    <string name="w_3_1_jp">現金</string>
+    <string name="w_3_2_jp">イヤリング</string>
+    <string name="w_3_3_jp">上着</string>
+    <string name="w_3_4_jp">ジーンズ</string>
+    <string name="w_3_5_jp">ショーケース</string>
+    <string name="w_3_6_jp">警備</string>
+    <string name="w_3_7_jp">マネキン</string>
+    <string name="w_3_8_jp">土産</string>
+    <string name="w_3_9_jp">携帯電話</string>
+
+    <string name="w_3_0_tr">Department store</string>
+    <string name="w_3_1_tr">Cash</string>
+    <string name="w_3_2_tr">Earrings</string>
+    <string name="w_3_3_tr">Jacket</string>
+    <string name="w_3_4_tr">Jeans</string>
+    <string name="w_3_5_tr">Showcase</string>
+    <string name="w_3_6_tr">Security</string>
+    <string name="w_3_7_tr">Mannequin</string>
+    <string name="w_3_8_tr">Present</string>
+    <string name="w_3_9_tr">Mobile phone</string>
+
+    <string name="w_4_0_jp">壁</string>
+    <string name="w_4_1_jp">窓</string>
+    <string name="w_4_2_jp">ベッド</string>
+    <string name="w_4_3_jp">絵画</string>
+    <string name="w_4_4_jp">天井</string>
+    <string name="w_4_5_jp">戸</string>
+    <string name="w_4_6_jp">部屋</string>
+    <string name="w_4_7_jp">フロア</string>
+    <string name="w_4_8_jp">テレビ</string>
+    <string name="w_4_9_jp">長椅子</string>
+
+    <string name="w_4_0_tr">Wall</string>
+    <string name="w_4_1_tr">Window</string>
+    <string name="w_4_2_tr">Bed</string>
+    <string name="w_4_3_tr">Painting</string>
+    <string name="w_4_4_tr">Ceiling</string>
+    <string name="w_4_5_tr">Door</string>
+    <string name="w_4_6_tr">Room</string>
+    <string name="w_4_7_tr">Floor</string>
+    <string name="w_4_8_tr">TV</string>
+    <string name="w_4_9_tr">Couch</string>
+
+    <string name="w_5_0_jp">事務所</string>
+    <string name="w_5_1_jp">紙</string>
+    <string name="w_5_2_jp">手紙</string>
+    <string name="w_5_3_jp">コンピューター</string>
+    <string name="w_5_4_jp">プリンタ</string>
+    <string name="w_5_5_jp">主管</string>
+    <string name="w_5_6_jp">ノートPC</string>
+    <string name="w_5_7_jp">ホッチキス</string>
+    <string name="w_5_8_jp">会議</string>
+    <string name="w_5_9_jp">計画</string>
+
+    <string name="w_5_0_tr">Office</string>
+    <string name="w_5_1_tr">Paper</string>
+    <string name="w_5_2_tr">Letter</string>
+    <string name="w_5_3_tr">Computer</string>
+    <string name="w_5_4_tr">Printer</string>
+    <string name="w_5_5_tr">Manager</string>
+    <string name="w_5_6_tr">Laptop</string>
+    <string name="w_5_7_tr">Stapler</string>
+    <string name="w_5_8_tr">Meeting</string>
+    <string name="w_5_9_tr">Plan</string>
+
+    <string name="w_6_0_jp">天候</string>
+    <string name="w_6_1_jp">雨</string>
+    <string name="w_6_2_jp">雪</string>
+    <string name="w_6_3_jp">ハリケーン</string>
+    <string name="w_6_4_jp">太陽</string>
+    <string name="w_6_5_jp">月影</string>
+    <string name="w_6_6_jp">雲</string>
+    <string name="w_6_7_jp">雹</string>
+    <string name="w_6_8_jp">嵐</string>
+    <string name="w_6_9_jp">アイス</string>
+
+    <string name="w_6_0_tr">Weather</string>
+    <string name="w_6_1_tr">Rain</string>
+    <string name="w_6_2_tr">Snow</string>
+    <string name="w_6_3_tr">Hurricane</string>
+    <string name="w_6_4_tr">Sun</string>
+    <string name="w_6_5_tr">Moon</string>
+    <string name="w_6_6_tr">Cloud</string>
+    <string name="w_6_7_tr">Hail</string>
+    <string name="w_6_8_tr">Storm</string>
+    <string name="w_6_9_tr">Ice</string>
+
+    <string name="w_7_0_jp">牛肉</string>
+    <string name="w_7_1_jp">豚肉</string>
+    <string name="w_7_2_jp">ニンジン</string>
+    <string name="w_7_3_jp">ポテト</string>
+    <string name="w_7_4_jp">米</string>
+    <string name="w_7_5_jp">パスタ</string>
+    <string name="w_7_6_jp">ピザ</string>
+    <string name="w_7_7_jp">トマト</string>
+    <string name="w_7_8_jp">キュウリ</string>
+    <string name="w_7_9_jp">魚</string>
+
+    <string name="w_7_0_tr">Beef</string>
+    <string name="w_7_1_tr">Pork</string>
+    <string name="w_7_2_tr">Carrot</string>
+    <string name="w_7_3_tr">Potato</string>
+    <string name="w_7_4_tr">Rice</string>
+    <string name="w_7_5_tr">Pasta</string>
+    <string name="w_7_6_tr">Pizza</string>
+    <string name="w_7_7_tr">Tomato</string>
+    <string name="w_7_8_tr">Cucumber</string>
+    <string name="w_7_9_tr">Fish</string>
+
+    <string name="w_8_0_jp">サッカー</string>
+    <string name="w_8_1_jp">バスケットボール</string>
+    <string name="w_8_2_jp">テニス</string>
+    <string name="w_8_3_jp">バレーボール</string>
+    <string name="w_8_4_jp">スキー</string>
+    <string name="w_8_5_jp">野球</string>
+    <string name="w_8_6_jp">ホッケー</string>
+    <string name="w_8_7_jp">陸上競技</string>
+    <string name="w_8_8_jp">バイアスロン</string>
+    <string name="w_8_9_jp">自動車レース</string>
+
+    <string name="w_8_0_tr">Soccer</string>
+    <string name="w_8_1_tr">Basketball</string>
+    <string name="w_8_2_tr">Tennis</string>
+    <string name="w_8_3_tr">Volleyball</string>
+    <string name="w_8_4_tr">Skiing</string>
+    <string name="w_8_5_tr">Baseball</string>
+    <string name="w_8_6_tr">Hockey</string>
+    <string name="w_8_7_tr">Track and field</string>
+    <string name="w_8_8_tr">Biathlon</string>
+    <string name="w_8_9_tr">Motor racing</string>
+
+    <string name="w_9_0_jp">都市</string>
+    <string name="w_9_1_jp">道</string>
+    <string name="w_9_2_jp">舗装</string>
+    <string name="w_9_3_jp">建物</string>
+    <string name="w_9_4_jp">超高層ビル</string>
+    <string name="w_9_5_jp">木</string>
+    <string name="w_9_6_jp">公園</string>
+    <string name="w_9_7_jp">スタジアム</string>
+    <string name="w_9_8_jp">堤防</string>
+    <string name="w_9_9_jp">車</string>
+
+    <string name="w_9_0_tr">City</string>
+    <string name="w_9_1_tr">Street</string>
+    <string name="w_9_2_tr">Pavement</string>
+    <string name="w_9_3_tr">Building</string>
+    <string name="w_9_4_tr">Skyscraper</string>
+    <string name="w_9_5_tr">Tree</string>
+    <string name="w_9_6_tr">Park</string>
+    <string name="w_9_7_tr">Stadium</string>
+    <string name="w_9_8_tr">Embankment</string>
+    <string name="w_9_9_tr">Car</string>
+
+    <string name="statistics">Statistics</string>
+
+</resources>
