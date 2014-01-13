@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:textSize="20sp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_horizontal|top"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image1"
+                    android:onClick="check"
+
+                    android:contentDescription="@string/picture"/>
+
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image2"
+                    android:onClick="check"
+
+                    android:contentDescription="@string/picture"/>
+        </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image3"
+                android:onClick="check"
+
+                android:contentDescription="@string/picture"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image4"
+                android:onClick="check"
+
+                android:contentDescription="@string/picture"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:id="@+id/imageC"
+            android:layout_weight="0.8"
+            android:visibility="invisible"
+            android:contentDescription="@string/picture" android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

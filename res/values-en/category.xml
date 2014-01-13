@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Nature</item>
+        <item>Travel</item>
+        <item>Clothes</item>
+        <item>Body</item>
+        <item>Furniture</item>
+        <item>Space</item>
+        <item>Animals</item>
+        <item>Food And Drinks</item>
+        <item>Insects</item>
+        <item>Сountries</item>
+    </string-array>
+</resources>

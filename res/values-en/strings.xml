@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flash Cards</string>
+    <string name="learn_button">One word, one picture</string>
+    <string name="test_word">One word, four images</string>
+    <string name="test_image">One image, four words</string>
+    <string name="learning">Learning</string>
+    <string name="testing">Testing</string>
+    <string-array name="words">
+        <item>mountains</item>
+        <item>lake</item>
+        <item>river</item>
+        <item>sky</item>
+        <item>forest</item>
+        <item>sunset</item>
+        <item>dew</item>
+        <item>rain</item>
+        <item>sea</item>
+        <item>desert</item>
+        <item>train</item>
+        <item>plane</item>
+        <item>hotel</item>
+        <item>car</item>
+        <item>ticket</item>
+        <item>luggage</item>
+        <item>embassy</item>
+        <item>airport</item>
+        <item>restaurant</item>
+        <item>museum</item>
+        <item>dress</item>
+        <item>shoes</item>
+        <item>belt</item>
+        <item>tie</item>
+        <item>blouse</item>
+        <item>skirt</item>
+        <item>hat</item>
+        <item>fur coat</item>
+        <item>coat</item>
+        <item>jacket</item>
+        <item>hand</item>
+        <item>head</item>
+        <item>back</item>
+        <item>stomach</item>
+        <item>leg</item>
+        <item>eye</item>
+        <item>elbow</item>
+        <item>knee</item>
+        <item>forehead</item>
+        <item>finger</item>
+        <item>chair</item>
+        <item>sofa</item>
+        <item>table</item>
+        <item>lamp</item>
+        <item>bed</item>
+        <item>sink</item>
+        <item>nightstand</item>
+        <item>armchair</item>
+        <item>fireplace</item>
+        <item>cupboard</item>
+        <item>star</item>
+        <item>sun</item>
+        <item>galaxy</item>
+        <item>comet</item>
+        <item>asteroid</item>
+        <item>nebula</item>
+        <item>universe</item>
+        <item>eclipse</item>
+        <item>constellation</item>
+        <item>satellite</item>
+        <item>dog</item>
+        <item>cat</item>
+        <item>cow</item>
+        <item>horse</item>
+        <item>pig</item>
+        <item>lion</item>
+        <item>elephant</item>
+        <item>kangaroo</item>
+        <item>bear</item>
+        <item>giraffe</item>
+        <item>milk</item>
+        <item>eggs</item>
+        <item>flour</item>
+        <item>water</item>
+        <item>bread</item>
+        <item>meat</item>
+        <item>fish</item>
+        <item>salt</item>
+        <item>tea</item>
+        <item>coffee</item>
+        <item>beetle</item>
+        <item>cockroach</item>
+        <item>bee</item>
+        <item>wasp</item>
+        <item>mosquito</item>
+        <item>caterpillar</item>
+        <item>butterfly</item>
+        <item>fly</item>
+        <item>spider</item>
+        <item>grasshopper</item>
+        <item>Russia</item>
+        <item>United States of America</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Japan</item>
+        <item>China</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Norway</item>
+        <item>India</item>
+    </string-array>
+</resources>
