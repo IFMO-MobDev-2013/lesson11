@@ -1,0 +1,48 @@
+Body
+Тело
+Corps
+Hand
+Рука
+Main
+Leg
+Нога
+La jambe
+Head
+Голова
+Tête
+Heel
+Пятка
+Le talon
+Back
+Спина
+Dos
+Knee
+Колено
+Genou
+Palm
+Ладонь
+Paume de la main
+Shoulder
+Плечо
+Épaule
+Forearm
+Предплечье
+Avant-bras
+Foot
+Стопа
+Arrêt
+Neck
+Шея
+Cou
+Teeth
+Зубы
+Les dents
+Eye
+Глаз
+Yeux
+Lips
+Губы
+Lèvres
+Finger
+Палец
+Doigt

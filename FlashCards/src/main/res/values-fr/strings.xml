@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="categories">Catégories</string>
+    <string name="mode">Sélectionnez le mode de</string>
+    <string name="mode_word">La parole</string>
+    <string name="action_view_words_list">La liste des mots</string>
+    <string name="action_clear_rating">Remettre à zéro la cote</string>
+    <string name="action_know">Sais pas</string>
+    <string name="message_congratulations">Félicitations!</string>
+    <string name="action_finish">Finir</string>
+    <string name="action_try_again">Essayez à nouveau</string>
+    <string name="message_finish_training">Catégories instruite. Vous pouvez terminer votre entraînement et de passer à la liste des catégories ou recommencer</string>
+    <string name="action_do_not_know">Je ne sais pas</string>
+    <string name="mode_translation">Traduction</string>
+    <string name="mode_word_to_translation">La parole → Traduction</string>
+    <string name="mode_translation_to_word">Traduction → La parole</string>
+
+</resources>

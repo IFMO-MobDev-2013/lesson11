@@ -1,0 +1,30 @@
+Weather
+Погода
+Météo
+Storm
+Гроза
+L'orage
+Wind
+Ветер
+Vent
+Cloud
+Облако
+Nuage
+Sun
+Солнце
+Soleil
+Rain
+Дождь
+La pluie
+Snow
+Снег
+Neige
+Hurricane
+Ураган
+L'ouragan
+Flood
+Наводнение
+Inondations
+Tornado
+Смерч
+Une tornade

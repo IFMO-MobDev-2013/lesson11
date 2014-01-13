@@ -1,0 +1,16 @@
+<resources>
+    <string name="categories">Категории</string>
+    <string name="mode">Выберите режим</string>
+    <string name="mode_word">Слово</string>
+    <string name="action_view_words_list">Список слов</string>
+    <string name="action_clear_rating">Сбросить рейтинг</string>
+    <string name="action_know">Знаю</string>
+    <string name="message_congratulations">Поздравляем!</string>
+    <string name="action_finish">Закончить</string>
+    <string name="action_try_again">Начать заново</string>
+    <string name="message_finish_training">Категория выучена. Вы можете закончить тренировку и перейти в список категорий или начать заново</string>
+    <string name="action_do_not_know">Не знаю</string>
+    <string name="mode_translation">Перевод</string>
+    <string name="mode_word_to_translation">Слово → Перевод</string>
+    <string name="mode_translation_to_word">Перевод → Слово</string>
+</resources>
