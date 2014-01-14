@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">FlashCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="word">
+      <item>아빠</item>
+        	<item>엄마</item>
+        	<item>아들</item>
+        	<item>딸 </item>
+        	<item>할머니</item>
+        	<item>할아버지 </item>
+        	<item>결혼식 </item>
+        	<item>링 </item>
+        	<item>생일 </item>
+        	<item>가족 </item>
+        	
+        	<item>다리 </item>
+        	<item>손 </item>
+        	<item>머리 </item>
+        	<item>눈 </item>
+        	<item>귀 </item>
+        	<item>입 </item>
+        	<item>코 </item>
+        	<item>치아 </item>
+        	<item>다시 </item>
+        	<item>위 </item>
+        	
+        	<item>강 </item>
+        	<item>산 </item>
+        	<item>숲 </item>
+        	<item>오션 </item>
+        	<item>사막 </item>
+        	<item>대초원 </item>
+        	<item>호수 </item>
+        	<item>툰드라 </item>
+        	<item>타이 </item>
+        	<item>스타 </item>
+        	
+        	<item>피자 </item>
+        	<item>수프 </item>
+        	<item>샐러드 </item>
+        	<item>차 </item>
+        	<item>커피 </item>
+        	<item>주스 </item>
+        	<item>레모네이드</item>
+        	<item>초콜릿 </item>
+        	<item>쿠키 </item>
+        	<item>커틀릿 </item>
+        	
+        	<item>청바지 </item>
+        	<item> T</item>
+        	<item>반바지 </item>
+        	<item>드레스 </item>
+        	<item>셔츠 </item>
+        	<item>재킷 </item>
+        	<item>재킷 </item>
+        	<item>신발 </item>
+        	<item>운동화 </item>
+        	<item>신발 </item>
+        	
+        	<item>고양이 </item>
+        	<item>개 </item>
+        	<item>앵무새 </item>
+        	<item>사자 </item>
+        	<item>타이거 </item>
+        	<item>베어 </item>
+        	<item>물고기 </item>
+        	<item>새 </item>
+        	<item>펭귄 </item>
+        	<item>엉덩이 </item>
+        	
+        	<item>창 </item>
+        	<item>지붕 </item>
+        	<item>문 </item>
+        	<item>메이커 </item>
+        	<item>스토브 </item>
+        	<item>표 </item>
+        	<item>카펫 </item>
+        	<item>소파 </item>
+        	<item>침대 </item>
+        	<item> TV </item>
+        	
+        	<item> 버스 </item>
+        	<item> 트램 </item>
+        	<item> 트롤리 </item>
+        	<item> 마천루 </item>
+        	<item> 신호등 </item>
+        	<item> 숍</item>
+        	<item> 학교 </item>
+        	<item> 병원 </item>
+        	<item> 하우스 </item>
+        	<item> 박물관 </item>
+        	
+        	<item> 축구 </item>
+        	<item> 하키 </item>
+        	<item> 수영 </item>
+        	<item> 승마 </item>
+        	<item> 공 </item>
+        	<item> 라켓 </item>
+        	<item> 수평 막대 </item>
+        	<item> 순 </item>
+        	<item> 퍼터 </item>
+        	<item> 체스 </item>
+        	
+        	<item> 전화 </item>
+        	<item> 기계 </item>
+        	<item> 배 </item>
+        	<item> 컴퓨터</item>
+        	<item>  오토바이</item>
+        	<item> 면 </item>
+        	<item> 기차</item>
+        	<item> 시계 </item>
+        	<item> 스노 모빌</item>
+        	<item> 우주선 </item>
+        	</string-array>
+   
+
+</resources>
