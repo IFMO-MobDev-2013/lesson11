@@ -1,0 +1,36 @@
+Animals
+Животные
+Animaux
+Giraffe
+Жираф
+La girafe
+Hippopotamus
+Бегемот
+Hippo
+Cat
+Кошка
+Le chat
+Dog
+Собака
+Chien
+Crocodile
+Крокодил
+Le crocodile
+Horse
+Лошадь
+Cheval
+Pig
+Свинья
+Le cochon
+Goat
+Коза
+La chèvre
+Cow
+Корова
+La vache
+Elk
+Лось
+L'orignal
+Squirrel
+Белка
+Écureuil
