@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "Trainer">Обучение</string>
+    <string name = "Check"> Тестирование</string>
+     <string name = "First"> 4 слова + картинка</string>
+    <string name = "Second">4 картинки + слово</string>
+    <string name = "Yes"> Правильно</string>
+    <string name = "No"> Неправильно</string>
+    <string name = "answer"> Вы знали это слово?</string>
+    <string-array name = "topic">
+        <item>Семья</item>
+        <item>Человек</item>
+        <item>Природа</item>
+        <item>Еда и напитки</item>
+        <item>Одежда и обувь</item>
+        <item>Животные</item>
+        <item>Дом</item>
+        <item>Город</item>
+        <item>Спорт</item>
+        <item>Техника</item>
+    </string-array>
+    <string-array name="our_word">
+      <item> папа </item>
+	<item> мама </item>
+	<item> сын </item>
+	<item> дочь </item>
+	<item> бабушка </item>
+	<item> дедушка </item>
+	<item> свадьба </item>
+	<item> кольцо </item>
+	<item> день рождение </item>
+	<item> семья </item>
+	
+	<item> ноги </item>
+	<item> рука </item>
+	<item> голова </item>
+	<item> глаза </item>
+	<item> уши </item>
+	<item> рот </item>
+	<item> нос </item>
+	<item> зубы </item>
+	<item> спина </item>
+	<item> живот </item>
+	
+	<item> река </item>
+	<item> горы </item>
+	<item> лес </item>
+	<item> океан </item>
+	<item> пустыня </item>
+	<item> степь </item>
+	<item> озеро </item>
+	<item> тундра </item>
+	<item> тайга </item>
+	<item> звёзды </item>
+	
+	<item> пицца </item>
+	<item> суп </item>
+	<item> салат </item>
+	<item> чай </item>
+	<item> кофе </item>
+	<item> сок </item>
+	<item> лимонад </item>
+	<item> шоколад </item>
+	<item> печенье </item>
+	<item> котлета </item>
+	
+	<item> джинсы </item>
+	<item> футболка </item>
+	<item> шорты </item>
+	<item> платье </item>
+	<item> рубашка </item>
+	<item> кофта </item>
+	<item> куртка </item>
+	<item> туфли </item>
+	<item> кроссовки </item>
+	<item> ботинки </item>
+	
+	<item> кошка </item>
+	<item> собака </item>
+	<item> попугай </item>
+	<item> лев </item>
+	<item> тигр </item>
+	<item> медведь </item>
+	<item> рыба </item>
+	<item> птица </item>
+	<item> пингвин </item>
+	<item> осёл </item>
+	
+	<item> окно </item>
+	<item> крыша </item>
+	<item> дверь </item>
+	<item> чайник </item>
+	<item> печка </item>
+	<item> стол </item>
+	<item> ковёр </item>
+	<item> диван </item>
+	<item> кровать </item>
+	<item> телевизор </item>
+	
+	<item> автобус </item>
+	<item> трамвай </item>
+	<item> троллейбус </item>
+	<item> небоскрёб </item>
+	<item> светофор </item>
+	<item> магазин </item>
+	<item> школа </item>
+	<item> больница </item>
+	<item> дом </item>
+	<item> музей </item>
+	
+	<item> футбол </item>
+	<item> хоккей </item>
+	<item> плавание </item>
+	<item> конный спорт </item>
+	<item> мяч </item>
+	<item> ракетка </item>
+	<item> турник </item>
+	<item> сетка </item>
+	<item> клюшка </item>
+	<item> шахматы </item>
+	
+	<item> телефон </item>
+	<item> машина </item>
+	<item> корабль </item>
+	<item> компьютер </item>
+	<item> мотоцикл </item>
+	<item> самолёт </item>
+	<item> поезд </item>
+	<item> часы </item>
+	<item> снегоход </item>
+	<item> космический корабль </item>
+	</string-array>
+    <string name="Topics">Темы</string>
+    
+</resources>
