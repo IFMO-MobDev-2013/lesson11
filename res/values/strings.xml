@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="china">中国的</string>
+    <string name="select_mode_english">Select mode</string>
+    <string name="select_mode_russian">Выбрать режим</string>
+    <string name="select_mode_china">选择模式</string>
+    <string name="category">category</string>
+    <string name="result_russian">Ваш результат :</string>
+    <string name="result_english">Your result :</string>
+    <string name="result_china">您的结果 :</string>
+    <string name="delete_ranks_russian">Обнулить рейтинг</string>
+    <string name="delete_ranks_english">Reset rating</string>
+    <string name="delete_ranks_china">复位评级</string>
+
+</resources>
