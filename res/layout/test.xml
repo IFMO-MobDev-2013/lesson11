@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".TestAct"
+              android:background="#fff">
+    <ImageView android:id="@+id/question_image_test"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:src="@drawable/ic_launcher"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_weight="1"
+                  android:background="#fff">
+        <TextView android:id="@+id/test_question"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:layout_marginTop="7dp"
+                  android:background="#eee"
+                  android:text="Question"
+                  android:textStyle="bold"
+                  android:textSize="18dp"
+                  android:textColor="#333"/>
+        <TextView android:id="@+id/test_answer"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:layout_marginTop="4dp"
+                  android:background="#eee"
+                  android:text="Answer"
+                  android:textStyle="bold"
+                  android:textSize="16dp"
+                  android:textColor="#333"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="#fff">
+        <ImageButton
+                android:id="@+id/btn_test_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#efe2e2"
+                android:padding="10dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/exit"/>
+        <ImageButton
+                android:id="@+id/btn_test_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#e2f5e2"
+                android:padding="10dp"
+                android:src="@drawable/next"/>
+    </LinearLayout>
+</LinearLayout>

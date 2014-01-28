@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#fff" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="#ebebeb" >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:padding="12dp"
+                  android:textColor="#fff"
+                  android:textSize="12dp"
+                  android:gravity="center_vertical"
+                  android:text="@string/by" />
+        <ImageButton
+                android:id="@+id/btn_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ededed"
+                android:padding="7dp"
+                android:src="@drawable/about"/>
+        <ImageButton
+                android:id="@+id/btn_add_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ededed"
+                android:padding="7dp"
+                android:src="@drawable/add_all"/>
+        <ImageButton
+                android:id="@+id/btn_add_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ededed"
+                android:padding="8dp"
+                android:src="@drawable/add"/>
+    </LinearLayout>
+    <ListView android:id="@android:id/list"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:scrollbars="none"
+              android:divider="#ccc"></ListView>
+    <TextView android:id="@+id/my_cards_empty"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:textSize="12dp"
+              android:textColor="#444" />
+</LinearLayout>
