@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flash Cards</string>
+    <string name="empty">У Вас пока нет ни одной категории.\n\nВы можете добавить свою категорию с вопросами, нажав кнопку \"Добавить\" или посмотреть стандартные категории, нажав \"Добавить стандартные\"</string>
+    <string name="questions_empty">В этой категории пока нет ни одного вопроса...</string>
+    <string name="task_working">Добавленные категории </string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="deleteAll">Удалить Все</string>
+    <string name="task_starting">Загрузка...</string>
+    <string name="task_cancelled">Прервано пользователем</string>
+    <string name="task_completed">Готово</string>
+    <string name="check_internet">Проверьте подключение к Интернету</string>
+    <string name="unique_category">Такая категория уже есть</string>
+    <string name="unique_question">Такой вопрос уже есть</string>
+    <string name="fill_category">Укажите категорию вопросов</string>
+    <string name="fill_question">Заполните поле \"Вопрос\"</string>
+    <string name="fill_answer">Заполните поле \"Ответ\"</string>
+    <string name="deleting">Удаление...</string>
+    <string name="cancel">Отмена</string>
+    <string name="confirm_deleting">Подтвердите удаление</string>
+    <string name="mode">Режим...</string>
+    <string name="mode_question">Показывать варианты ответа?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="category_info">Категория вопросов:</string>
+    <string name="to_exit">Выйти</string>
+    <string name="exit">Выход...</string>
+    <string name="to_category">Вернуться к категориям?\n\nПрогресс будет утерян...</string>
+    <string name="xml_category">Категория:</string>
+    <string name="xml_hint_category">Категория вопросов</string>
+    <string name="xml_next">Далее</string>
+    <string name="xml_question">Вопрос:</string>
+    <string name="xml_hint_question">Вопрос</string>
+    <string name="xml_answer">Ответ:</string>
+    <string name="xml_hint_answer">Правильный ответ</string>
+    <string name="xml_image">Картинка:</string>
+    <string name="xml_done">Готово</string>
+    <string name="by">by Mikhov Ivan</string>
+    <string name="xml_save">Сохранить</string>
+    <string name="xml_add">Добавить</string>
+
+    <string-array name="categories">
+        <item>Еда</item>
+        <item>Животные</item>
+        <item>Космос</item>
+        <item>Музыка</item>
+        <item>Наука</item>
+        <item>Погода</item>
+        <item>Профессии</item>
+        <item>Самочувствие</item>
+        <item>Техника</item>
+        <item>Чувства</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>Пицца</item>
+        <item>Суп</item>
+        <item>Макароны</item>
+        <item>Хлеб</item>
+        <item>Торт</item>
+        <item>Каша</item>
+        <item>Сыр</item>
+        <item>Молоко</item>
+        <item>Кофе</item>
+        <item>Чай</item>
+
+        <item>Волк</item>
+        <item>Тигр</item>
+        <item>Лев</item>
+        <item>Ягуар</item>
+        <item>Морж</item>
+        <item>Медведь</item>
+        <item>Пантера</item>
+        <item>Кошка</item>
+        <item>Собака</item>
+        <item>Тасманский дьявол</item>
+
+        <item>Черная дыра</item>
+        <item>Планета</item>
+        <item>Млечный Путь</item>
+        <item>Астероид</item>
+        <item>Звезда</item>
+        <item>Солнце</item>
+        <item>Шатл</item>
+        <item>Луна</item>
+        <item>Спутник</item>
+        <item>Космический корабль</item>
+
+        <item>Гитара</item>
+        <item>Фортепиано</item>
+        <item>Аккорд</item>
+        <item>Нота</item>
+        <item>Саксофон</item>
+        <item>Камертон</item>
+        <item>Орган</item>
+        <item>Барабаны</item>
+        <item>Скрипка</item>
+        <item>Струна</item>
+
+        <item>Математика</item>
+        <item>Химия</item>
+        <item>Физика</item>
+        <item>Биология</item>
+        <item>Геология</item>
+        <item>Информатика</item>
+        <item>Астрономия</item>
+        <item>Ботаника</item>
+        <item>География</item>
+        <item>История</item>
+
+        <item>Снег</item>
+        <item>Ветер</item>
+        <item>Жара</item>
+        <item>Засуха</item>
+        <item>Солнечный</item>
+        <item>Торнадо</item>
+        <item>Дождь</item>
+        <item>Гроза</item>
+        <item>Туман</item>
+        <item>Облачный</item>
+
+        <item>Врач</item>
+        <item>Строитель</item>
+        <item>Менеджер</item>
+        <item>Художник</item>
+        <item>Балерина</item>
+        <item>Повар</item>
+        <item>Носильщик</item>
+        <item>Милиционер</item>
+        <item>Певец</item>
+        <item>Клоун</item>
+
+        <item>Головная боль</item>
+        <item>Боль в спине</item>
+        <item>Болезнь</item>
+        <item>Простуда</item>
+        <item>Боль в животе</item>
+        <item>Зубная боль</item>
+        <item>Усталость</item>
+        <item>Сердечный приступ</item>
+        <item>Сонливость</item>
+        <item>Тошнота</item>
+
+        <item>Двигатель</item>
+        <item>Автомобиль</item>
+        <item>Комбайн</item>
+        <item>Механизм</item>
+        <item>Шестерня</item>
+        <item>Турбина</item>
+        <item>Мотоцикл</item>
+        <item>Танк</item>
+        <item>Чертеж</item>
+        <item>Схема</item>
+
+        <item>Любовь</item>
+        <item>Гнев</item>
+        <item>Волнение</item>
+        <item>Удивление</item>
+        <item>Обида</item>
+        <item>Радость</item>
+        <item>Недоумение</item>
+        <item>Задумчивость</item>
+        <item>Доброта</item>
+        <item>Страх</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>Pizza</item>
+        <item>Soup</item>
+        <item>Pasta</item>
+        <item>Bread</item>
+        <item>Cake</item>
+        <item>Porridge</item>
+        <item>Cheese</item>
+        <item>Milk</item>
+        <item>Coffee</item>
+        <item>Tea</item>
+
+        <item>Wolf</item>
+        <item>Tiger</item>
+        <item>Lion</item>
+        <item>Jaguar</item>
+        <item>Walrus</item>
+        <item>Bear</item>
+        <item>Panther</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Tasmanian devil</item>
+
+        <item>Black hole</item>
+        <item>Planet</item>
+        <item>Milky Way</item>
+        <item>Asteroid</item>
+        <item>Star</item>
+        <item>Sun</item>
+        <item>Shuttle</item>
+        <item>Moon</item>
+        <item>Satellite</item>
+        <item>Spaceship</item>
+
+        <item>Guitar</item>
+        <item>Piano</item>
+        <item>Chord</item>
+        <item>Note</item>
+        <item>Saxophone</item>
+        <item>Tuning fork</item>
+        <item>Organ</item>
+        <item>Drums</item>
+        <item>Violin</item>
+        <item>String</item>
+
+        <item>Mathematics</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Biology</item>
+        <item>Geology</item>
+        <item>Computer science</item>
+        <item>Astronomy</item>
+        <item>Botany</item>
+        <item>Geography</item>
+        <item>History</item>
+
+        <item>Snow</item>
+        <item>Wind</item>
+        <item>Heat</item>
+        <item>Drought</item>
+        <item>Sunny</item>
+        <item>Tornado</item>
+        <item>Rain</item>
+        <item>Thunder</item>
+        <item>Fog</item>
+        <item>Cloudy</item>
+
+        <item>Doctor</item>
+        <item>Builder</item>
+        <item>Manager</item>
+        <item>Artist</item>
+        <item>Ballerina</item>
+        <item>Chef</item>
+        <item>Porter</item>
+        <item>Policeman</item>
+        <item>Singer</item>
+        <item>Clown</item>
+
+        <item>Headache</item>
+        <item>Backache</item>
+        <item>Disease</item>
+        <item>Cold</item>
+        <item>Stomach ache</item>
+        <item>Toothache</item>
+        <item>Tiredness</item>
+        <item>Heart seizure</item>
+        <item>Drowsiness</item>
+        <item>Nausea</item>
+
+        <item>Engine</item>
+        <item>Car</item>
+        <item>Harvester</item>
+        <item>Mechanism</item>
+        <item>Gear</item>
+        <item>Turbine</item>
+        <item>Motorcycle</item>
+        <item>Tank</item>
+        <item>Drawing</item>
+        <item>Scheme</item>
+
+        <item>Love</item>
+        <item>Wrath</item>
+        <item>Nervousness</item>
+        <item>Surprise</item>
+        <item>Grudge</item>
+        <item>Joy</item>
+        <item>Bewilderment</item>
+        <item>Thoughtfulness</item>
+        <item>Kindness</item>
+        <item>Fear</item>
+    </string-array>
+</resources>
