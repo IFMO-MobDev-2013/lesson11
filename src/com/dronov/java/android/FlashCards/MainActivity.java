@@ -23,6 +23,8 @@ public class MainActivity extends Activity {
     public static String fromLanguage;
     public static String toLanguage;
     public static String mode;
+    public static String textButton1;
+    public static String textButton2;
 
     private ListView listView;
     private Cursor cursor;
@@ -44,6 +46,8 @@ public class MainActivity extends Activity {
             toLanguage = getResources().getString(R.string.english);
             mode = getResources().getString(R.string.select_mode_russian);
             deleteRanks = getResources().getString(R.string.delete_ranks_russian);
+            textButton1 = getResources().getString(R.string.button1_russian);
+            textButton2 = getResources().getString(R.string.button2_russian);
         }
 
         listView = (ListView) findViewById(R.id.listView);
@@ -78,6 +82,10 @@ public class MainActivity extends Activity {
 
                 AlertDialog alertDialog = builder.show();
 
+                Button button1 = (Button) current.findViewById(R.id.button1);
+                Button button2 = (Button) current.findViewById(R.id.button2);
+                button1.setText(textButton1);
+                button2.setText(textButton2);
                 current.findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -136,16 +144,22 @@ public class MainActivity extends Activity {
             cursor = databaseRussian.getAllData();
             categories = databaseRussian.getAllCategories();
             deleteRanks = getResources().getString(R.string.delete_ranks_russian);
+            textButton1 = getResources().getString(R.string.button1_russian);
+            textButton2 = getResources().getString(R.string.button2_russian);
         }
         if (fromLanguage.equals(getResources().getString(R.string.english))) {
             mode = getResources().getString(R.string.select_mode_english);
             cursor = databaseEnglish.getAllData();
             deleteRanks = getResources().getString(R.string.delete_ranks_english);
+            textButton1 = getResources().getString(R.string.button1_english);
+            textButton2 = getResources().getString(R.string.button2_english);
         }
         if (fromLanguage.equals(getResources().getString(R.string.china))) {
             mode = getResources().getString(R.string.select_mode_china);
             cursor = databaseChina.getAllData();
             deleteRanks = getResources().getString(R.string.delete_ranks_china);
+            textButton1 = getResources().getString(R.string.button1_china);
+            textButton2 = getResources().getString(R.string.button2_china);
         }
         categories = databaseEnglish.getAllCategories();
 
@@ -167,7 +181,7 @@ public class MainActivity extends Activity {
             --id;
 
 
-            ArrayList<Word> arrayList = new ParseCategory(this, categories.get(id)).parse();
+            ArrayList<Word> arrayList = new ParseCategoryFromAllFiles(this, categories).parse();
 
             addResultToDatabase(arrayList.get(id));
             cursor.requery();
@@ -206,17 +220,17 @@ public class MainActivity extends Activity {
     private void addResultToDatabase(Word categoryWord) {
         RussianFlashCards database = new RussianFlashCards(this);
         database.open();
-        database.update(categoryWord.getRussian(), "0/10");
+        database.update(categoryWord.getRussian(), getString(R.string.zero));
         database.close();
 
         EnglishFlashCards database1 = new EnglishFlashCards(this);
         database1.open();
-        database1.update(categoryWord.getEnglish(), "0/10");
+        database1.update(categoryWord.getEnglish(), getString(R.string.zero));
         database1.close();
 
         ChinaFlashCards database2 = new ChinaFlashCards(this);
         database2.open();
-        database2.update(categoryWord.getChina(), "0/10");
+        database2.update(categoryWord.getChina(), getString(R.string.zero));
         database2.close();
     }
 

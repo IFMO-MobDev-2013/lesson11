@@ -37,8 +37,8 @@ public class ChangeLanguage extends Activity {
         secondLang.add(this.getString(R.string.english));
         secondLang.add(this.getString(R.string.china));
 
-        ArrayAdapter<String> firstAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, firstLang);
-        ArrayAdapter<String> secondAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, secondLang);
+        ArrayAdapter<String> firstAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, firstLang);
+        ArrayAdapter<String> secondAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, secondLang);
         first.setAdapter(firstAdapter);
         second.setAdapter(secondAdapter);
 

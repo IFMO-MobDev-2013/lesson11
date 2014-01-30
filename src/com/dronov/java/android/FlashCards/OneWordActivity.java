@@ -29,7 +29,6 @@ public class OneWordActivity extends Activity {
     private int count = 0;
     private ImageView imageView;
     private TextView textView;
-    private CharSequence resultLanguage;
     private int resultData = 0;
     private String category;
     private Word categoryWord;
@@ -92,17 +91,17 @@ public class OneWordActivity extends Activity {
     private void addResultToDatabase() {
         RussianFlashCards database = new RussianFlashCards(this);
         database.open();
-        database.update(categoryWord.getRussian(), String.valueOf(resultData) + "/10");
+        database.update(categoryWord.getRussian(), String.valueOf(resultData) + getString(R.string.zero));
         database.close();
 
         EnglishFlashCards database1 = new EnglishFlashCards(this);
         database1.open();
-        database1.update(categoryWord.getEnglish(), String.valueOf(resultData) + "/10");
+        database1.update(categoryWord.getEnglish(), String.valueOf(resultData) + getString(R.string.zero));
         database1.close();
 
         ChinaFlashCards database2 = new ChinaFlashCards(this);
         database2.open();
-        database2.update(categoryWord.getChina(), String.valueOf(resultData) + "/10");
+        database2.update(categoryWord.getChina(), String.valueOf(resultData) + getString(R.string.zero));
         database2.close();
     }
 
@@ -122,11 +121,11 @@ public class OneWordActivity extends Activity {
 
     private String getOkMessage(int count) {
         if (MainActivity.fromLanguage.equals(getResources().getString(R.string.russian)))
-            return getResources().getString(R.string.result_russian) + " " + String.valueOf(count) + "/10";
+            return getResources().getString(R.string.result_russian) + " " + String.valueOf(count) + getString(R.string.zero);
         if (MainActivity.fromLanguage.equals(getResources().getString(R.string.china)))
-            return getResources().getString(R.string.result_china) + " " + String.valueOf(count) + "/10";
+            return getResources().getString(R.string.result_china) + " " + String.valueOf(count) + getString(R.string.zero);
         if (MainActivity.fromLanguage.equals(getResources().getString(R.string.english)))
-            return getResources().getString(R.string.result_english) + " " + String.valueOf(count) + "/10";
+            return getResources().getString(R.string.result_english) + " " + String.valueOf(count) + getString(R.string.zero);
         return null;
     }
 

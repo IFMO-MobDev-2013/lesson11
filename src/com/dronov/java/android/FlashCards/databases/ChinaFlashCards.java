@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import com.dronov.java.android.FlashCards.R;
 
 import java.util.ArrayList;
 
@@ -15,9 +16,9 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class ChinaFlashCards {
-    private static final String DB_NAME = "images3";
-    private static final int DB_VERSION = 3;
-    private static final String DB_TABLE = "rates21";
+    private static final String DB_NAME = "images_china";
+    private static final int DB_VERSION = 1;
+    private static final String DB_TABLE = "rates_china";
 
     public static final String COLUMN_ID = "_id";
     public static final String COLUMN_TITLE = "category";
@@ -75,16 +76,16 @@ public class ChinaFlashCards {
     }
 
     public void addDefault() {
-        addChannel("动物", "0/10");
-        addChannel("1", "0/10");
-        addChannel("2", "0/10");
-        addChannel("颜色", "0/10");
-        addChannel("3", "0/10");
-        addChannel("水果", "0/10");
-        addChannel("4", "0/10");
-        addChannel("5", "0/10");
-        addChannel("运动", "0/10");
-        addChannel("6", "0/10");
+        addChannel(context.getString(R.string.animals_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.body_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.clothes_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.colours_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.country_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.fruits_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.nature_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.profession_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.sport_china), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.weather), context.getString(R.string.zero));
     }
 
     public ArrayList<String> getAllCategories() {
@@ -114,9 +115,5 @@ public class ChinaFlashCards {
         contentValues.put(COLUMN_TITLE, category);
         contentValues.put(COLUMN_NUMBER, s);
         mDB.update(DB_TABLE, contentValues, COLUMN_ID + "=" + id, null);
-    }
-
-    public void update(int id, String s) {
-
     }
 }

@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import com.dronov.java.android.FlashCards.R;
 
 import java.util.ArrayList;
 
@@ -15,9 +16,9 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class RussianFlashCards {
-    private static final String DB_NAME = "images1";
+    private static final String DB_NAME = "images_russian";
     private static final int DB_VERSION = 3;
-    private static final String DB_TABLE = "rates1";
+    private static final String DB_TABLE = "rates_russian"  ;
 
     public static final String COLUMN_ID = "_id";
     public static final String COLUMN_TITLE = "category";
@@ -74,16 +75,16 @@ public class RussianFlashCards {
     }
 
     public void addDefault() {
-        addChannel("Животные", "0/10");
-        addChannel("Тело", "0/10");
-        addChannel("Одежда", "0/10");
-        addChannel("Цвета", "0/10");
-        addChannel("Страны", "0/10");
-        addChannel("Фрукты", "0/10");
-        addChannel("Природа", "0/10");
-        addChannel("Профессии", "0/10");
-        addChannel("Спорт", "0/10");
-        addChannel("Погода", "0/10");
+        addChannel(context.getString(R.string.animals_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.body_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.clothes_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.colours_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.country_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.fruits_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.nature_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.profession_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.sport_russian), context.getString(R.string.zero));
+        addChannel(context.getString(R.string.weather_russian), context.getString(R.string.zero));
     }
 
     public ArrayList<String> getAllCategories() {
@@ -99,6 +100,7 @@ public class RussianFlashCards {
         Cursor cursor = getAllData();
         long id = 0;
         while (cursor.moveToNext()) {
+            String p = cursor.getString(cursor.getColumnIndex(COLUMN_TITLE));
             if (cursor.getString(cursor.getColumnIndex(COLUMN_TITLE)).equals(category)) {
                 id = cursor.getLong(cursor.getColumnIndex(COLUMN_ID));
                 break;
@@ -113,10 +115,5 @@ public class RussianFlashCards {
         contentValues.put(COLUMN_TITLE, category);
         contentValues.put(COLUMN_NUMBER, s);
         mDB.update(DB_TABLE, contentValues, COLUMN_ID + "=" + id, null);
-    }
-
-    public void update(int id, String s) {
-
-
     }
 }
