@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="china">中国的</string>
+    <string name="select_mode_english">Select mode</string>
+    <string name="select_mode_russian">Выбрать режим</string>
+    <string name="select_mode_china">选择模式</string>
+    <string name="category">category</string>
+    <string name="result_russian">Ваш результат :</string>
+    <string name="result_english">Your result :</string>
+    <string name="result_china">您的结果 :</string>
+    <string name="delete_ranks_russian">Обнулить рейтинг</string>
+    <string name="delete_ranks_english">Reset rating</string>
+    <string name="delete_ranks_china">复位评级</string>
+    <string name="button1_russian">Слово</string>
+    <string name="button2_russian">4 картинки</string>
+    <string name="button1_english">Word</string>
+    <string name="button2_english">4 Pictures</string>
+    <string name="button1_china">字</string>
+    <string name="button2_china">4 张图片</string>
+    <string name="animals_china">动物</string>
+    <string name="body_china">体</string>
+    <string name="clothes_china">牛仔裤</string>
+    <string name="colours_china">颜色</string>
+    <string name="country_china">国家</string>
+    <string name="fruits_china">水果</string>
+    <string name="nature_china">性质</string>
+    <string name="profession_china">职业</string>
+    <string name="sport_china">运动</string>
+    <string name="weather">天气</string>
+    <string name="zero">0/10</string>
+    <string name="animals_russian">Животные</string>
+    <string name="body_russian">Тело</string>
+    <string name="clothes_russian">Одежда</string>
+    <string name="colours_russian">Цвета</string>
+    <string name="country_russian">Страны</string>
+    <string name="fruits_russian">Фрукты</string>
+    <string name="nature_russian">Природа</string>
+    <string name="profession_russian">Профессии</string>
+    <string name="sport_russian">Спорт</string>
+    <string name="weather_russian">Погода</string>
+    <string name="animals_english">Animals</string>
+    <string name="body_english">Body</string>
+    <string name="clothes_english">Clothes</string>
+    <string name="colours_english">Colours</string>
+    <string name="country_english">Country</string>
+    <string name="fruits_english">Fruits</string>
+    <string name="nature_english">Nature</string>
+    <string name="profession_english">Profession</string>
+    <string name="sport_english">Sport</string>
+    <string name="weather_english">Weather</string>
+
+</resources>
