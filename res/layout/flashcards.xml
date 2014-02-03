@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/lltop"
+        >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="New Text"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:id="@+id/textViewfl"/>
+    <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:padding="2dp"
+            android:id="@+id/imageView"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:id="@+id/textViewflans"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="✔"
+                android:id="@+id/yes"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_dark"
+                android:layout_margin="3dp"
+                android:padding="2dp"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="✘"
+                android:id="@+id/no" android:layout_gravity="left|center_vertical" android:layout_weight="1"
+                android:textSize="25dp" android:textStyle="bold" android:textColor="@android:color/holo_red_light"
+                android:layout_margin="3dp" android:padding="2dp"/>
+    </LinearLayout>
+</LinearLayout>
