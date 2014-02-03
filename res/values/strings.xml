@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Uzb-Rus FlashCards</string>
+
+    <color name="Bckgr">#8b9fc0</color>
+    <color name="Red">#33FF0000</color>
+    <color name="Orange">#55336699</color>
+    <color name="Green">#3300FF00</color>
+    <color name="white">#ffffff</color>
+    <dimen name="twodp">5dp</dimen>
+
+    <string name="clothes_rus">Одежда</string>
+    <string name="body_rus">Части тела</string>
+    <string name="animal_rus">Животные</string>
+    <string name="math_rus">Математика</string>
+    <string name="sport_rus">Виды спорта</string>
+    <string name="color_rus">Цвета</string>
+    <string name="weather_rus">Погода</string>
+    <string name="country_rus">Страны</string>
+    <string name="fruits_rus">Фрукты</string>
+    <string name="forhome_rus">Все для дома</string>
+
+    <string name="clothes_uzb">Kiyim</string>
+    <string name="body_uzb">Tana azolari</string>
+    <string name="animal_uzb">Hayvonlar</string>
+    <string name="math_uzb">Matematika</string>
+    <string name="sport_uzb">Sport turlari</string>
+    <string name="color_uzb">Ranglar</string>
+    <string name="weather_uzb">Ob-havo</string>
+    <string name="country_uzb">Davlatlar</string>
+    <string name="fruits_uzb">Mevalar</string>
+    <string name="forhome_uzb">Uy jihozlari</string>
+
+    <string name="russian">rus</string>
+    <string name="uzbek">uzb</string>
+
+
+    <string name="result_russian">Ваш результат :</string>
+    <string name="result_uzbek">Sizning natijangiz :</string>
+
+
+
+    <string name="zeros">0/10</string>
+    <string name="zero">/10</string>
+
+</resources>

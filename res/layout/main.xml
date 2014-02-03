@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/lltopmain"
+        >
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:id="@+id/imageview1"
+               ></ImageView>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Обучения иностраннога языка"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:id="@+id/textView" android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Изучать Узбекский язык!"
+            android:id="@+id/buttonlanguagerus" android:layout_gravity="center"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chet-tilini suratlar orqali o'rganish"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:id="@+id/textView1" android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rus tilini o'rganish!"
+            android:id="@+id/buttonlanguageuzb" android:layout_gravity="center"/>
+
+</LinearLayout>
+
