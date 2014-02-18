@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="action">Choose education mode</string>
+    <string-array name="modes">
+        <item>Learning</item>
+        <item>Choose the word by the picture</item>
+        <item>Choose the picture by the word</item>
+    </string-array>
+    <string name="button_begin">Begin</string>
+    <string name="note">Note: your progress will not be updated during this mode!</string>
+    <string-array name="categories">
+        <item>Animals</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Body</item>
+        <item>Nature</item>
+        <item>Weather</item>
+        <item>Clothes</item>
+        <item>Houseware</item>
+        <item>City</item>
+        <item>Music</item>
+    </string-array>
+    <string-array name="words">
+        <item>cat</item>
+        <item>dog</item>
+        <item>squirrel</item>
+        <item>giraffe</item>
+        <item>cock</item>
+        <item>fox</item>
+        <item>donkey</item>
+        <item>duck</item>
+        <item>deer</item>
+        <item>horse</item>
+        <item>orange</item>
+        <item>lemon</item>
+        <item>watermelon</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>apple</item>
+        <item>pear</item>
+        <item>prune</item>
+        <item>strawberry</item>
+        <item>raspberry</item>
+        <item>potato</item>
+        <item>tomato</item>
+        <item>cucumber</item>
+        <item>radish</item>
+        <item>cabbage</item>
+        <item>pepper</item>
+        <item>carrot</item>
+        <item>beet</item>
+        <item>pumpkin</item>
+        <item>onion</item>
+        <item>chest</item>
+        <item>hand</item>
+        <item>leg</item>
+        <item>eyes</item>
+        <item>nose</item>
+        <item>ears</item>
+        <item>mouth</item>
+        <item>finger</item>
+        <item>neck</item>
+        <item>forehead</item>
+        <item>stone</item>
+        <item>tree</item>
+        <item>river</item>
+        <item>lake</item>
+        <item>forest</item>
+        <item>ocean</item>
+        <item>beach</item>
+        <item>mountain</item>
+        <item>desert</item>
+        <item>grass</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sun</item>
+        <item>clouds</item>
+        <item>fog</item>
+        <item>tornado</item>
+        <item>volcano</item>
+        <item>thunder</item>
+        <item>hail</item>
+        <item>dew</item>
+        <item>jeans</item>
+        <item>t-shirt</item>
+        <item>shirt</item>
+        <item>sweater</item>
+        <item>dress</item>
+        <item>skirt</item>
+        <item>glasses</item>
+        <item>watch</item>
+        <item>shoes</item>
+        <item>sneakers</item>
+        <item>bed</item>
+        <item>sofa</item>
+        <item>chair</item>
+        <item>table</item>
+        <item>picture</item>
+        <item>carpet</item>
+        <item>kitchen</item>
+        <item>cupboard</item>
+        <item>light</item>
+        <item>cup</item>
+        <item>taxi</item>
+        <item>house</item>
+        <item>trolley</item>
+        <item>bus</item>
+        <item>bridge</item>
+        <item>tunnel</item>
+        <item>underground</item>
+        <item>stadium</item>
+        <item>cafe</item>
+        <item>road</item>
+        <item>music</item>
+        <item>guitar</item>
+        <item>violin</item>
+        <item>piano</item>
+        <item>accordion</item>
+        <item>drum</item>
+        <item>bagpipes</item>
+        <item>cello</item>
+        <item>bass viol</item>
+        <item>viola</item>
+    </string-array>
+    <string-array name="words_id">
+        <item>cat</item>
+        <item>dog</item>
+        <item>squirrel</item>
+        <item>giraffe</item>
+        <item>cock</item>
+        <item>fox</item>
+        <item>donkey</item>
+        <item>duck</item>
+        <item>deer</item>
+        <item>horse</item>
+        <item>orange</item>
+        <item>lemon</item>
+        <item>watermelon</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>apple</item>
+        <item>pear</item>
+        <item>prune</item>
+        <item>strawberry</item>
+        <item>raspberry</item>
+        <item>potato</item>
+        <item>tomato</item>
+        <item>cucumber</item>
+        <item>radish</item>
+        <item>cabbage</item>
+        <item>pepper</item>
+        <item>carrot</item>
+        <item>beet</item>
+        <item>pumpkin</item>
+        <item>onion</item>
+        <item>chest</item>
+        <item>hand</item>
+        <item>leg</item>
+        <item>eyes</item>
+        <item>nose</item>
+        <item>ears</item>
+        <item>mouth</item>
+        <item>finger</item>
+        <item>neck</item>
+        <item>forehead</item>
+        <item>stone</item>
+        <item>tree</item>
+        <item>river</item>
+        <item>lake</item>
+        <item>forest</item>
+        <item>ocean</item>
+        <item>beach</item>
+        <item>mountain</item>
+        <item>desert</item>
+        <item>grass</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sun</item>
+        <item>clouds</item>
+        <item>fog</item>
+        <item>tornado</item>
+        <item>volcano</item>
+        <item>thunder</item>
+        <item>hail</item>
+        <item>dew</item>
+        <item>jeans</item>
+        <item>tshirt</item>
+        <item>shirt</item>
+        <item>sweater</item>
+        <item>dress</item>
+        <item>skirt</item>
+        <item>glasses</item>
+        <item>watch</item>
+        <item>shoes</item>
+        <item>sneakers</item>
+        <item>bed</item>
+        <item>sofa</item>
+        <item>chair</item>
+        <item>table</item>
+        <item>picture</item>
+        <item>carpet</item>
+        <item>kitchen</item>
+        <item>cupboard</item>
+        <item>light</item>
+        <item>cup</item>
+        <item>taxi</item>
+        <item>house</item>
+        <item>trolley</item>
+        <item>bus</item>
+        <item>bridge</item>
+        <item>tunnel</item>
+        <item>underground</item>
+        <item>stadium</item>
+        <item>cafe</item>
+        <item>road</item>
+        <item>music</item>
+        <item>guitar</item>
+        <item>violin</item>
+        <item>piano</item>
+        <item>accordion</item>
+        <item>drum</item>
+        <item>bagpipes</item>
+        <item>cello</item>
+        <item>bassviol</item>
+        <item>viola</item>
+    </string-array>
+    <string name="do_you_know_the_word">Did you know this word? </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string-array name="traslations">
+        <item>gatto</item>
+        <item>cane</item>
+        <item>scoiattolo</item>
+        <item>giraffa</item>
+        <item>cazzo</item>
+        <item>volpe</item>
+        <item>culo</item>
+        <item>duck</item>
+        <item>cervo</item>
+        <item>cavallo</item>
+        <item>arancione</item>
+        <item>limone</item>
+        <item>anguria</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>mela</item>
+        <item>pera</item>
+        <item>prugna</item>
+        <item>fragole</item>
+        <item>lamponi</item>
+        <item>patate</item>
+        <item>pomodoro</item>
+        <item>il cetriolo</item>
+        <item>ravanelli</item>
+        <item>cavolo</item>
+        <item>pepe</item>
+        <item>carote</item>
+        <item>barbabietole</item>
+        <item>la zucca</item>
+        <item>arco</item>
+        <item>seno</item>
+        <item>mano</item>
+        <item>piede</item>
+        <item>occhi</item>
+        <item>naso</item>
+        <item>orecchie</item>
+        <item>bocca</item>
+        <item>dito</item>
+        <item>collo</item>
+        <item>fronte</item>
+        <item>pietra</item>
+        <item>albero</item>
+        <item>fiume</item>
+        <item>lago</item>
+        <item>foresta</item>
+        <item>oceano</item>
+        <item>spiaggia</item>
+        <item>montagne</item>
+        <item>deserto</item>
+        <item>erba</item>
+        <item>pioggia</item>
+        <item>neve</item>
+        <item>sole</item>
+        <item>nuvole</item>
+        <item>nebbia </item>
+        <item>tornado </item>
+        <item>vulcano</item>
+        <item>tempesta</item>
+        <item>grandine</item>
+        <item>rugiada</item>
+        <item>jeans</item>
+        <item>maglietta</item>
+        <item>camicia  </item>
+        <item> maglione </item>
+        <item> vestito </item>
+        <item> gonna </item>
+        <item> occhiali </item>
+        <item> guardare </item>
+        <item> scarpe </item>
+        <item> scarpe da ginnastica </item>
+        <item> letto </item>
+        <item> divano </item>
+        <item> sedia  </item>
+        <item> tavolo </item>
+        <item> foto </item>
+        <item> tappeto </item>
+        <item> cucina </item>
+         <item> armadio </item>
+        <item> luce </item>
+        <item> coppa</item>
+        <item>taxi</item>
+        <item>casa</item>
+        <item>filobus</item>
+        <item>autobus</item>
+        <item>ponte</item>
+        <item>tunnel</item>
+        <item>metro</item>
+        <item>stadio</item>
+        <item>caffè</item>
+        <item>strada</item>
+        <item>musica</item>
+        <item>chitarra</item>
+        <item>violino</item>
+        <item>pianoforte</item>
+        <item>fisarmonica</item>
+        <item>tamburo</item>
+        <item>cornamuse</item>
+        <item>violoncello</item>
+        <item>contrabbasso</item>
+        <item>contralto</item>
+    </string-array>
+    <string name="error"> You have learnt all words from this category!</string>
+    <string name="clear">Clear stats</string>
+    <string name="progress">Your current progress: </string>
+    <string name="from"> words from </string>
+</resources>

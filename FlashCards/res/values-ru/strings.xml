@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Изучаем итальянский</string>
+    <string name="action">Выберите режим обучения</string>
+    <string-array name="modes">
+        <item>Обучение</item>
+        <item>Выберите картинку по слову</item>
+        <item>Выберите слово по картинке</item>
+    </string-array>
+    <string name="button_begin">Начать</string>
+    <string name="note">Обратите внимание: во время режима тестирования статистика не обновляется!</string>
+    <string-array name="categories">
+        <item>Животные</item>
+        <item>Фрукты</item>
+        <item>Овощи</item>
+        <item>Тело</item>
+        <item>Природа</item>
+        <item>Погода</item>
+        <item>Одежда</item>
+        <item>Предметы быта</item>
+        <item>Город</item>
+        <item>Музыкальные инструменты</item>
+    </string-array>
+    <string-array name="words">
+        <item>кошка</item>
+        <item>собака</item>
+        <item>белка</item>
+        <item>жираф</item>
+        <item>петух</item>
+        <item>лиса</item>
+        <item>осел</item>
+        <item>утка</item>
+        <item>олень</item>
+        <item>лошадь</item>
+        <item>апельсин</item>
+        <item>лимон</item>
+        <item>арбуз</item>
+        <item>фейхоа</item>
+        <item>банан</item>
+        <item>яблоко</item>
+        <item>груша</item>
+        <item>слива</item>
+        <item>клубника</item>
+        <item>малина</item>
+        <item>картофель</item>
+        <item>помидор</item>
+        <item>огурец</item>
+        <item>редис</item>
+        <item>капуста</item>
+        <item>перец</item>
+        <item>морковь</item>
+        <item>свекла</item>
+        <item>тыква</item>
+        <item>лук</item>
+        <item>грудь</item>
+        <item>рука</item>
+        <item>нога</item>
+        <item>глаза</item>
+        <item>нос</item>
+        <item>уши</item>
+        <item>рот</item>
+        <item>палец</item>
+        <item>шея</item>
+        <item>лоб</item>
+        <item>камень</item>
+        <item>дерево</item>
+        <item>река</item>
+        <item>озеро</item>
+        <item>лес</item>
+        <item>океан</item>
+        <item>пляж</item>
+        <item>горы</item>
+        <item>пустыня</item>
+        <item>трава</item>
+        <item>дождь</item>
+        <item>снег</item>
+        <item>солнце</item>
+        <item>облака</item>
+        <item>туман</item>
+        <item>торнадо</item>
+        <item>вулкан</item>
+        <item>гроза</item>
+        <item>град</item>
+        <item>роса</item>
+        <item>джинсы</item>
+        <item>футболка</item>
+        <item>рубашка</item>
+        <item>свитер</item>
+        <item>платье</item>
+        <item>юбка</item>
+        <item>очки</item>
+        <item>наручные часы</item>
+        <item>туфли</item>
+        <item>кроссовки</item>
+        <item>кровать</item>
+        <item>диван</item>
+        <item>стул</item>
+        <item>стол</item>
+        <item>картина</item>
+        <item>ковер</item>
+        <item>кухня</item>
+        <item>шкаф</item>
+        <item>светильник</item>
+        <item>чашка</item>
+        <item>такси</item>
+        <item>дом</item>
+        <item>троллейбус</item>
+        <item>автобус</item>
+        <item>мост</item>
+        <item>туннель</item>
+        <item>метро</item>
+        <item>стадион</item>
+        <item>кафе</item>
+        <item>дорога</item>
+        <item>ноты</item>
+        <item>гитара</item>
+        <item>скрипка</item>
+        <item>фортепиано</item>
+        <item>аккордеон</item>
+        <item>барабан</item>
+        <item>волынка</item>
+        <item>виолончель</item>
+        <item>контрабас</item>
+        <item>альт</item>
+    </string-array>
+    <string-array name="words_id">
+        <item>cat</item>
+        <item>dog</item>
+        <item>squirrel</item>
+        <item>giraffe</item>
+        <item>cock</item>
+        <item>fox</item>
+        <item>donkey</item>
+        <item>duck</item>
+        <item>deer</item>
+        <item>horse</item>
+        <item>orange</item>
+        <item>lemon</item>
+        <item>watermelon</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>apple</item>
+        <item>pear</item>
+        <item>prune</item>
+        <item>strawberry</item>
+        <item>raspberry</item>
+        <item>potato</item>
+        <item>tomato</item>
+        <item>cucumber</item>
+        <item>radish</item>
+        <item>cabbage</item>
+        <item>pepper</item>
+        <item>carrot</item>
+        <item>beet</item>
+        <item>pumpkin</item>
+        <item>onion</item>
+        <item>chest</item>
+        <item>hand</item>
+        <item>leg</item>
+        <item>eyes</item>
+        <item>nose</item>
+        <item>ears</item>
+        <item>mouth</item>
+        <item>finger</item>
+        <item>neck</item>
+        <item>forehead</item>
+        <item>stone</item>
+        <item>tree</item>
+        <item>river</item>
+        <item>lake</item>
+        <item>forest</item>
+        <item>ocean</item>
+        <item>beach</item>
+        <item>mountain</item>
+        <item>desert</item>
+        <item>grass</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sun</item>
+        <item>clouds</item>
+        <item>fog</item>
+        <item>tornado</item>
+        <item>volcano</item>
+        <item>thunder</item>
+        <item>hail</item>
+        <item>dew</item>
+        <item>jeans</item>
+        <item>tshirt</item>
+        <item>shirt</item>
+        <item>sweater</item>
+        <item>dress</item>
+        <item>skirt</item>
+        <item>glasses</item>
+        <item>watch</item>
+        <item>shoes</item>
+        <item>sneakers</item>
+        <item>bed</item>
+        <item>sofa</item>
+        <item>chair</item>
+        <item>table</item>
+        <item>picture</item>
+        <item>carpet</item>
+        <item>kitchen</item>
+        <item>cupboard</item>
+        <item>light</item>
+        <item>cup</item>
+        <item>taxi</item>
+        <item>house</item>
+        <item>trolley</item>
+        <item>bus</item>
+        <item>bridge</item>
+        <item>tunnel</item>
+        <item>underground</item>
+        <item>stadium</item>
+        <item>cafe</item>
+        <item>road</item>
+        <item>music</item>
+        <item>guitar</item>
+        <item>violin</item>
+        <item>piano</item>
+        <item>accordion</item>
+        <item>drum</item>
+        <item>bagpipes</item>
+        <item>cello</item>
+        <item>bassviol</item>
+        <item>viola</item>
+    </string-array>
+    <string name="do_you_know_the_word">Вы знали это слово? </string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string-array name="traslations">
+        <item>gatto</item>
+        <item>cane</item>
+        <item>scoiattolo</item>
+        <item>giraffa</item>
+        <item>cazzo</item>
+        <item>volpe</item>
+        <item>culo</item>
+        <item>duck</item>
+        <item>cervo</item>
+        <item>cavallo</item>
+        <item>arancione</item>
+        <item>limone</item>
+        <item>anguria</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>mela</item>
+        <item>pera</item>
+        <item>prugna</item>
+        <item>fragole</item>
+        <item>lamponi</item>
+        <item>patate</item>
+        <item>pomodoro</item>
+        <item>il cetriolo</item>
+        <item>ravanelli</item>
+        <item>cavolo</item>
+        <item>pepe</item>
+        <item>carote</item>
+        <item>barbabietole</item>
+        <item>la zucca</item>
+        <item>arco</item>
+        <item>seno</item>
+        <item>mano</item>
+        <item>piede</item>
+        <item>occhi</item>
+        <item>naso</item>
+        <item>orecchie</item>
+        <item>bocca</item>
+        <item>dito</item>
+        <item>collo</item>
+        <item>fronte</item>
+        <item>pietra</item>
+        <item>albero</item>
+        <item>fiume</item>
+        <item>lago</item>
+        <item>foresta</item>
+        <item>oceano</item>
+        <item>spiaggia</item>
+        <item>montagne</item>
+        <item>deserto</item>
+        <item>erba</item>
+        <item>pioggia</item>
+        <item>neve</item>
+        <item>sole</item>
+        <item>nuvole</item>
+        <item>nebbia </item>
+        <item>tornado </item>
+        <item>vulcano</item>
+        <item>tempesta</item>
+        <item>grandine</item>
+        <item>rugiada</item>
+        <item>jeans</item>
+        <item>maglietta</item>
+        <item>camicia  </item>
+        <item> maglione </item>
+        <item> vestito </item>
+        <item> gonna </item>
+        <item> occhiali </item>
+        <item> guardare </item>
+        <item> scarpe </item>
+        <item> scarpe da ginnastica </item>
+        <item> letto </item>
+        <item> divano </item>
+        <item> sedia  </item>
+        <item> tavolo </item>
+        <item> foto </item>
+        <item> tappeto </item>
+        <item> cucina </item>
+        <item> armadio </item>
+        <item> luce </item>
+        <item> coppa</item>
+        <item>taxi</item>
+        <item>casa</item>
+        <item>filobus</item>
+        <item>autobus</item>
+        <item>ponte</item>
+        <item>tunnel</item>
+        <item>metro</item>
+        <item>stadio</item>
+        <item>caffè</item>
+        <item>strada</item>
+        <item>musica</item>
+        <item>chitarra</item>
+        <item>violino</item>
+        <item>pianoforte</item>
+        <item>fisarmonica</item>
+        <item>tamburo</item>
+        <item>cornamuse</item>
+        <item>violoncello</item>
+        <item>contrabbasso</item>
+        <item>contralto</item>
+    </string-array>
+    <string name="error"> Вы уже выучили все слова в этой категории!</string>
+    <string name="clear">Очистить статистику</string>
+    <string name="progress">Ваш текущий прогресс: </string>
+    <string name="from"> слов из </string>
+</resources>
