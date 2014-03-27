@@ -22,6 +22,7 @@ public class Learning extends Activity {
 	private int i = 0;
 	private DBHelper db;
 	private HashMap<String, Integer> hashMap;
+	private int progress = MainActivity.Progress;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,9 @@ public class Learning extends Activity {
         final TextView translation = (TextView) findViewById(R.id.answer_text_view);
         final Button yes = (Button) findViewById(R.id.button);
         final Button no = (Button) findViewById(R.id.button1);
+        translation.setVisibility(View.INVISIBLE);
+        yes.setVisibility(View.INVISIBLE);
+        no.setVisibility(View.INVISIBLE);
 
 		db = new DBHelper(this);
 		int category_number = getIntent().getIntExtra(
@@ -114,7 +118,9 @@ public class Learning extends Activity {
                 translation.setVisibility(View.INVISIBLE);
                 yes.setVisibility(View.INVISIBLE);
                 no.setVisibility(View.INVISIBLE);
-
+                progress++;
+                MainActivity.Progress = progress;
+                MainActivity.myProgress.setText(String.valueOf(progress) + "%");
 			}
 		});
 

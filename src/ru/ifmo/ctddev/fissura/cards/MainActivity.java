@@ -18,52 +18,57 @@ import java.util.Iterator;
 
 public class MainActivity extends Activity {
 
-    private SharedPreferences preferences;
-    private static final String PREFERENCES = "preferences";
-    private static final String IS_FIRST = "is_first";
-    public static TextView myProgress;
+	private SharedPreferences preferences;
+	private static final String PREFERENCES = "preferences";
+	private static final String IS_FIRST = "is_first";
+	public static TextView myProgress;
+	public static int Progress;
 
-    private static final int WORDS_COUNT = 100;
-    
-    DBHelper db;
+	private static final int WORDS_COUNT = 100;
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        preferences = getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
-        db = new DBHelper(this);
-        String temp2[] = getResources().getStringArray(R.array.words_id);
-        if (!preferences.contains(IS_FIRST)) {
-            for (int i = 0; i < temp2.length; i++) {
-                db.addWord(temp2[i], 0);
-                SharedPreferences.Editor editor = preferences.edit();
-                editor.putBoolean(IS_FIRST, false);
-                editor.apply();
-            }
-        }
-        myProgress = (TextView) findViewById(R.id.textView1);
+	DBHelper db;
 
-        Button startButton = (Button) findViewById(R.id.start_button);
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		preferences = getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
+		db = new DBHelper(this);
+		String temp2[] = getResources().getStringArray(R.array.words_id);
+		if (!preferences.contains(IS_FIRST)) {
+			for (int i = 0; i < temp2.length; i++) {
+				db.addWord(temp2[i], 0);
+				SharedPreferences.Editor editor = preferences.edit();
+				editor.putBoolean(IS_FIRST, false);
+				editor.apply();
+			}
+		}
+		
+		myProgress = (TextView) findViewById(R.id.textView1);
+		myProgress.setText(String.valueOf(Progress) + "%");
+		myProgress.setVisibility(View.VISIBLE);
+		
+		Button startButton = (Button) findViewById(R.id.start_button);
 
-        Button clear = (Button) findViewById(R.id.clear_stats);
+		Button clear = (Button) findViewById(R.id.clear_stats);
 
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Categories.class));
-            }
-        });
+		startButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startActivity(new Intent(MainActivity.this, Categories.class));
+			}
+		});
 
-        clear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String[] temp = getResources().getStringArray(R.array.words_id);
-                for (int i = 0; i < temp.length; i++) {
-                    db.addWord(temp[i], 0);
-                }
-                myProgress.setText("0%");
-            }
-        });
-    }
+		clear.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				String[] temp = getResources().getStringArray(R.array.words_id);
+				for (int i = 0; i < temp.length; i++) {
+					db.addWord(temp[i], 0);
+				}
+				myProgress.setText("0%");
+				Progress = 0;
+			}
+		});
+	}
 }
