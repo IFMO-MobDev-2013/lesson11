@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardZ</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="result">Your result</string>
+    <string name="again">Try again?</string>
+    <string name="categories">Categories</string>
+    <string name="help">Help</string>
+    <string name="stats">Reset statistics</string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+
+</resources>
