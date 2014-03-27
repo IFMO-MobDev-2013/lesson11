@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dutch learning</string>
+    <string name="greeting">Press START to begin</string>
+    <string name="start_button">START</string>
+    <string-array name="modes">
+        <item>Learning</item>
+        <item>Choose the word by the picture</item>
+        <item>Choose the picture by the word</item>
+    </string-array>
+    <string name="button_begin">Begin</string>
+    <string name="note">Note: your progress will not be updated during this mode!</string>
+    <string-array name="categories">
+        <item>Animals</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Body</item>
+        <item>Nature</item>
+        <item>Weather</item>
+        <item>Clothes</item>
+        <item>Houseware</item>
+        <item>City</item>
+        <item>Music</item>
+    </string-array>
+    <string-array name="words">
+        <item>cat</item>
+        <item>dog</item>
+        <item>squirrel</item>
+        <item>giraffe</item>
+        <item>cock</item>
+        <item>fox</item>
+        <item>donkey</item>
+        <item>duck</item>
+        <item>deer</item>
+        <item>horse</item>
+        <item>orange</item>
+        <item>lemon</item>
+        <item>watermelon</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>apple</item>
+        <item>pear</item>
+        <item>prune</item>
+        <item>strawberry</item>
+        <item>raspberry</item>
+        <item>potato</item>
+        <item>tomato</item>
+        <item>cucumber</item>
+        <item>radish</item>
+        <item>cabbage</item>
+        <item>pepper</item>
+        <item>carrot</item>
+        <item>beet</item>
+        <item>pumpkin</item>
+        <item>onion</item>
+        <item>chest</item>
+        <item>hand</item>
+        <item>leg</item>
+        <item>eyes</item>
+        <item>nose</item>
+        <item>ears</item>
+        <item>mouth</item>
+        <item>finger</item>
+        <item>neck</item>
+        <item>forehead</item>
+        <item>stone</item>
+        <item>tree</item>
+        <item>river</item>
+        <item>lake</item>
+        <item>forest</item>
+        <item>ocean</item>
+        <item>beach</item>
+        <item>mountain</item>
+        <item>desert</item>
+        <item>grass</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sun</item>
+        <item>clouds</item>
+        <item>fog</item>
+        <item>tornado</item>
+        <item>volcano</item>
+        <item>thunder</item>
+        <item>hail</item>
+        <item>dew</item>
+        <item>jeans</item>
+        <item>t-shirt</item>
+        <item>shirt</item>
+        <item>sweater</item>
+        <item>dress</item>
+        <item>skirt</item>
+        <item>glasses</item>
+        <item>watch</item>
+        <item>shoes</item>
+        <item>sneakers</item>
+        <item>bed</item>
+        <item>sofa</item>
+        <item>chair</item>
+        <item>table</item>
+        <item>picture</item>
+        <item>carpet</item>
+        <item>kitchen</item>
+        <item>cupboard</item>
+        <item>light</item>
+        <item>cup</item>
+        <item>taxi</item>
+        <item>house</item>
+        <item>trolley</item>
+        <item>bus</item>
+        <item>bridge</item>
+        <item>tunnel</item>
+        <item>underground</item>
+        <item>stadium</item>
+        <item>cafe</item>
+        <item>road</item>
+        <item>music</item>
+        <item>guitar</item>
+        <item>violin</item>
+        <item>piano</item>
+        <item>accordion</item>
+        <item>drum</item>
+        <item>bagpipes</item>
+        <item>cello</item>
+        <item>bass viol</item>
+        <item>viola</item>
+    </string-array>
+    <string-array name="words_id">
+        <item>cat</item>
+        <item>dog</item>
+        <item>squirrel</item>
+        <item>giraffe</item>
+        <item>cock</item>
+        <item>fox</item>
+        <item>donkey</item>
+        <item>duck</item>
+        <item>deer</item>
+        <item>horse</item>
+        <item>orange</item>
+        <item>lemon</item>
+        <item>watermelon</item>
+        <item>feijoa</item>
+        <item>banana</item>
+        <item>apple</item>
+        <item>pear</item>
+        <item>prune</item>
+        <item>strawberry</item>
+        <item>raspberry</item>
+        <item>potato</item>
+        <item>tomato</item>
+        <item>cucumber</item>
+        <item>radish</item>
+        <item>cabbage</item>
+        <item>pepper</item>
+        <item>carrot</item>
+        <item>beet</item>
+        <item>pumpkin</item>
+        <item>onion</item>
+        <item>chest</item>
+        <item>hand</item>
+        <item>leg</item>
+        <item>eyes</item>
+        <item>nose</item>
+        <item>ears</item>
+        <item>mouth</item>
+        <item>finger</item>
+        <item>neck</item>
+        <item>forehead</item>
+        <item>stone</item>
+        <item>tree</item>
+        <item>river</item>
+        <item>lake</item>
+        <item>forest</item>
+        <item>ocean</item>
+        <item>beach</item>
+        <item>mountain</item>
+        <item>desert</item>
+        <item>grass</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sun</item>
+        <item>clouds</item>
+        <item>fog</item>
+        <item>tornado</item>
+        <item>volcano</item>
+        <item>thunder</item>
+        <item>hail</item>
+        <item>dew</item>
+        <item>jeans</item>
+        <item>tshirt</item>
+        <item>shirt</item>
+        <item>sweater</item>
+        <item>dress</item>
+        <item>skirt</item>
+        <item>glasses</item>
+        <item>watch</item>
+        <item>shoes</item>
+        <item>sneakers</item>
+        <item>bed</item>
+        <item>sofa</item>
+        <item>chair</item>
+        <item>table</item>
+        <item>picture</item>
+        <item>carpet</item>
+        <item>kitchen</item>
+        <item>cupboard</item>
+        <item>light</item>
+        <item>cup</item>
+        <item>taxi</item>
+        <item>house</item>
+        <item>trolley</item>
+        <item>bus</item>
+        <item>bridge</item>
+        <item>tunnel</item>
+        <item>underground</item>
+        <item>stadium</item>
+        <item>cafe</item>
+        <item>road</item>
+        <item>music</item>
+        <item>guitar</item>
+        <item>violin</item>
+        <item>piano</item>
+        <item>accordion</item>
+        <item>drum</item>
+        <item>bagpipes</item>
+        <item>cello</item>
+        <item>bassviol</item>
+        <item>viola</item>
+    </string-array>
+    <string name="do_you_know_the_word">Did you know this word?</string>
+    <string name="OK_I_GOT_IT">Ok , I got it</string>
+    <string name="NEXT">Next</string>
+    <string-array name="traslations">
+   <item>kat</item>
+        <item>hond</item>
+        <item>eekhoorn</item>
+        <item>giraffe</item>
+        <item>pik</item>
+        <item>vos</item>
+        <item>kont</item>
+        <item> eend </item>
+        <item> deer </item >
+        <item> paard </item >
+        <item> oranje </item >
+        <item> citroen </item >
+        <item> watermeloen </item >
+        <item> feijoa </item >
+        <item> banaan </item >
+        <item> appel </item >
+        <item> peer </item >
+        <item> pruim </item >
+        <item> aardbeien </item >
+        <item> frambozen </item >
+        <item> aardappelen </item >
+        <item> tomaat </item >
+        <item> komkommer </item >
+        <item> radijs </item >
+        <item> kool </item >
+        <item> peper </item >
+        <item> wortelen </item >
+        <item> bieten </item >
+        <item> pompoen </item >
+        <item> arch </item >
+        <item> borst </item >
+        <item> hand </item >
+        <item> voet </item >
+        <item> ogen </item >
+        <item> neus </item >
+        <item> oren </item >
+        <item> mond </item >
+        <item> vinger </item >
+        <item> nek </item >
+        <item> gezicht </item >
+        <item> steen </item >
+        <item> boom </item >
+        <item> rivier </item >
+        <item> meer </item >
+        <item> bos </item >
+        <item> oceaan </item >
+        <item> strand </item >
+        <item> bergen </item >
+        <item> woestijn </item >
+        <item> gras </item >
+        <item> regen </item >
+        <item> sneeuw </item >
+        <item> zon </item >
+        <item> wolken </item >
+        <item> mist </item >
+        <item> tornado </item >
+        <item> vulkaan </item >
+        <item> storm </item >
+        <item> hagel </item >
+        <item> dauw </item >
+        <item> jeans </item >
+        <item> overhemd </item >
+        <item> overhemd </item >
+        <item> trui </item >
+        <item> jurk </item >
+        <item> rok </item >
+        <item> bril </item >
+        <item> kijken </item >
+        <item> schoenen </item >
+        <item> sneakers </item >
+        <item> bed </item >
+        <item> sofa </item >
+        <item> stoel </item >
+        <item> tafel </item >
+        <item> foto </item >
+        <item> tapijt </item >
+        <item> keuken </item >
+        <item> kast </item >
+        <item> licht </item >
+        <item> cup </item >
+        <item> taxi </item >
+        <item> huis </item >
+        <item> trolley </item >
+        <item> bus </item >
+        <item> brug </item >
+        <item> tunnel </item >
+        <item> meter </item >
+        <item> stadion </item >
+        <item> koffie </item >
+        <item> weg </item >
+        <item> muziek </item >
+        <item> gitaar </item >
+        <item> viool </item >
+        <item> piano </item >
+        <item> accordeon </item >
+        <item> drum </item >
+        <item> doedelzak </item >
+        <item> cello </item >
+        <item> bass </item >
+        <item> alto </item >
+    </string-array>
+    <string name="error"> You have learnt all words from this category!</string>
+    <string name="clear">Clear stats</string>
+    <string name="progress">Your current progress: </string>
+    <string name="from"> words from </string>
+</resources>
