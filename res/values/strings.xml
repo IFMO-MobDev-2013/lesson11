@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fast Cards</string>
+    <string name="action_settings">Settings</string>
+    <string name="rus">Русский</string>
+    <string name="eng">English</string>
+    <string name="de">Deutsch</string>
+    <string name="rus_title">Выбор режима</string>
+    <string name="eng_title">Mode selection</string>
+    <string name="de_title">Modus-Auswähl</string>
+    <string name="del_level_rus">Обнулить рейтинг</string>
+    <string name="del_level_eng">Zero rating</string>
+    <string name="del_level_de">Null-Bewertung</string>
+    <string name="butt_rus_1">Что на картинке?</string>
+    <string name="butt_rus_2">4 картинки</string>
+    <string name="butt_rus_3">Как это выглядит?</string>
+    <string name="butt_rus_4">4 слова</string>
+    <string name="butt_eng_1">What is on the picture?</string>
+    <string name="butt_eng_2">4 pictures</string>
+    <string name="butt_eng_3">How does it look?</string>
+    <string name="butt_eng_4">4 words</string>
+    <string name="butt_de_1">Was ist auf dem Bild?</string>
+    <string name="butt_de_2">4 bilder</string>
+    <string name="butt_de_3">Wie sieht es aus?</string>
+    <string name="butt_de_4">4 wörter</string>
+    <string name="cat">cat</string>
+    <string name="rate">  /10</string>
+    <string name="rate2">/10</string>
+    <string name="rus_animals">Животные</string>
+    <string name="rus_body">Тело</string>
+    <string name="rus_sport">Спорт</string>
+    <string name="rus_colour">Цвета</string>
+    <string name="rus_fru_veg">Фрукты и Овощи</string>
+    <string name="rus_countr">Страны</string>
+    <string name="rus_prof">Профессии</string>
+    <string name="rus_weather">Погода</string>
+    <string name="rus_nature">Природа</string>
+    <string name="rus_music">Музыка</string>
+    <string name="eng_animals">Animals</string>
+    <string name="eng_body">Body</string>
+    <string name="eng_sport">Sport</string>
+    <string name="eng_colour">Colours</string>
+    <string name="eng_fru_veg">Fruits and Vegetables</string>
+    <string name="eng_countr">Country</string>
+    <string name="eng_prof">Profession</string>
+    <string name="eng_weather">Weather</string>
+    <string name="eng_nature">Nature</string>
+    <string name="eng_music">Music</string>
+    <string name="de_animals">Tiere</string>
+    <string name="de_body">Körper</string>
+    <string name="de_sport">Sport</string>
+    <string name="de_colour">Farbe</string>
+    <string name="de_fru_veg">Obst und Gemüse</string>
+    <string name="de_countr">Land</string>
+    <string name="de_prof">Beruf</string>
+    <string name="de_weather">Wetter</string>
+    <string name="de_nature">Natur</string>
+    <string name="de_music">Musik</string>
+
+    <string name="fcs_tl_eng">Target language</string>
+    <string name="fcs_tl_rus">Изучаемый язык</string>
+    <string name="fcs_tl_de">Zielsprache</string>
+    <string name="fcs_ul_eng">Used language</string>
+    <string name="fcs_ul_rus">Используемый язык</string>
+    <string name="fcs_ul_de">Die verwendete Sprache</string>
+    <string name="fcs_title_eng">Change language</string>
+    <string name="fcs_title_rus">Изменить язык</string>
+    <string name="fcs_title_de">Sprache ändern</string>
+    <string name="eng_score">Your score:</string>
+    <string name="de_score">Ihre Gäste:</string>
+    <string name="rus_score">Ваша оценка:</string>
+
+    <string name="ab_rus_to_eng">  Изучаем английский!</string>
+    <string name="ab_rus_to_de">  Изучаем немецкий!</string>
+    <string name="ab_eng_to_rus">  Studying Russian!</string>
+    <string name="ab_de_to_rus">  Russisch studieren!</string>
+    <string name="ab_de_to_eng">  Lernen Sie Englisch!</string>
+    <string name="ab_eng_to_de">  Learn German!</string>
+
+    <string-array name="lang_list">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Deutsch</item>
+    </string-array>
+
+
+</resources>

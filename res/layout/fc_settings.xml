@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Language"
+            android:id="@+id/fcs_textView"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:gravity="top"
+            android:textStyle="normal" android:layout_weight="1" android:layout_marginTop="27dp"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_weight="40">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:padding="15dp"
+                >
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Used language"
+                    android:id="@+id/fcs_textView1"
+                    android:layout_gravity="center"
+                    android:textSize="21dp"
+                    android:padding="5dp"/>
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/usedLanguage"
+                    android:entries="@array/lang_list"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:padding="15dp"
+                >
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Studied language "
+                    android:id="@+id/fcs_textView2"
+                    android:layout_gravity="center"
+                    android:textSize="21dp"
+                    android:padding="5dp" android:singleLine="false" android:layout_weight="1"/>
+            <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/studiedLanguage"
+                    android:layout_gravity="center"
+                    android:entries="@array/lang_list"
+                    android:clickable="true" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/start"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1" android:layout_marginTop="7dp"/>
+</LinearLayout>

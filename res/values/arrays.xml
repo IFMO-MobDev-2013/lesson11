@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lang_list_eng">
+        <item>Russian</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="lang_list_rus">
+        <item>Английский</item>
+        <item>Немецкий</item>
+    </string-array>
+    <string-array name="lang_list_de">
+        <item>Russisch</item>
+        <item>Englisch</item>
+    </string-array>
+
+    <array name="ab_list">
+        <item>@array/ab_list_rus</item>
+        <item>@array/ab_list_eng</item>
+        <item>@array/ab_list_de</item>
+    </array>
+
+   <string-array name="ab_list_rus">
+        <item></item>
+        <item>  Изучаем английский!</item>
+        <item>  Изучаем немецкий!</item>
+    </string-array>
+    <string-array name="ab_list_eng">
+        <item>  Studying Russian!</item>
+        <item></item>
+        <item>  Learn German!</item>
+    </string-array>
+    <string-array name="ab_list_de">
+        <item>  Russisch studieren!</item>
+        <item>  Lernen Sie Englisch!</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="names">
+        <item>F</item>
+        <item>E</item>
+        <item>E</item>
+        <item>D</item>
+        <item>D</item>
+        <item>C</item>
+        <item>C</item>
+        <item>B</item>
+        <item>B</item>
+        <item>A</item>
+        <item>A+</item>
+        <item></item>
+    </string-array>
+
+    <integer-array name="colours">
+        <item>@android:color/black</item>
+        <item>@android:color/darker_gray</item>
+        <item>@android:color/darker_gray</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/black</item>
+    </integer-array>
+
+
+</resources>

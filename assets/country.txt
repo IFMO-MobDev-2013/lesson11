@@ -1,0 +1,33 @@
+Страны
+Country
+Land
+Аргентина
+Argentina
+Argentinien
+Бразилия
+Brazil
+Brasilien
+Канада
+Canada
+Kanada
+Китай
+China
+China
+Финляндия
+Finland
+Finnland
+Германия
+Germany
+Deutschland
+Япония
+Japan
+Japan
+Россия
+Russia
+Russland
+Великобритания
+United Kingdom
+Vereinigtes Königreich
+США
+USA
+USA
